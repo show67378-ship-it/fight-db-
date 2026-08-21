@@ -190,6 +190,55 @@ export async function deleteAthlete(id: string) {
   redirect("/admin/athletes");
 }
 
+function matchFromForm(formData: FormData, existing?: Match): Match {
+  const athleteAId = str(formData, "athleteAId");
+  const athleteBId = str(formData, "athleteBId");
+  const resultWinnerId = str(formData, "resultWinnerId");
+  return {
+    id: existing?.id ?? newId("match", str(formData, "eventName")),
+    sport: str(formData, "sport") as SportSlug,
+    organization: str(formData, "organization") as OrganizationSlug,
+    eventName: str(formData, "eventName"),
+    eventDate: str(formData, "eventDate"),
+    venue: str(formData, "venue"),
+    athleteAId,
+    athleteBId,
+    status: str(formData, "status") as Match["status"],
+    votesA: optNum(formData, "votesA") ?? existing?.votesA ?? 0,
+    votesB: optNum(formData, "votesB") ?? existing?.votesB ?? 0,
+    resultWinnerId: resultWinnerId || undefined,
+    sourceUrl: optStr(formData, "sourceUrl"),
+  };
+}
+
+export async function createMatch(formData: FormData) {
+  const matches = readJson<Match[]>("matches.json");
+  matches.push(matchFromForm(formData));
+  writeJson("matches.json", matches);
+  revalidatePath("/", "layout");
+  redirect("/admin/matches");
+}
+
+export async function updateMatch(id: string, formData: FormData) {
+  const matches = readJson<Match[]>("matches.json");
+  const idx = matches.findIndex((m) => m.id === id);
+  if (idx === -1) redirect("/admin/matches");
+  matches[idx] = matchFromForm(formData, matches[idx]);
+  writeJson("matches.json", matches);
+  revalidatePath("/", "layout");
+  redirect("/admin/matches");
+}
+
+export async function deleteMatch(id: string) {
+  const matches = readJson<Match[]>("matches.json");
+  writeJson(
+    "matches.json",
+    matches.filter((m) => m.id !== id)
+  );
+  revalidatePath("/", "layout");
+  redirect("/admin/matches");
+}
+
 function dreamMatchFromForm(formData: FormData, existing?: DreamMatchCard): DreamMatchCard {
   const athleteAId = str(formData, "athleteAId");
   const athleteBId = str(formData, "athleteBId");
