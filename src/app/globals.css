@@ -1,26 +1,58 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #0c0c0e;
+  --surface: #17171a;
+  --surface-2: #201f23;
+  --border: #2b2a2f;
+  --ink: #f4f2ec;
+  --ink-dim: #9a968d;
+  --accent: #e2402a;
+  --accent-ink: #fff8f4;
+  --accent-soft: #3a1f19;
+  --good: #4caf7d;
+  --good-soft: #16261e;
+  --warn: #d6a13b;
+  --warn-soft: #2e2412;
+
+  --sport-mma: #e2622f;
+  --sport-bjj: #2f8f6b;
+  --sport-kickboxing: #3f7bc4;
+  --sport-boxing: #c4383f;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-sport-mma: var(--sport-mma);
+  --color-sport-bjj: var(--sport-bjj);
+  --color-sport-kickboxing: var(--sport-kickboxing);
+  --color-sport-boxing: var(--sport-boxing);
+
+  --font-head: var(--font-oswald), "Hiragino Sans", sans-serif;
+  --font-body: var(--font-noto-jp), "Hiragino Sans", sans-serif;
+  --font-data: var(--font-plex-mono), ui-monospace, monospace;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+}
+
+.tabular {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums;
 }

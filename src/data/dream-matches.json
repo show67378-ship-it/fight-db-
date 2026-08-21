@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dream-asakura-brothers",
+    "sport": "mma",
+    "organization": "rizin",
+    "athleteAId": "ath-mikuru-asakura",
+    "athleteBId": "ath-kai-asakura",
+    "votes": 0
+  },
+  {
+    "id": "dream-rena-izawa",
+    "sport": "mma",
+    "organization": "rizin",
+    "athleteAId": "ath-rena",
+    "athleteBId": "ath-seika-izawa",
+    "votes": 0
+  },
+  {
+    "id": "dream-kawashima-urata",
+    "sport": "mma",
+    "organization": "breakingdown",
+    "athleteAId": "ath-yuta-kawashima",
+    "athleteBId": "ath-junji-urata",
+    "votes": 0
+  }
+]

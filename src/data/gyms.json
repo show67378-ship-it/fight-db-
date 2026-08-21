@@ -1,0 +1,496 @@
+[
+  {
+    "id": "gym-paraestra-tokyo",
+    "name": "パラエストラ東京",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "練馬区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "中井祐樹氏の系譜を継ぐパラエストラ・ネットワークの拠点。RIZIN/UFC選手も輩出。",
+    "websiteUrl": "https://fightspace.jp/gym/100/"
+  },
+  {
+    "id": "gym-alliance-tokyo",
+    "name": "ALLIANCE 東京道場",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "港区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元UFC/PRIDE戦士「世界のTK」小笠原崇仁氏が主宰する、赤坂・六本木エリアの総合格闘技ジム。",
+    "instructors": [
+      {
+        "name": "小笠原崇仁",
+        "title": "代表・世界のTK"
+      }
+    ],
+    "websiteUrl": "https://alliance-square.jp/tokyo/"
+  },
+  {
+    "id": "gym-japan-top-team",
+    "name": "JAPAN TOP TEAM(JTT)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "港区赤坂",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "RIZINスター選手、朝倉未来・朝倉海両選手が2017年に豊橋から移転して設立したホームジム。",
+    "websiteUrl": "https://japan-tt.com/"
+  },
+  {
+    "id": "gym-reversal-standout",
+    "name": "リバーサルジム東京スタンドアウト",
+    "sports": [
+      "kickboxing",
+      "bjj",
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区(代々木上原・代々木公園・下北沢・田町・麹町に展開)",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング・グラップリング・MMAを学べる複数店舗展開のジムチェーン。",
+    "websiteUrl": "https://www.reversal.jp/"
+  },
+  {
+    "id": "gym-target-kickboxing",
+    "name": "TARGET キックボクシングジム",
+    "sports": [
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区巣鴨",
+    "address": "東京都豊島区巣鴨2-5-2 都ビル5F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元キックボクシング世界王者・伊藤隆氏が2000年に設立。9人のチャンピオン・23本のベルトを輩出。",
+    "instructors": [
+      {
+        "name": "伊藤隆",
+        "title": "代表・元キックボクシング世界王者"
+      }
+    ],
+    "websiteUrl": "https://target-fight.com/"
+  },
+  {
+    "id": "gym-overlimit-tokyo",
+    "name": "Over Limit Tokyo",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "東京都内(詳細エリアは要問い合わせ)",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "国際的なOver Limit BJJ協会の東京支部。ブラジル人黒帯4段のエジソン・カゴハラ氏が指導。",
+    "instructors": [
+      {
+        "name": "エジソン・カゴハラ",
+        "title": "黒帯4段"
+      }
+    ],
+    "websiteUrl": "https://over-limit.com/overlimittokyo/"
+  },
+  {
+    "id": "gym-kyoei-boxing",
+    "name": "協栄ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区新宿5-2-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "日本の「御三家」の一つに数えられる歴史あるプロボクシングジム。",
+    "websiteUrl": "https://kyoeigym.com/admission/"
+  },
+  {
+    "id": "gym-teiken-boxing",
+    "name": "帝拳ジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区神楽坂",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "飯田橋・神楽坂エリアにある、日本トップクラスのプロボクシングジム。",
+    "websiteUrl": "https://boxmob.jp/sp/gym/gym.html?gid=276"
+  },
+  {
+    "id": "gym-watanabe-boxing",
+    "name": "ワタナベボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "品川区西五反田",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "品川区西五反田に拠点を置く、老舗のプロボクシングジム。",
+    "websiteUrl": "https://ja.wikipedia.org/wiki/ワタナベボクシングジム"
+  },
+  {
+    "id": "gym-shisei-boxing",
+    "name": "志成ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "目黒区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "目黒駅・不動前駅の間に位置するプロボクシングジム。",
+    "websiteUrl": "https://note.com/ko903/n/ncb2b7ea1c0ea"
+  },
+  {
+    "id": "gym-brave-azabujuban",
+    "name": "BRAVE GYM 麻布十番",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "港区麻布十番",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "パーソナルトレーニングやキッズクラスも行うMMAジム。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-brave-setagaya",
+    "name": "BRAVE GYM 世田谷",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "オリンピアン・プロ選手による指導も行うMMAジム。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-brave-kitasenju",
+    "name": "BRAVE GYM 北千住",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "足立区北千住",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元格闘家・宮田和幸氏が2009年に設立。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-tribe-tokyo-main",
+    "name": "TRIBE TOKYO M.M.A 本部",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "練馬区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から上級者まで対応する総合格闘技ジム。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-tribe-tokyo-north",
+    "name": "TRIBE TOKYO M.M.A North",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "練馬区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "TRIBE TOKYO M.M.A本部の姉妹店舗。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-reversal-shinjuku-mewe",
+    "name": "リバーサルジム新宿Me,We",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿(詳細エリアは要確認)",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "UFC・RIZIN・ONEなどへ選手を輩出しているリバーサルジムの店舗。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-aacc-omori",
+    "name": "AACC 大森",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区大森",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "多数のプロ選手が所属。リング・ジャグジー・サウナ完備。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-aacc-harajuku",
+    "name": "AACC 原宿",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区原宿",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロ選手育成に力を入れる、男女問わず通えるジム。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-wajutsu-keishukai-hearts",
+    "name": "和術慧舟會HEARTS",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元格闘家・大澤堅二氏が設立した組み技系総合格闘技ジム。",
+    "instructors": [
+      {
+        "name": "大澤堅二",
+        "title": "代表・元格闘家"
+      }
+    ],
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-paraestra-hachioji",
+    "name": "パラエストラ八王子",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "八王子市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元格闘家・塩田氏が主宰するパラエストラ系列のジム。MMA/BJJ/キックボクシングに対応。",
+    "instructors": [
+      {
+        "name": "塩田",
+        "title": "代表・元格闘家"
+      }
+    ],
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-krazy-bee",
+    "name": "KRAZY BEE",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "故・山本KID徳郁氏が2008年に設立。2022年11月にリニューアル。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-exfight",
+    "name": "EXFIGHT",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "LDH運営のMMAジム。初心者・キッズも通いやすい。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-fighters-flow",
+    "name": "FIGHTER'S FLOW",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区高田馬場",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "高田馬場駅近くのMMAジム。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-cave-gym",
+    "name": "CAVE GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "墨田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ウェイトルーム・シャワー・ロッカー完備のMMAジム。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-kiba-martial-arts",
+    "name": "KIBAマーシャルアーツクラブ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "「楽しみながら強くなる」をコンセプトにしたMMAジム。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-lotus-setagaya",
+    "name": "ロータス世田谷",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元格闘家・八角浩平氏が代表を務めるMMAジム。",
+    "instructors": [
+      {
+        "name": "八角浩平",
+        "title": "代表・元格闘家"
+      }
+    ],
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-roys-gym",
+    "name": "ROYS GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "葛飾区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "金町駅エリアで唯一のMMAジム。子供向けの学習時間企画もあり。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-battle-box",
+    "name": "Battle Box Gym",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "幅広い格闘技種目に対応するジム。",
+    "websiteUrl": "https://data-mma.com/gyms/tokyo"
+  },
+  {
+    "id": "gym-crosspoint-kichijoji",
+    "name": "クロスポイント吉祥寺",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "武蔵野市吉祥寺",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "都内最大級の広さと充実の設備を誇るMMAジム。",
+    "websiteUrl": "https://data-mma.com/gyms"
+  },
+  {
+    "id": "gym-reversal-tachikawa-alpha",
+    "name": "リバーサルジム立川ALPHA",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "立川市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "トレーナー全員がプロ経験者のリバーサルジム店舗。",
+    "websiteUrl": "https://data-mma.com/gyms"
+  },
+  {
+    "id": "gym-c-plus-gym",
+    "name": "c plus gym.",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "台東区浅草",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "現役RIZIN選手も指導するキックボクシング/MMA/パーソナルトレーニングジム。",
+    "websiteUrl": "https://data-mma.com/gyms"
+  },
+  {
+    "id": "gym-k-clann",
+    "name": "K-Clann",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "葛飾区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "葛飾区のMMAジム。",
+    "websiteUrl": "https://data-mma.com/gyms"
+  }
+]

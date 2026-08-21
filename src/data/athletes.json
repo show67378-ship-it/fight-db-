@@ -1,0 +1,606 @@
+[
+  {
+    "id": "ath-mikuru-asakura",
+    "name": "朝倉 未来",
+    "nameKana": "あさくら みくる",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級",
+    "nationality": "日本",
+    "gymId": "gym-japan-top-team",
+    "sns": [],
+    "record": {
+      "wins": 18,
+      "losses": 5,
+      "draws": 1
+    },
+    "recordNote": "通算成績(RIZIN成績: 12勝4敗)。最新情報は出典でご確認ください。",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+  },
+  {
+    "id": "ath-kai-asakura",
+    "name": "朝倉 海",
+    "nameKana": "あさくら かい",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "バンタム級",
+    "nationality": "日本",
+    "gymId": "gym-japan-top-team",
+    "sns": [],
+    "recordNote": "正確な現在の戦績は出典でご確認ください(堀口恭司選手への1RKO勝利など多数の実績あり)。",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+  },
+  {
+    "id": "ath-naoki-inoue",
+    "name": "井上 直樹",
+    "nameKana": "いのうえ なおき",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "バンタム級(王者)",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "record": {
+      "wins": 19,
+      "losses": 4,
+      "draws": 0
+    },
+    "recordNote": "通算成績(RIZIN成績: 9勝2敗)。",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+  },
+  {
+    "id": "ath-seika-izawa",
+    "name": "伊澤 星花",
+    "nameKana": "いざわ せいか",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "女子スーパーアトム級(王者)",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "record": {
+      "wins": 15,
+      "losses": 0,
+      "draws": 0
+    },
+    "recordNote": "通算成績(RIZIN成績: 9勝0敗)。",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+  },
+  {
+    "id": "ath-roberto-souza",
+    "name": "ホベルト・サトシ・ソウザ",
+    "nameKana": "ほべると さとし そうざ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "ライト級(王者)",
+    "nationality": "ブラジル/日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "record": {
+      "wins": 18,
+      "losses": 3,
+      "draws": 0
+    },
+    "recordNote": "通算成績(RIZIN成績: 11勝3敗)。",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+  },
+  {
+    "id": "ath-rena",
+    "name": "RENA",
+    "nameKana": "れな",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "女子スーパーアトム級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "record": {
+      "wins": 15,
+      "losses": 5,
+      "draws": 0
+    },
+    "recordNote": "通算成績(RIZIN成績: 14勝4敗)。",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+  },
+  {
+    "id": "ath-ren-hiramoto",
+    "name": "平本 蓮",
+    "nameKana": "ひらもと れん",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級/ライト級",
+    "nationality": "日本",
+    "gymNote": "剛毅會 所属(拠点未確認)",
+    "sns": [],
+    "recordNote": "2026年5月のRIZIN.53時点で現役。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://www.oricon.co.jp/news/2453701/full/"
+  },
+  {
+    "id": "ath-kouji",
+    "name": "皇治",
+    "nameKana": "こうじ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級/ライト級",
+    "nationality": "日本",
+    "gymNote": "TEAM ONE 所属(拠点未確認)",
+    "sns": [],
+    "recordNote": "キックボクシング/MMAで活動。2026年5月のRIZIN.53時点で現役。",
+    "sourceUrl": "https://www.oricon.co.jp/news/2453701/full/"
+  },
+  {
+    "id": "ath-shaydullaev",
+    "name": "ラジャブアリ・シェイドゥラエフ",
+    "nameKana": "らじゃぶあり しぇいどぅらえふ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級(王者)",
+    "nationality": "キルギス",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "record": {
+      "wins": 19,
+      "losses": 0,
+      "draws": 0
+    },
+    "recordNote": "通算成績(RIZIN成績: 7勝0敗)。",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+  },
+  {
+    "id": "ath-shinya-aoki",
+    "name": "青木 真也",
+    "nameKana": "あおき しんや",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "ライト級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "MMA界のレジェンド。複数団体をまたぐため通算戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-aj-mckee",
+    "name": "AJ・マッキー",
+    "nameKana": "えーじぇい まっきー",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級",
+    "nationality": "アメリカ",
+    "gymNote": "PFL所属。RIZIN参戦は今回が初。",
+    "sns": [],
+    "recordNote": "PFLでの実績多数。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-luiz-gustavo",
+    "name": "ルイス・グスタボ",
+    "nameKana": "るいす ぐすたぼ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "heightCm": 175,
+    "weightKg": 71,
+    "weightClass": "ライト級(王者)",
+    "nationality": "ブラジル",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "RIZIN公式サイト記載の王者。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/fighters"
+  },
+  {
+    "id": "ath-danny-sabatello",
+    "name": "ダニー・サバテロ",
+    "nameKana": "だにー さばてろ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "heightCm": 178,
+    "weightKg": 61,
+    "weightClass": "バンタム級(王者)",
+    "nationality": "アメリカ",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "RIZIN公式サイト記載の王者。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/fighters"
+  },
+  {
+    "id": "ath-makoto-shinryu",
+    "name": "神龍 誠",
+    "nameKana": "しんりゅう まこと",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "heightCm": 165.5,
+    "weightKg": 57,
+    "weightClass": "フライ級(王者)",
+    "nationality": "日本(宮城県)",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "RIZIN公式サイト記載の王者。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/fighters"
+  },
+  {
+    "id": "ath-yuki-motoya",
+    "name": "元谷 友貴",
+    "nameKana": "もとや ゆうき",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "バンタム級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "record": {
+      "wins": 37,
+      "losses": 13,
+      "draws": 1
+    },
+    "recordNote": "通算成績(RIZIN成績: 12勝8敗1分)。最新情報は出典でご確認ください。",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+  },
+  {
+    "id": "ath-hiromasa-ougikubo",
+    "name": "扇久保 博正",
+    "nameKana": "おうぎくぼ ひろまさ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フライ級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "record": {
+      "wins": 27,
+      "losses": 8,
+      "draws": 2
+    },
+    "recordNote": "通算成績(RIZIN成績: 9勝5敗)。",
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+  },
+  {
+    "id": "ath-shunta-nomura",
+    "name": "野村 駿太",
+    "nameKana": "のむら しゅんた",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "ライト級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-karshyga-dautbek",
+    "name": "カルシャガ・ダウトベック",
+    "nameKana": "かるしゃが だうとべっく",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級",
+    "nationality": "カザフスタン",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-yutaka-saito",
+    "name": "斎藤 裕",
+    "nameKana": "さいとう ゆたか",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-ya-man",
+    "name": "YA-MAN",
+    "nameKana": "やーまん",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-vugar-keramov",
+    "name": "ヴガール・ケラモフ",
+    "nameKana": "う゛がーる けらもふ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級",
+    "nationality": "アゼルバイジャン",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-ryo-takaki",
+    "name": "高木 凌",
+    "nameKana": "たかき りょう",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-natasha-kuzutina",
+    "name": "ナターシャ・クジュティナ",
+    "nameKana": "なたーしゃ くじゅてぃな",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "女子アトム級",
+    "nationality": "ロシア",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-daichi-tomizawa",
+    "name": "冨澤 大智",
+    "nameKana": "とみざわ だいち",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "バンタム級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-donmai-kawabata",
+    "name": "ドンマイ川端",
+    "nameKana": "どんまい かわばた",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "バンタム級",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-beynoah",
+    "name": "\"ブラックパンサー\"ベイノア",
+    "nameKana": "べいのあ",
+    "sport": "kickboxing",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "71.0kg契約",
+    "nationality": "未確認",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手(キックボクシングルール)。詳細は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-hidemason-usami",
+    "name": "宇佐美 秀メイソン",
+    "nameKana": "うさみ ひでめいそん",
+    "sport": "kickboxing",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "weightClass": "71.0kg契約",
+    "nationality": "日本",
+    "gymNote": "所属ジムは未確認",
+    "sns": [],
+    "recordNote": "2026年9月10日「超RIZIN.5」出場選手(キックボクシングルール)。詳細は出典でご確認ください。",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+  },
+  {
+    "id": "ath-yuta-kawashima",
+    "name": "川島 悠汰",
+    "nameKana": "かわしま ゆうた",
+    "sport": "mma",
+    "organizations": [
+      "breakingdown"
+    ],
+    "photo": "",
+    "weightClass": "ミドル級",
+    "nationality": "日本",
+    "bio": "「ミスターBreakingDown」の異名を持つ、出場20大会の最多出場選手。チーム「Red Panties」所属。",
+    "sns": [],
+    "record": {
+      "wins": 15,
+      "losses": 7,
+      "draws": 0
+    },
+    "recordNote": "BreakingDown内成績。",
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+  },
+  {
+    "id": "ath-tobima-yasui",
+    "name": "安井 飛馬",
+    "nameKana": "やすい とびま",
+    "sport": "mma",
+    "organizations": [
+      "breakingdown"
+    ],
+    "photo": "",
+    "weightClass": "ウェルター級",
+    "nationality": "日本",
+    "bio": "BreakingDown内では一貫してMMAルールで戦う。",
+    "sns": [],
+    "record": {
+      "wins": 6,
+      "losses": 0,
+      "draws": 0
+    },
+    "recordNote": "BreakingDown内成績。",
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+  },
+  {
+    "id": "ath-tetsuya-ido",
+    "name": "井土 徹也",
+    "nameKana": "いど てつや",
+    "sport": "mma",
+    "organizations": [
+      "breakingdown"
+    ],
+    "photo": "",
+    "weightClass": "ミドル級",
+    "nationality": "日本",
+    "bio": "プロレスラー。ミドル級ワンデートーナメント(MMAルール)優勝経験あり。",
+    "sns": [],
+    "record": {
+      "wins": 5,
+      "losses": 0,
+      "draws": 0
+    },
+    "recordNote": "BreakingDown内成績。",
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+  },
+  {
+    "id": "ath-junji-urata",
+    "name": "瓜田 純士",
+    "nameKana": "うらた じゅんじ",
+    "sport": "mma",
+    "organizations": [
+      "breakingdown"
+    ],
+    "photo": "",
+    "weightClass": "ライト級",
+    "nationality": "日本",
+    "bio": "「アウトローのカリスマ」の異名。出場12大会。",
+    "sns": [],
+    "record": {
+      "wins": 6,
+      "losses": 6,
+      "draws": 0
+    },
+    "recordNote": "BreakingDown内成績。",
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+  },
+  {
+    "id": "ath-souki-yamakawa",
+    "name": "山川 そうき",
+    "nameKana": "やまかわ そうき",
+    "sport": "mma",
+    "organizations": [
+      "breakingdown"
+    ],
+    "photo": "",
+    "weightClass": "バンタム級",
+    "nationality": "日本",
+    "bio": "出場9大会。目の負傷により2025年5月に引退。",
+    "sns": [],
+    "record": {
+      "wins": 5,
+      "losses": 4,
+      "draws": 0
+    },
+    "recordNote": "BreakingDown内成績。",
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+  },
+  {
+    "id": "ath-inuisan",
+    "name": "イヌイサン",
+    "nameKana": "いぬいさん",
+    "sport": "mma",
+    "organizations": [
+      "breakingdown"
+    ],
+    "photo": "",
+    "weightClass": "フェザー級",
+    "nationality": "日本",
+    "bio": "十種競技(デカスロン)出身で全国レベルの実績を持つ。",
+    "sns": [],
+    "record": {
+      "wins": 2,
+      "losses": 1,
+      "draws": 0
+    },
+    "recordNote": "BreakingDown内成績。",
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+  }
+]
