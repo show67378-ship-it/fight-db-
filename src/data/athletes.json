@@ -581,26 +581,5 @@
     },
     "recordNote": "BreakingDown内成績。",
     "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
-  },
-  {
-    "id": "ath-inuisan",
-    "name": "イヌイサン",
-    "nameKana": "いぬいさん",
-    "sport": "mma",
-    "organizations": [
-      "breakingdown"
-    ],
-    "photo": "",
-    "weightClass": "フェザー級",
-    "nationality": "日本",
-    "bio": "十種競技(デカスロン)出身で全国レベルの実績を持つ。",
-    "sns": [],
-    "record": {
-      "wins": 2,
-      "losses": 1,
-      "draws": 0
-    },
-    "recordNote": "BreakingDown内成績。",
-    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
   }
 ]
