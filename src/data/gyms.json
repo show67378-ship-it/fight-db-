@@ -16554,5 +16554,4046 @@
     "planTier": "free",
     "description": "運動が苦手でも続けられる",
     "featured": false
+  },
+  {
+    "id": "gym-ボクシングフィットネスジムノア駒沢スタジオ",
+    "name": "ボクシングフィットネスジムノア駒沢スタジオ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "address": "東京都世田谷区上馬4-2-7 8F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性専用・駅近で安心",
+    "featured": false
+  },
+  {
+    "id": "gym-グラントボクシング-フィットネス",
+    "name": "グラントボクシング&フィットネス",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "松戸市",
+    "address": "千葉県松戸市本町20-8 松戸本町第2ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性50%以上",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングチームゼロ-本郷ジム",
+    "name": "ボクシングチームゼロ 本郷ジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市名東区",
+    "address": "愛知県名古屋市名東区本郷2-225 第2かわもとビル4F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "地下鉄本郷駅から徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-b-monster名古屋",
+    "name": "b-monster名古屋",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市中村区",
+    "address": "愛知県名古屋市中村区名駅南1-18-19 第二原ビルディングB1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "音楽と光の演出",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-新栄葵店",
+    "name": "ZEAL BOXING FITNESS 新栄葵店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市東区",
+    "address": "愛知県名古屋市東区葵1-17-15 est AOI3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "新栄町駅から徒歩1分",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-松山市駅前店",
+    "name": "ZEAL BOXING FITNESS 松山市駅前店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛媛県",
+    "city": "松山市",
+    "address": "愛媛県松山市湊町6-2-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "松山市駅すぐ",
+    "featured": false
+  },
+  {
+    "id": "gym-イイタボクシングジム",
+    "name": "イイタボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "富山県",
+    "city": "富山市",
+    "address": "富山県富山市五福二区5194-1 村上ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "富山大学近く",
+    "featured": false
+  },
+  {
+    "id": "gym-トヤマボクシングジム",
+    "name": "トヤマボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "富山県",
+    "city": "富山市",
+    "address": "富山県富山市新庄町1-9-62 小西ビル",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "仲間と共に成長",
+    "featured": false
+  },
+  {
+    "id": "gym-シュガーナックルボクシングジム米子",
+    "name": "シュガーナックルボクシングジム米子",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "鳥取県",
+    "city": "米子市",
+    "address": "鳥取県米子市久米町253 YSP2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も女性も大歓迎",
+    "featured": false
+  },
+  {
+    "id": "gym-g-sports",
+    "name": "G-SPORTS",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "和歌山県",
+    "city": "和歌山市",
+    "address": "和歌山県和歌山市来栖634-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "楽しく続けられるジム",
+    "featured": false
+  },
+  {
+    "id": "gym-bmotiom",
+    "name": "BMOTIOM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "三重県",
+    "city": "桑名市",
+    "address": "三重県桑名市大央町48-1 コートエル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性専用の暗闇ボクシング",
+    "featured": false
+  },
+  {
+    "id": "gym-kuwana-boxing-gym",
+    "name": "KUWANA BOXING GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "三重県",
+    "city": "桑名市",
+    "address": "三重県桑名市有楽町50 アクトビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "桑名駅から徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-bmbボクシングジム",
+    "name": "BMBボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "京都府",
+    "city": "宇治市",
+    "address": "京都府宇治市宇治里尻78",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元世界チャンピオンが指導",
+    "featured": false
+  },
+  {
+    "id": "gym-洛翠ボクシングジム",
+    "name": "洛翠ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市左京区",
+    "address": "京都府京都市左京区一乗寺西水干町32",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅チカで通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-宇部ボクシング-フィットネススクール",
+    "name": "宇部ボクシング&フィットネススクール",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "山口県",
+    "city": "宇部市",
+    "address": "山口県宇部市厚南北2-21-26",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "宇部駅徒歩11分",
+    "featured": false
+  },
+  {
+    "id": "gym-本橋プロボクシングジム",
+    "name": "本橋プロボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市山科区",
+    "address": "京都府京都市山科区大宅細田町110-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "基礎体力作りやダイエット",
+    "featured": false
+  },
+  {
+    "id": "gym-ワカヤマ-エコボクシングジム",
+    "name": "ワカヤマ エコボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "和歌山県",
+    "city": "和歌山市",
+    "address": "和歌山県和歌山市元寺町5-46",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "健康的な体づくり",
+    "featured": false
+  },
+  {
+    "id": "gym-長野ボクシングジム",
+    "name": "長野ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "長野県",
+    "city": "長野市",
+    "address": "長野県長野市篠ノ井布施高田872-17",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "長野市初のボクシングジム",
+    "featured": false
+  },
+  {
+    "id": "gym-長崎友遊ボクシング倶楽部",
+    "name": "長崎友遊ボクシング倶楽部",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "長崎県",
+    "city": "長崎市",
+    "address": "長崎県長崎市八幡町9-11 古田ビル",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "新大工町駅から徒歩3分",
+    "featured": false
+  },
+  {
+    "id": "gym-kei-spirits-boxing-gym",
+    "name": "kei-spirits Boxing Gym",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "奈良県",
+    "city": "北葛城郡王寺町",
+    "address": "奈良県北葛城郡王寺町畠田8-1505-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元プロボクサーが指導",
+    "featured": false
+  },
+  {
+    "id": "gym-seiwa-gym",
+    "name": "SEIWA-GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "奈良県",
+    "city": "天理市",
+    "address": "奈良県天理市田町444-21",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者から本格派まで",
+    "featured": false
+  },
+  {
+    "id": "gym-トヤマ・フィットネス・ボクシング・クラブ",
+    "name": "トヤマ・フィットネス・ボクシング・クラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "富山県",
+    "city": "富山市",
+    "address": "富山県富山市西中野町1-8-39 カワカミビル",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "目的に合わせて楽しく続けられる",
+    "featured": false
+  },
+  {
+    "id": "gym-新潟ボクシングジム",
+    "name": "新潟ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "新潟県",
+    "city": "新潟市中央区",
+    "address": "新潟県新潟市中央区春日町10-12",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "誰もが気軽に楽しめる",
+    "featured": false
+  },
+  {
+    "id": "gym-クラトキボクシングジム",
+    "name": "クラトキボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "和歌山県",
+    "city": "和歌山市",
+    "address": "和歌山県和歌山市園部1363-8",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "目的に合わせた指導",
+    "featured": false
+  },
+  {
+    "id": "gym-ebisu-k-s-box",
+    "name": "EBISU K's BOX",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "address": "東京都渋谷区恵比寿西1-13-2 サンキビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "恵比寿駅から徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-西院ボクシングジム",
+    "name": "西院ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市右京区",
+    "address": "京都府京都市右京区西院西淳和院町43-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "京都で一番月謝が安く",
+    "featured": false
+  },
+  {
+    "id": "gym-ウォズボクシングジム",
+    "name": "ウォズボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市西京区",
+    "address": "京都府京都市西京区山田四ノ坪町11-4サントル西京2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロを目指せる本格的な環境",
+    "featured": false
+  },
+  {
+    "id": "gym-hiramatsu-fitness-boxing-gym",
+    "name": "HIRAMATSU FITNESS BOXING GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市下京区",
+    "address": "京都府京都市下京区丹波街道町302-6",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "丁寧な指導と温かい雰囲気",
+    "featured": false
+  },
+  {
+    "id": "gym-gun-gym",
+    "name": "Gun-gym",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "山形県",
+    "city": "山形市",
+    "address": "山形県山形市城西町1-5-13",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "新しい自分に出会う",
+    "featured": false
+  },
+  {
+    "id": "gym-四日市ボクシングジム",
+    "name": "四日市ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "三重県",
+    "city": "四日市市",
+    "address": "三重県四日市市新正4-7-17",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者や女性も安心",
+    "featured": false
+  },
+  {
+    "id": "gym-まさるボクシングジム",
+    "name": "まさるボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "三重県",
+    "city": "津市",
+    "address": "三重県津市東丸之内18-16",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "楽しく汗を流せる",
+    "featured": false
+  },
+  {
+    "id": "gym-鈴鹿ニイミボクシングジム",
+    "name": "鈴鹿ニイミボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "三重県",
+    "city": "鈴鹿市",
+    "address": "三重県鈴鹿市岸岡町3761",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "近鉄千代崎駅から徒歩1分",
+    "featured": false
+  },
+  {
+    "id": "gym-スタジオフィールズ",
+    "name": "スタジオフィールズ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "三重県",
+    "city": "四日市市",
+    "address": "三重県四日市城北町1-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "三重県四日市市最大級",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-津三重大前店",
+    "name": "ZEAL BOXING FITNESS 津三重大前店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "三重県",
+    "city": "津市",
+    "address": "三重県津市栗真町屋町1719-2 KURIMAマンション1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "セミパーソナルジム",
+    "featured": false
+  },
+  {
+    "id": "gym-甲府ヨネクラスポーツジム",
+    "name": "甲府ヨネクラスポーツジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "山梨県",
+    "city": "甲府市",
+    "address": "山梨県甲府市後屋町529",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "無料開放日も",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-薬院大通店",
+    "name": "ZEAL BOXING FITNESS 薬院大通店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市中央区",
+    "address": "福岡県福岡市中央区薬院2-4-5 103 大稲マンション1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "薬院大通駅から徒歩1分",
+    "featured": false
+  },
+  {
+    "id": "gym-松本aceボクシングジム",
+    "name": "松本ACEボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "長野県",
+    "city": "松本市",
+    "address": "長野県松本市渚2-1-34",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "長野県唯一のプロボクシングジム",
+    "featured": false
+  },
+  {
+    "id": "gym-yrボクシング",
+    "name": "YRボクシング",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "長野県",
+    "city": "佐久市",
+    "address": "長野県佐久市岩村田753-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "自由なスタイルが魅力",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-福岡西新店",
+    "name": "ZEAL BOXING FITNESS 福岡西新店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市早良区",
+    "address": "福岡県福岡市早良区西新5-15-43",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "西新駅から徒歩5分",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-白楽店",
+    "name": "ZEAL BOXING FITNESS 白楽店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市神奈川区",
+    "address": "神奈川県横浜市神奈川区西神奈川3-16-1 グリュックス白楽202",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "白楽駅徒歩6分",
+    "featured": false
+  },
+  {
+    "id": "gym-新日本仙台ボクシングジム",
+    "name": "新日本仙台ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "宮城県",
+    "city": "仙台市青葉区",
+    "address": "宮城県仙台市青葉区五橋2-5-5",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "五橋駅から徒歩3分",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-札幌医大前店",
+    "name": "ZEAL BOXING FITNESS 札幌医大前店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市中央区",
+    "address": "北海道札幌市中央区南四条西15-1-2 アルファスクエア南4西15",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "楽しく体を動かして",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-神戸湊川店",
+    "name": "ZEAL BOXING FITNESS 神戸湊川店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市兵庫区",
+    "address": "兵庫県神戸市兵庫区東山町2-2-13 佐伯ビル301",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "湊川駅から徒歩4分",
+    "featured": false
+  },
+  {
+    "id": "gym-蒼ボクシングジム",
+    "name": "蒼ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "長崎県",
+    "city": "大村市",
+    "address": "長崎県大村市荒瀬町387-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "日本ボクシング連盟加盟",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-茅ヶ崎店",
+    "name": "ZEAL BOXING FITNESS 茅ヶ崎店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "茅ヶ崎市",
+    "address": "神奈川県茅ヶ崎市新栄町8-2 今井ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "茅ケ崎駅徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-北野白梅町店",
+    "name": "ZEAL BOXING FITNESS 北野白梅町店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市北区",
+    "address": "京都府京都市北区北野上白梅町46-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "北野白梅町駅から徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-kod-labフィットネス-ボクシング",
+    "name": "KOD LABフィットネス＆ボクシング",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区荒木町20-21 インテック88ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "無理なく楽しく続けられる",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-塩尻広丘店",
+    "name": "ZEAL BOXING FITNESS 塩尻広丘店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "長野県",
+    "city": "塩尻市",
+    "address": "長野県塩尻市広丘野村894-15",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "広丘駅から徒歩4分",
+    "featured": false
+  },
+  {
+    "id": "gym-b-monster銀座",
+    "name": "b-monster銀座",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "中央区",
+    "address": "東京都中央区銀座2-8-12 Clover GINZA 9F/10F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "銀座で非日常を体験",
+    "featured": false
+  },
+  {
+    "id": "gym-b-monster表参道",
+    "name": "b-monster表参道",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区南青山3-8-40 青山センタービル1F/B1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "表参道駅から徒歩4分",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-浅草橋店",
+    "name": "ZEAL BOXING FITNESS 浅草橋店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "東京都台東区浅草橋2-7-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "浅草橋駅から徒歩3分",
+    "featured": false
+  },
+  {
+    "id": "gym-ウェルテクスボクシングジム",
+    "name": "ウェルテクスボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "長崎県",
+    "city": "佐世保市",
+    "address": "長崎県佐世保市吉岡町1812-8",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "気軽に始められるアットホーム",
+    "featured": false
+  },
+  {
+    "id": "gym-大翔ボクシングジム",
+    "name": "大翔ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "新潟県",
+    "city": "十日町市",
+    "address": "新潟県十日町市伊達甲1704-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元日本チャンピオンが指導",
+    "featured": false
+  },
+  {
+    "id": "gym-b-monster新宿",
+    "name": "b-monster新宿",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区西新宿7-1-1 新宿カレイドビル5F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "音楽と光に包まれて",
+    "featured": false
+  },
+  {
+    "id": "gym-大和ボクシングジム",
+    "name": "大和ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "奈良県",
+    "city": "橿原市",
+    "address": "奈良県橿原市四条町645-1 古市ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "幅広い年代が通える",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-木場店",
+    "name": "ZEAL BOXING FITNESS 木場店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "江東区",
+    "address": "東京都江東区木場3-14-11 サニーハウス木場公園101号室",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "木場駅から徒歩圏内",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-桜新町店",
+    "name": "ZEAL BOXING FITNESS 桜新町店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "address": "東京都世田谷区新町2-15-10 NHCビル1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "桜新町駅から徒歩5分",
+    "featured": false
+  },
+  {
+    "id": "gym-ウィナーボクシングジム",
+    "name": "ウィナーボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "沖縄県",
+    "city": "那覇市",
+    "address": "沖縄県那覇市西1-12-19 2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "夜遅くまで通える",
+    "featured": false
+  },
+  {
+    "id": "gym-ミサイル工藤スポーツボクシングジム",
+    "name": "ミサイル工藤スポーツボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大分県",
+    "city": "大分市",
+    "address": "大分県大分市賀来西1-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元日本チャンピオンが優しく指導",
+    "featured": false
+  },
+  {
+    "id": "gym-b-monster梅田",
+    "name": "b-monster梅田",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市北区",
+    "address": "大阪府大阪市北区茶屋町15-22 アーバンテラス茶屋町A棟3F/4F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "音楽と光に包まれながら",
+    "featured": false
+  },
+  {
+    "id": "gym-フジワラボクシングジム",
+    "name": "フジワラボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "岡山県",
+    "city": "岡山市北区",
+    "address": "岡山県岡山市北区今7-24-32",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "目的に合わせた丁寧な指導",
+    "featured": false
+  },
+  {
+    "id": "gym-平仲ボクシングスクールジム",
+    "name": "平仲ボクシングスクールジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "沖縄県",
+    "city": "豊見城市",
+    "address": "沖縄県豊見城市真玉橋175-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "基礎から学べる本格ジム",
+    "featured": false
+  },
+  {
+    "id": "gym-pbスポーツクラブ",
+    "name": "PBスポーツクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市浪速区",
+    "address": "大阪府大阪市浪速区桜川2-10-11 2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "基礎から楽しく学べる",
+    "featured": false
+  },
+  {
+    "id": "gym-ライザーボクシングジム",
+    "name": "ライザーボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "豊中市",
+    "address": "大阪府豊中市稲津町1-5-4 ハイム・イズ1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "基礎から楽しく学べる",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-西本町店",
+    "name": "ZEAL BOXING FITNESS 西本町店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市西区",
+    "address": "大阪府大阪市西区阿波座1-9-12",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "本町駅から徒歩3分",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-野田阪神店",
+    "name": "ZEAL BOXING FITNESS 野田阪神店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市福島区",
+    "address": "大阪府大阪市福島区鷺州5-3-11-101",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "楽しく運動習慣",
+    "featured": false
+  },
+  {
+    "id": "gym-okボクシングジム",
+    "name": "OKボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市北区",
+    "address": "大阪府大阪市北区天神橋3-8-9 新末広ビル9階",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "扇町駅徒歩1分",
+    "featured": false
+  },
+  {
+    "id": "gym-井岡ボクシングジム",
+    "name": "井岡ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市浪速区",
+    "address": "大阪府大阪市浪速区桜川1-4-4",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元世界チャンピオン監修",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングクラブ梅田",
+    "name": "ボクシングクラブ梅田",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市北区",
+    "address": "大阪府大阪市北区梅田1-3-1 大阪駅前第1ビル12F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "梅田駅直結",
+    "featured": false
+  },
+  {
+    "id": "gym-fitness-scene-ボクシング-フィットネスクラブ",
+    "name": "Fitness Scene ボクシング＆フィットネスクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市中央区",
+    "address": "大阪府大阪市中央区東心斎橋1-9-24 アカナスビルヂング心斎橋6F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "心斎橋のジム",
+    "featured": false
+  },
+  {
+    "id": "gym-天満橋ボクシングジム",
+    "name": "天満橋ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市中央区",
+    "address": "大阪府大阪市中央区天満橋京町1-23 サンシステム天満橋ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅徒歩1分の好立地",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングクラブなんば",
+    "name": "ボクシングクラブなんば",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市中央区",
+    "address": "大阪府大阪市中央区道頓堀2-2-20 道頓堀リッツビルB1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "なんば駅から徒歩1分",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-豊中服部店",
+    "name": "ZEAL BOXING FITNESS 豊中服部店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "豊中市",
+    "address": "大阪府豊中市服部本町1丁目7-9 森川ビル",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "天神服部駅から徒歩3分",
+    "featured": false
+  },
+  {
+    "id": "gym-石橋ボクシングジム",
+    "name": "石橋ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "池田市",
+    "address": "大阪府池田市石橋1-16-2 大空第3ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "心身を鍛えて自信をつけ",
+    "featured": false
+  },
+  {
+    "id": "gym-ウイングボクシングジム",
+    "name": "ウイングボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市天王寺区",
+    "address": "大阪府大阪市天王寺区上本町5-2-14 佐伯ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ボクシング＆ヨガ",
+    "featured": false
+  },
+  {
+    "id": "gym-六島ボクシングジム",
+    "name": "六島ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市住吉区",
+    "address": "大阪府大阪市住吉区長居東3-21-11",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "自分に合ったボクシング",
+    "featured": false
+  },
+  {
+    "id": "gym-kworld3",
+    "name": "KWORLD3",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市西成区",
+    "address": "大阪府大阪市西成区潮路1-7-5 玉出レジャービル7F/8F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "世界王者・亀田興毅がプロデュース",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-高槻店",
+    "name": "ZEAL BOXING FITNESS 高槻店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "高槻市",
+    "address": "大阪府高槻市東五百住町3-18-19 マンションふじ2号館",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "富田駅から徒歩圏内",
+    "featured": false
+  },
+  {
+    "id": "gym-大阪帝拳ジム",
+    "name": "大阪帝拳ジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市都島区",
+    "address": "大阪府大阪市都島区東野田町2-8-7",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "京橋駅徒歩1分、老舗ジム",
+    "featured": false
+  },
+  {
+    "id": "gym-ハラダボクシングジム",
+    "name": "ハラダボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市住之江区",
+    "address": "大阪府大阪市住之江区粉浜西2-2-18",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "基礎からしっかり学べる",
+    "featured": false
+  },
+  {
+    "id": "gym-ギャラクシーボクシングジム",
+    "name": "ギャラクシーボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "豊中市",
+    "address": "大阪府豊中市柴原1-3-20 柴原ベーシックハイツ1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "楽しく運動できる",
+    "featured": false
+  },
+  {
+    "id": "gym-alexボクシングジム",
+    "name": "ALEXボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "茨木市",
+    "address": "大阪府茨木市西駅前町3-9 ARCHEビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "JR茨木駅から徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-エディタウンゼントジム",
+    "name": "エディタウンゼントジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "高槻市",
+    "address": "大阪府高槻市松原町17-7",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "心も体もリフレッシュ",
+    "featured": false
+  },
+  {
+    "id": "gym-タマキスポーツジム",
+    "name": "タマキスポーツジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "門真市",
+    "address": "大阪府門真市元町27-13",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "アットホームな雰囲気",
+    "featured": false
+  },
+  {
+    "id": "gym-寝屋川石田ボクシングクラブ",
+    "name": "寝屋川石田ボクシングクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "寝屋川市",
+    "address": "大阪府寝屋川市香里南之町21-20 マジェスティ香里園3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "京阪香里園駅から徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-スタイルボクシング-ブリッジ",
+    "name": "スタイルボクシング ブリッジ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "守口市",
+    "address": "大阪府守口市南寺方南通2-15-16",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キレイでスタイリッシュなボクシング",
+    "featured": false
+  },
+  {
+    "id": "gym-フィリアボクシング松原天美ジム",
+    "name": "フィリアボクシング松原天美ジム",
+    "sports": [
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "松原市",
+    "address": "大阪府松原市天美西1-1-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "充実クラス",
+    "featured": false
+  },
+  {
+    "id": "gym-スパイダー根本ボクシングジム",
+    "name": "スパイダー根本ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "川口市",
+    "address": "埼玉県川口市芝新町7-12 2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "老若男女問わず",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングアカデミーbb",
+    "name": "ボクシングアカデミーBB",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "岸和田市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者や女性も安心",
+    "featured": false
+  },
+  {
+    "id": "gym-bb-sports-club",
+    "name": "BB SPORTS CLUB",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "佐賀県",
+    "city": "佐賀市",
+    "address": "佐賀県佐賀市諸富町山領1130",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "健康とスリムな体を目指す",
+    "featured": false
+  },
+  {
+    "id": "gym-ブラザーズボクシングジム",
+    "name": "ブラザーズボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "佐賀県",
+    "city": "佐賀市",
+    "address": "佐賀県佐賀市鍋島4-3-12",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロを目指す方から女性まで",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-浦和県庁前店",
+    "name": "ZEAL BOXING FITNESS 浦和県庁前店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "さいたま市浦和区",
+    "address": "埼玉県さいたま市浦和区高砂3-6-9 グローバル県庁前ビル311",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "浦和駅から徒歩10分",
+    "featured": false
+  },
+  {
+    "id": "gym-本望ボクシングジム",
+    "name": "本望ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "さいたま市中央区",
+    "address": "埼玉県さいたま市中央区上峰4-1-9 高瀬ビル102",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元東洋太平洋チャンピオン",
+    "featured": false
+  },
+  {
+    "id": "gym-新日本大宮ボクシングジム",
+    "name": "新日本大宮ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "さいたま市大宮区",
+    "address": "埼玉県さいたま市大宮区東町2-288-2 ミツモトビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロライセンス取得も目指せる",
+    "featured": false
+  },
+  {
+    "id": "gym-草津ボクシング・フィットネスジム",
+    "name": "草津ボクシング・フィットネスジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "滋賀県",
+    "city": "栗東市",
+    "address": "滋賀県栗東市霊仙寺3-4-7",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性にも人気",
+    "featured": false
+  },
+  {
+    "id": "gym-ビー・スタイルジム",
+    "name": "ビー・スタイルジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "草加市",
+    "address": "埼玉県草加市高砂2-12-7 小林ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "草加駅東口徒歩1分",
+    "featured": false
+  },
+  {
+    "id": "gym-熊谷コサカボクシングジム",
+    "name": "熊谷コサカボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "熊谷市",
+    "address": "埼玉県熊谷市佐谷田3929",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "温かい指導でサポート",
+    "featured": false
+  },
+  {
+    "id": "gym-大津ボクシング・フィットネスジム",
+    "name": "大津ボクシング・フィットネスジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "滋賀県",
+    "city": "大津市",
+    "address": "滋賀県大津市蛍谷1-50",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者や女性も安心",
+    "featured": false
+  },
+  {
+    "id": "gym-redボクシングスポーツジム",
+    "name": "REDボクシングスポーツジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "滋賀県",
+    "city": "大津市",
+    "address": "滋賀県大津市鏡が浜107-4",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "健康的な身体作り",
+    "featured": false
+  },
+  {
+    "id": "gym-西遠ボクシングジム",
+    "name": "西遠ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "静岡県",
+    "city": "浜松市中区",
+    "address": "静岡県浜松市中区早出町1204−6",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロを目指す方まで対応",
+    "featured": false
+  },
+  {
+    "id": "gym-長浜ボクシングジム",
+    "name": "長浜ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "滋賀県",
+    "city": "長浜市",
+    "address": "滋賀県長浜市八幡中山町251-1 コルドン・ブルー3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "幅広い目的で利用できる",
+    "featured": false
+  },
+  {
+    "id": "gym-mkjフィットネスボクシング",
+    "name": "MKJフィットネスボクシング",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "滋賀県",
+    "city": "東近江市",
+    "address": "滋賀県東近江市五個荘石塚町5-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "アットホームなフィットネスボクシング",
+    "featured": false
+  },
+  {
+    "id": "gym-b-round",
+    "name": "B-ROUND",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "滋賀県",
+    "city": "東近江市",
+    "address": "滋賀県東近江市五個荘竜田町254-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "理想の自分を目指せる",
+    "featured": false
+  },
+  {
+    "id": "gym-しが草津ボクシングジム",
+    "name": "しが草津ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "滋賀県",
+    "city": "草津市",
+    "address": "滋賀県草津市上寺町382-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "草津市エリア初の本格ボクシングジム",
+    "featured": false
+  },
+  {
+    "id": "gym-シュガーナックルボクシングジム松江",
+    "name": "シュガーナックルボクシングジム松江",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "島根県",
+    "city": "松江市",
+    "address": "島根県松江市西津田2-2-20",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "心も体も健康になれる",
+    "featured": false
+  },
+  {
+    "id": "gym-スリーロードボクシングジム",
+    "name": "スリーロードボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "島根県",
+    "city": "松江市",
+    "address": "島根県松江市上乃木4-13-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "楽しく続けられる",
+    "featured": false
+  },
+  {
+    "id": "gym-まるボクシングジム",
+    "name": "まるボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "徳島県",
+    "city": "徳島市",
+    "address": "徳島県徳島市末広5-1-18",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "基礎から丁寧に学べる",
+    "featured": false
+  },
+  {
+    "id": "gym-sfkボクシングジム",
+    "name": "SFKボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "静岡県",
+    "city": "静岡市駿河区",
+    "address": "静岡県静岡市駿河区富士見台1-4-57-7",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "丁寧な指導で楽しく",
+    "featured": false
+  },
+  {
+    "id": "gym-fバードボクシングジム",
+    "name": "Fバードボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "静岡県",
+    "city": "静岡市葵区",
+    "address": "静岡県静岡市葵区新通1-3-6",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性や初心者も安心",
+    "featured": false
+  },
+  {
+    "id": "gym-ペパーミント-ヒロ-ボクシングジム",
+    "name": "ペパーミント･ヒロ･ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "静岡県",
+    "city": "静岡市葵区",
+    "address": "静岡県静岡市葵区紺屋町1-12 協友ビルB1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "静岡駅徒歩5分",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-三島店",
+    "name": "ZEAL BOXING FITNESS 三島店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "静岡県",
+    "city": "三島市",
+    "address": "静岡県三島市一番町7-19",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "三島駅から徒歩4分",
+    "featured": false
+  },
+  {
+    "id": "gym-駿河男児-boxing-gym",
+    "name": "駿河男児 BOXING GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "静岡県",
+    "city": "富士市",
+    "address": "静岡県富士市国久保3-2-32 くじら館2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "アットホームなジム",
+    "featured": false
+  },
+  {
+    "id": "gym-伊豆ボクシングジム",
+    "name": "伊豆ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "静岡県",
+    "city": "伊東市",
+    "address": "静岡県伊東市銀座元町4-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "JR伊東駅から徒歩10分",
+    "featured": false
+  },
+  {
+    "id": "gym-宇都宮ボクシングジム",
+    "name": "宇都宮ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "栃木県",
+    "city": "宇都宮市",
+    "address": "栃木県宇都宮市台新田1-18-6",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "非日常の刺激と達成感",
+    "featured": false
+  },
+  {
+    "id": "gym-那須ボクシングジム",
+    "name": "那須ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "栃木県",
+    "city": "那須塩原市",
+    "address": "栃木県那須塩原市埼玉3-606",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "健康・ダイエット目的",
+    "featured": false
+  },
+  {
+    "id": "gym-協栄新宿ボクシングジム",
+    "name": "協栄新宿ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区新宿5-2-1 ニュー番衆ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "新宿御苑駅から徒歩5分",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングフィットネスジムノア新宿スタジオ",
+    "name": "ボクシングフィットネスジムノア新宿スタジオ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区西新宿1-3-14 新宿プラザ 6F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "新宿西口駅からすぐ",
+    "featured": false
+  },
+  {
+    "id": "gym-野口ボクシングジム",
+    "name": "野口ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "足立区",
+    "address": "東京都足立区千住龍田町13-2 ヴィラシマダビル1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "創業66年の歴史",
+    "featured": false
+  },
+  {
+    "id": "gym-マナベボクシングジム",
+    "name": "マナベボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "葛飾区",
+    "address": "東京都葛飾区亀有3-10-5 藤和亀有コープⅡ106",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "JR亀有駅から徒歩3分",
+    "featured": false
+  },
+  {
+    "id": "gym-lastyle池袋東口本店",
+    "name": "Lastyle池袋東口本店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "address": "東京都豊島区東池袋1-23-13 第一岡村ビル2F・B1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "筋トレ×ボクシング",
+    "featured": false
+  },
+  {
+    "id": "gym-宮田ボクシングジム",
+    "name": "宮田ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "葛飾区",
+    "address": "東京都葛飾区立石7-7-10",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "平均-6.2kg達成の実績",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-東武練馬店",
+    "name": "ZEAL BOXING FITNESS 東武練馬店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "板橋区",
+    "address": "東京都板橋区徳丸1-20-20 シュウ―カーネルⅡ207",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "東武練馬駅徒歩8分",
+    "featured": false
+  },
+  {
+    "id": "gym-角海老宝石ボクシングジム",
+    "name": "角海老宝石ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "address": "東京都豊島区北大塚2-15-4",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "JR大塚駅北口から徒歩1分",
+    "featured": false
+  },
+  {
+    "id": "gym-東拳ボクシングジム",
+    "name": "東拳ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "address": "東京都豊島区東池袋5-6-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "東池袋駅徒歩4分",
+    "featured": false
+  },
+  {
+    "id": "gym-シュガーナックルボクシングジム鳥取",
+    "name": "シュガーナックルボクシングジム鳥取",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "鳥取県",
+    "city": "鳥取市",
+    "address": "鳥取県鳥取市的場164-9",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "心と体をリフレッシュ",
+    "featured": false
+  },
+  {
+    "id": "gym-結花スポーツボクシングジム",
+    "name": "結花スポーツボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "鳥取県",
+    "city": "鳥取市",
+    "address": "鳥取県鳥取市材木町208",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "理想の体づくりをサポート",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングクラブ-池袋",
+    "name": "ボクシングクラブ 池袋",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "address": "東京都豊島区西池袋1-18-1 五光ビル4F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "池袋駅西口徒歩1分",
+    "featured": false
+  },
+  {
+    "id": "gym-フラッシュ赤羽ボクシングジム",
+    "name": "フラッシュ赤羽ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "北区",
+    "address": "東京都北区赤羽2-24-3 ドモフェリカ2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "赤羽駅徒歩5分",
+    "featured": false
+  },
+  {
+    "id": "gym-アイアンスポーツボクシングジム",
+    "name": "アイアンスポーツボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "葛飾区",
+    "address": "東京都葛飾区小菅4-14-13 グリーンパーク綾瀬1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "綾瀬駅から徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-エイチズスタイルボクシングジム",
+    "name": "エイチズスタイルボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "葛飾区",
+    "address": "東京都葛飾区青戸6-1-13 武藤商事ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元チャンピオンが直接指導",
+    "featured": false
+  },
+  {
+    "id": "gym-上滝ボクシングジム",
+    "name": "上滝ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "江戸川区",
+    "address": "東京都江戸川区西葛西5-8-27 Eビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "目的に合わせたボクシング",
+    "featured": false
+  },
+  {
+    "id": "gym-ユナイテッドボクシングジム",
+    "name": "ユナイテッドボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "江戸川区",
+    "address": "東京都江戸川区南葛西2-11-20 エレガンス葛西1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "明るくフレンドリーな雰囲気",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット町田",
+    "name": "ファイトフィット町田",
+    "sports": [
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "町田市",
+    "address": "東京都町田市森野1-37-10 きめたハウジング第23ビル4F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "町田駅徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-八王子中屋ボクシングジム",
+    "name": "八王子中屋ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "八王子市",
+    "address": "東京都八王子市南町3-8 第二原嶋ビル1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "本格ボクシングジム",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングフィットネスジムノア吉祥寺スタジオ",
+    "name": "ボクシングフィットネスジムノア吉祥寺スタジオ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "武蔵野市",
+    "address": "東京都武蔵野市吉祥寺本町1-13-2 6F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "吉祥寺駅徒歩1〜2分",
+    "featured": false
+  },
+  {
+    "id": "gym-リングサイドフィットネスジム",
+    "name": "リングサイドフィットネスジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "福生市",
+    "address": "東京都福生市熊川1299-6 1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "見学・体験も気軽に",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-国立店",
+    "name": "ZEAL BOXING FITNESS 国立店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "国立市",
+    "address": "東京都国立市東2-2-14",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅チカで通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-石川ボクシングジム立川",
+    "name": "石川ボクシングジム立川",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "立川市",
+    "address": "東京都立川市錦町1-12-18 立川錦町ビル1-3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "立川駅徒歩7分",
+    "featured": false
+  },
+  {
+    "id": "gym-スターロードボクシングジム",
+    "name": "スターロードボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "国立市",
+    "address": "東京都国立市谷保4157 佐々木無線ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "アットホームな雰囲気",
+    "featured": false
+  },
+  {
+    "id": "gym-東村山スポーツボクシングジム",
+    "name": "東村山スポーツボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "東村山市",
+    "address": "東京都東村山野口町1-16-6",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者でも安心",
+    "featured": false
+  },
+  {
+    "id": "gym-高本道場",
+    "name": "高本道場",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "小平市",
+    "address": "東京都小平市小川町1-89-12 B1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "多彩なクラス",
+    "featured": false
+  },
+  {
+    "id": "gym-rerise-boxing-club",
+    "name": "Rerise Boxing Club",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "西東京市",
+    "address": "東京都西東京市富士町4-33-15 飯田ビル東伏見2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "東伏見駅徒歩2分",
+    "featured": false
+  },
+  {
+    "id": "gym-久米川木内ボクシングジム",
+    "name": "久米川木内ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "東村山市",
+    "address": "東京都東村山市栄町1-2-12 栄町ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "丁寧な指導で楽しく続けられる",
+    "featured": false
+  },
+  {
+    "id": "gym-沼田ボクシングジム",
+    "name": "沼田ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "清瀬市",
+    "address": "東京都清瀬市松山1-13-7 小林ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元世界チャンピオンが開設",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-秋田西口店",
+    "name": "ZEAL BOXING FITNESS 秋田西口店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "秋田県",
+    "city": "秋田市",
+    "address": "秋田県秋田市中通4-6-6 丸島商事 第二ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "秋田駅徒歩6分",
+    "featured": false
+  },
+  {
+    "id": "gym-黒潮ボクシングジム",
+    "name": "黒潮ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "高知県",
+    "city": "高知市",
+    "address": "高知県高知市介良乙993-6 エリートビル2階",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロからフィットネスまで対応",
+    "featured": false
+  },
+  {
+    "id": "gym-mtオリーブ・ボクシングクラブ",
+    "name": "MTオリーブ・ボクシングクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "高知県",
+    "city": "高知市",
+    "address": "高知県高知市前里335-14",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性も気軽に",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングクラブ渋谷",
+    "name": "ボクシングクラブ渋谷",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "address": "東京都渋谷区渋谷1-13-5 大協渋谷ビル5F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "渋谷駅直結",
+    "featured": false
+  },
+  {
+    "id": "gym-新日本木村ボクシングジム",
+    "name": "新日本木村ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "中野区",
+    "address": "東京都中野区野方6-3-4 水口ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅から徒歩30秒",
+    "featured": false
+  },
+  {
+    "id": "gym-飯田覚士ボクシング塾ボックスファイ",
+    "name": "飯田覚士ボクシング塾ボックスファイ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "中野区",
+    "address": "東京都中野区弥生町6-10-11 弥生町ビル6F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元世界チャンピオンの理論的指導",
+    "featured": false
+  },
+  {
+    "id": "gym-中野サイトウボクシングジム",
+    "name": "中野サイトウボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "中野区",
+    "address": "東京都中野区中野2-29-6 リカム8ビル 2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "楽しみながら続けられる",
+    "featured": false
+  },
+  {
+    "id": "gym-渡嘉敷ボクシングジム",
+    "name": "渡嘉敷ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "中野区",
+    "address": "東京都中野区弥生町2-15-18 ペガサスビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元世界チャンピオンが指導",
+    "featured": false
+  },
+  {
+    "id": "gym-セレスボクシングスポーツジム",
+    "name": "セレスボクシングスポーツジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "柏市",
+    "address": "千葉県柏市柏2-8-9 千葉スカイビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "幅広い年代・目的に対応",
+    "featured": false
+  },
+  {
+    "id": "gym-将拳ボクシングジム",
+    "name": "将拳ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "富里市",
+    "address": "千葉県富里市日吉倉3-16",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "昭和の香りが残る道場",
+    "featured": false
+  },
+  {
+    "id": "gym-大森ボクシングジム",
+    "name": "大森ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "杉並区",
+    "address": "東京都杉並区荻窪5-15-7 白凰ビル1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅近で通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-輪島功一スポーツジム",
+    "name": "輪島功一スポーツジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "杉並区",
+    "address": "東京都杉並区松庵3-32-11",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "心と体をリセット",
+    "featured": false
+  },
+  {
+    "id": "gym-gopanda-gym-ゴーパンダジム",
+    "name": "GOPANDA GYM ゴーパンダジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "杉並区",
+    "address": "東京都杉並区高円寺南1-11-6 ハーモニーヒルズ3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験から始める",
+    "featured": false
+  },
+  {
+    "id": "gym-天河ボクシングジム",
+    "name": "天河ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "高知県",
+    "city": "高知市",
+    "address": "高知県高知市葛島2-7-21",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者に優しい",
+    "featured": false
+  },
+  {
+    "id": "gym-パープルボクシングジム",
+    "name": "パープルボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "高知県",
+    "city": "高知市",
+    "address": "高知県高知市瀬戸南町2-11-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "一日体験無料",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングチームゼロ-名駅大島ジム",
+    "name": "ボクシングチームゼロ 名駅大島ジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市中村区則武1-7-15 ダイソー18号ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "名古屋駅近くで気軽に",
+    "featured": false
+  },
+  {
+    "id": "gym-名古屋大橋ボクシングジム",
+    "name": "名古屋大橋ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市西区押切2-8-14 小川ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性向けコースもあり",
+    "featured": false
+  },
+  {
+    "id": "gym-松田ボクシングジム",
+    "name": "松田ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市熱田区金山町1-15-18",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅チカで気軽に",
+    "featured": false
+  },
+  {
+    "id": "gym-マルガリータ",
+    "name": "マルガリータ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市東区泉3-19-3 第三マンケイビル",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から女性まで",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングジムuno",
+    "name": "ボクシングジムUNO",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市中区栄1-21-16 つばめ本社別館2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "心と体を強くする",
+    "featured": false
+  },
+  {
+    "id": "gym-薬師寺ボクシングジム-フィットネス",
+    "name": "薬師寺ボクシングジム&フィットネス",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "address": "愛知県名古屋市中区新栄2-25-3 薬師寺ビルヂング2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "実年齢-5歳を目指す",
+    "featured": false
+  },
+  {
+    "id": "gym-kazu-boxing-gym",
+    "name": "KAZU BOXING GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "瀬戸市",
+    "address": "愛知県瀬戸市高根町1-45 ザ プラスワンビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から女性まで",
+    "featured": false
+  },
+  {
+    "id": "gym-和光ボクシングジム",
+    "name": "和光ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "豊田市",
+    "address": "愛知県豊田市駒場町中山4-1-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も女性も気軽に",
+    "featured": false
+  },
+  {
+    "id": "gym-本多ボクシングジム",
+    "name": "本多ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "千葉市中央区",
+    "address": "千葉県千葉市中央区登戸1-16-1 潮ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性も気軽に",
+    "featured": false
+  },
+  {
+    "id": "gym-稲毛ボクシングジム",
+    "name": "稲毛ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "千葉市稲毛区",
+    "address": "千葉県千葉市稲毛区園生町1113",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性にも優しい料金設定",
+    "featured": false
+  },
+  {
+    "id": "gym-soete-ソエテ",
+    "name": "SOETE ソエテ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "松戸市",
+    "address": "千葉県松戸市新松戸4-14-2 KARAFUビル5F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "東洋太平洋チャンピオンが教える",
+    "featured": false
+  },
+  {
+    "id": "gym-a-side-boxing-fitness-club",
+    "name": "A SIDE BOXING FITNESS CLUB",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "八千代市",
+    "address": "千葉県八千代市村上南3-5-3 ネクサス村上101",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "3つのコース",
+    "featured": false
+  },
+  {
+    "id": "gym-京葉ボクシングジム",
+    "name": "京葉ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "市原市",
+    "address": "千葉県市原市五井中央西2-10-1 高石スクエアビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅近で通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-三谷大和スポーツジム",
+    "name": "三谷大和スポーツジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "八千代市",
+    "address": "千葉県八千代市八千代台東1-44-13",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者も大歓迎",
+    "featured": false
+  },
+  {
+    "id": "gym-zeroボクシング取手店",
+    "name": "ZEROボクシング取手店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "取手市",
+    "address": "茨城県取手市寺田字原谷6340-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者9割以上",
+    "featured": false
+  },
+  {
+    "id": "gym-世田谷オークラボクシングジム",
+    "name": "世田谷オークラボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "address": "東京都世田谷区砧2-20-17 1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性向け料金も充実",
+    "featured": false
+  },
+  {
+    "id": "gym-金子ボクシングジム",
+    "name": "金子ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "address": "東京都世田谷区北沢1-45-23",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "優しさと思いやりで",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングフィットネスジムノア恵比寿スタジオ",
+    "name": "ボクシングフィットネスジムノア恵比寿スタジオ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "address": "東京都渋谷区広尾1-15-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "暗闇でボクシング",
+    "featured": false
+  },
+  {
+    "id": "gym-field-boxing-gym",
+    "name": "FIELD BOXING GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "市川市",
+    "address": "千葉県市川市行徳駅前1-27-15",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性も安心",
+    "featured": false
+  },
+  {
+    "id": "gym-レイスポーツボクシングジム",
+    "name": "レイスポーツボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "市川市",
+    "address": "千葉県市川市八幡2-16-15 本八幡駅西口ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロの指導で無理なく",
+    "featured": false
+  },
+  {
+    "id": "gym-土橋ボクシングジム",
+    "name": "土橋ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "佐倉市",
+    "address": "千葉県佐倉市王子台1-27-11 王子台ビル1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性も多く利用",
+    "featured": false
+  },
+  {
+    "id": "gym-木更津グリーンベイボクシングジム",
+    "name": "木更津グリーンベイボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "木更津市",
+    "address": "千葉県木更津市東中央3-3-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅近で通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-松山ボクシングクラブ",
+    "name": "松山ボクシングクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛媛県",
+    "city": "松山市",
+    "address": "愛媛県松山市紅葉町5-14",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "サンドバッグでストレス解消",
+    "featured": false
+  },
+  {
+    "id": "gym-升田ボクシングジム",
+    "name": "升田ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛媛県",
+    "city": "松山市",
+    "address": "愛媛県松山市鴨川1-1-3 つり天国2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "OPBF東洋太平洋チャンピオンが指導",
+    "featured": false
+  },
+  {
+    "id": "gym-ニューボクシングクラブ",
+    "name": "ニューボクシングクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛媛県",
+    "city": "松山市",
+    "address": "愛媛県松山市土居田町138-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性向け料金",
+    "featured": false
+  },
+  {
+    "id": "gym-ochiai-gym",
+    "name": "Ochiai Gym",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛媛県",
+    "city": "新居浜市",
+    "address": "愛媛県新居浜市新須賀町3-4-40",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性向けの割安料金",
+    "featured": false
+  },
+  {
+    "id": "gym-北陸イシマルボクシングジム",
+    "name": "北陸イシマルボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福井県",
+    "city": "敦賀市",
+    "address": "福井県敦賀市木崎2-17-5",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性も通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-博多協栄ボクシングジム",
+    "name": "博多協栄ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市南区",
+    "address": "福岡県福岡市南区玉川町18-12 サンハイツ玉川1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロ公認ボクシングジム",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングスタジオハート",
+    "name": "ボクシングスタジオハート",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市博多区",
+    "address": "福岡県福岡市博多区祇園町3-6 祇園ISビル6F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "博多駅近くで気軽に",
+    "featured": false
+  },
+  {
+    "id": "gym-yuko-fitness-boxing-gym",
+    "name": "YuKO Fitness Boxing GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市中央区",
+    "address": "福岡県福岡市中央区谷1-15-25",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "基礎から学べる",
+    "featured": false
+  },
+  {
+    "id": "gym-fukuokaボクシングジム",
+    "name": "Fukuokaボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "福津市",
+    "address": "福岡県福津市花見が丘1-7-15",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性割引あり",
+    "featured": false
+  },
+  {
+    "id": "gym-dangan郡山ボクシングジム",
+    "name": "DANGAN郡山ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福島県",
+    "city": "郡山市",
+    "address": "福島県郡山市安積町日出山4-190",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性も小学生も歓迎",
+    "featured": false
+  },
+  {
+    "id": "gym-野宮フィットネスボクシング",
+    "name": "野宮フィットネスボクシング",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福島県",
+    "city": "福島市",
+    "address": "福島県福島市北沢又川原",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "全日本チャンピオン指導",
+    "featured": false
+  },
+  {
+    "id": "gym-m-s-boxing-fitness-gym",
+    "name": "M's BOXING FITNESS GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福島県",
+    "city": "いわき市",
+    "address": "福島県いわき市平字田町19 サンスマイルビル4F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅近・通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-岐阜ヨコゼキボクシングジム",
+    "name": "岐阜ヨコゼキボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "岐阜県",
+    "city": "岐阜市",
+    "address": "岐阜県岐阜市加納本石町3-7 テイクオフ",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性向け割引あり",
+    "featured": false
+  },
+  {
+    "id": "gym-薮田ボクシングジム",
+    "name": "薮田ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "岐阜県",
+    "city": "岐阜市",
+    "address": "岐阜県岐阜市薮田南5-16-27",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者や女性も気軽に",
+    "featured": false
+  },
+  {
+    "id": "gym-セブンスヘブン",
+    "name": "セブンスヘブン",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "岐阜県",
+    "city": "安八郡神戸町",
+    "address": "岐阜県安八郡神戸町落合560",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロ経験トレーナーによる本格指導",
+    "featured": false
+  },
+  {
+    "id": "gym-いせさきボクシングジム",
+    "name": "いせさきボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "群馬県",
+    "city": "伊勢崎市",
+    "address": "群馬県伊勢崎市南千木町1741-4",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者からシニアまで",
+    "featured": false
+  },
+  {
+    "id": "gym-ジムファイターズジャスティス",
+    "name": "ジムファイターズジャスティス",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "広島県",
+    "city": "広島市西区",
+    "address": "広島県広島市西区大宮1-26-4",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "心身を鍛える",
+    "featured": false
+  },
+  {
+    "id": "gym-imaoka-yoshiaki-boxing-authority",
+    "name": "IMAOKA YOSHIAKI BOXING AUTHORITY",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "広島県",
+    "city": "広島市中区",
+    "address": "広島県広島市中区榎町11-23 NOMAZEN.BLD 2,3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "広島で学ぶ本格ボクシング",
+    "featured": false
+  },
+  {
+    "id": "gym-ワタナベボクシングジム",
+    "name": "ワタナベボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "品川区",
+    "address": "東京都品川区西五反田2-5-2 五反田東幸ビル3F・4F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロトレーナーが丁寧に指導",
+    "featured": false
+  },
+  {
+    "id": "gym-北海道畠山ボクシングジム",
+    "name": "北海道畠山ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市西区",
+    "address": "北海道札幌市西区琴似4条7丁目2-13",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性向けコース",
+    "featured": false
+  },
+  {
+    "id": "gym-協栄札幌赤坂ボクシングジム",
+    "name": "協栄札幌赤坂ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市豊平区",
+    "address": "北海道札幌市豊平区西岡4条6-9-22",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ライセンストレーナーによる指導",
+    "featured": false
+  },
+  {
+    "id": "gym-森岡ボクシングジム",
+    "name": "森岡ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "川西市",
+    "address": "兵庫県川西市大和西1丁目99-30",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性・お子様大歓迎",
+    "featured": false
+  },
+  {
+    "id": "gym-神戸スポーツボクシングクラブ",
+    "name": "神戸スポーツボクシングクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市中央区",
+    "address": "兵庫県神戸市中央区古湊通1丁目1-23 K&S神戸駅前ビル4F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "90%が初心者からのスタート",
+    "featured": false
+  },
+  {
+    "id": "gym-h-h-fitness-boxing",
+    "name": "H.H FITNESS&BOXING",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市灘区",
+    "address": "兵庫県神戸市灘区八幡町2-12-17 2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "引き締まった美しい身体へ",
+    "featured": false
+  },
+  {
+    "id": "gym-大成ボクシングジム",
+    "name": "大成ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "三田市",
+    "address": "兵庫県三田市中町4-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者9割",
+    "featured": false
+  },
+  {
+    "id": "gym-エスペランサスポーツボクシングジム",
+    "name": "エスペランサスポーツボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "伊丹市",
+    "address": "兵庫県伊丹市中央4-4-8 エステート林1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "伊丹から世界へ",
+    "featured": false
+  },
+  {
+    "id": "gym-straight-ボクシングクラブ",
+    "name": "STRAIGHT ボクシングクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "ひたちなか市",
+    "address": "茨城県ひたちなか市東石川3159-11 2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "仕事帰りにストレス解消",
+    "featured": false
+  },
+  {
+    "id": "gym-tsukuba-boxing-gym",
+    "name": "TSUKUBA BOXING GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "つくば市",
+    "address": "茨城県つくば市上横場1999-7",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "明るく清潔",
+    "featured": false
+  },
+  {
+    "id": "gym-カシミボクシングジム",
+    "name": "カシミボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "石川県",
+    "city": "金沢市",
+    "address": "石川県金沢市久安5丁目247",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "経験豊富なトレーナー",
+    "featured": false
+  },
+  {
+    "id": "gym-ミナノボクシングジム",
+    "name": "ミナノボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "岩手県",
+    "city": "盛岡市",
+    "address": "岩手県盛岡市東見前4地割-9-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性・学生は割安料金",
+    "featured": false
+  },
+  {
+    "id": "gym-梅下ボクシングジム",
+    "name": "梅下ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "香川県",
+    "city": "高松市",
+    "address": "香川県高松市鹿角町282-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性・学生向けの割引料金",
+    "featured": false
+  },
+  {
+    "id": "gym-ninecount-boxing-fitness",
+    "name": "NINECOUNT BOXING&FITNESS",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "鹿児島県",
+    "city": "鹿児島市",
+    "address": "鹿児島県鹿児島市加治屋町12-4 大山ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験から始める",
+    "featured": false
+  },
+  {
+    "id": "gym-橋口ボクシングジム",
+    "name": "橋口ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "鹿児島県",
+    "city": "鹿児島市",
+    "address": "鹿児島県鹿児島市東谷山1-37-8",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "スパーリング強制なし",
+    "featured": false
+  },
+  {
+    "id": "gym-トライバルボックス",
+    "name": "トライバルボックス",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "熊本県",
+    "city": "熊本市南区",
+    "address": "熊本県熊本市南区近見7-4-23",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者こそ選ぶジム",
+    "featured": false
+  },
+  {
+    "id": "gym-熊本ボクシングジム",
+    "name": "熊本ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "熊本県",
+    "city": "熊本市",
+    "address": "熊本県熊本市本山1-4-8",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "仕事終わりに通える",
+    "featured": false
+  },
+  {
+    "id": "gym-g-box",
+    "name": "G-BOX",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛媛県",
+    "city": "伊予郡松前町",
+    "address": "愛媛県伊予郡松前町上高柳564-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ボクシング＆格闘技エクササイズ",
+    "featured": false
+  },
+  {
+    "id": "gym-船橋ドラゴンボクシングジム",
+    "name": "船橋ドラゴンボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "船橋市",
+    "address": "千葉県船橋市本町2-11-22",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "誰でも気軽に始められる",
+    "featured": false
+  },
+  {
+    "id": "gym-タキボクシングジム",
+    "name": "タキボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "北海道",
+    "city": "旭川市",
+    "address": "北海道旭川市東4条5-2-4",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元プロボクサーが教える",
+    "featured": false
+  },
+  {
+    "id": "gym-北方ボクシングジム",
+    "name": "北方ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "岐阜県",
+    "city": "本巣郡北方町",
+    "address": "岐阜県本巣郡北方町北方1908-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "目標に合わせた指導",
+    "featured": false
+  },
+  {
+    "id": "gym-blue-sky-boxing-gym",
+    "name": "BLUE SKY BOXING GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市東灘区",
+    "address": "兵庫県神戸市東灘区深江本町3丁目4−25 3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "楽しく続けられる",
+    "featured": false
+  },
+  {
+    "id": "gym-緑ボクシングジム",
+    "name": "緑ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市緑区",
+    "address": "愛知県名古屋市緑区武路町1704",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性も安心",
+    "featured": false
+  },
+  {
+    "id": "gym-revel-fitness-boxing",
+    "name": "Revel fitness boxing",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福島県",
+    "city": "福島市",
+    "address": "福島県福島市伏拝田中29",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "経験不問",
+    "featured": false
+  },
+  {
+    "id": "gym-大垣ボクシングジム",
+    "name": "大垣ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "岐阜県",
+    "city": "大垣市",
+    "address": "岐阜県大垣市藤江町2-81",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も女性も安心",
+    "featured": false
+  },
+  {
+    "id": "gym-ミネルバ",
+    "name": "ミネルバ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "岐阜県",
+    "city": "各務原市",
+    "address": "岐阜県各務原市蘇原大島町3-59-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "99%が初心者",
+    "featured": false
+  },
+  {
+    "id": "gym-花形ボクシングジム",
+    "name": "花形ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市都筑区",
+    "address": "神奈川県横浜市都筑区池辺町4478-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "世界チャンピオン育成まで",
+    "featured": false
+  },
+  {
+    "id": "gym-大橋ボクシングジム",
+    "name": "大橋ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市神奈川区",
+    "address": "神奈川県横浜市神奈川区鶴屋町1-7-12 ハウスプラン横浜ビル",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "横浜駅近く",
+    "featured": false
+  },
+  {
+    "id": "gym-gokigenボクシングジム",
+    "name": "GOKIGENボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市西区",
+    "address": "神奈川県横浜市西区岡野2-8-1 岡野勝海ビルB1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性専用",
+    "featured": false
+  },
+  {
+    "id": "gym-瀬谷wings-gym",
+    "name": "瀬谷WINGS GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市瀬谷区",
+    "address": "神奈川県横浜市瀬谷区三ツ境162-8",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ダイエット成功率90%以上",
+    "featured": false
+  },
+  {
+    "id": "gym-asbボクシングクラブ横浜店",
+    "name": "ASBボクシングクラブ横浜店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市西区",
+    "address": "神奈川県横浜市西区岡野2-1-5 TC.com3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "遊びながら楽しく続けられる",
+    "featured": false
+  },
+  {
+    "id": "gym-所プラス-リバーサルジム武蔵小杉",
+    "name": "所プラス（リバーサルジム武蔵小杉）",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "川崎市中原区",
+    "address": "神奈川県川崎市中原区小杉町3-15 エクセルハウス1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "20種のプログラムが通い放題",
+    "featured": false
+  },
+  {
+    "id": "gym-神奈川渥美ボクシングジム",
+    "name": "神奈川渥美ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "川崎市川崎区",
+    "address": "神奈川県川崎市川崎区池田2-4-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初回無料",
+    "featured": false
+  },
+  {
+    "id": "gym-kg大和ボクシングジム",
+    "name": "KG大和ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "大和市",
+    "address": "神奈川県大和市中央1-3-3 大和ビル204",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロ育成から趣味まで",
+    "featured": false
+  },
+  {
+    "id": "gym-t-tボクシングスポーツジム",
+    "name": "T&Tボクシングスポーツジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "厚木市",
+    "address": "神奈川県厚木市中町4-10-3 中町三柴ビル",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者9割・女性も安心",
+    "featured": false
+  },
+  {
+    "id": "gym-井上ボクシングジム",
+    "name": "井上ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "秦野市",
+    "address": "神奈川県秦野市本町2-1-32 三宝ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性も多数在籍",
+    "featured": false
+  },
+  {
+    "id": "gym-rk蒲田ボクシングファミリー",
+    "name": "RK蒲田ボクシングファミリー",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "address": "東京都大田区蒲田5-20-7 K520ビル 3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "80%が未経験スタート",
+    "featured": false
+  },
+  {
+    "id": "gym-s-kボクシングジム",
+    "name": "S&Kボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "熊本県",
+    "city": "熊本市北区",
+    "address": "熊本県熊本市北区武蔵ヶ丘6-4-90",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅近で通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-本田フィットネスボクシングジム",
+    "name": "本田フィットネスボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "熊本県",
+    "city": "熊本市中央区",
+    "address": "熊本県熊本市中央区南千反畑町1-19",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "楽しく始める",
+    "featured": false
+  },
+  {
+    "id": "gym-azul-box-fit-gym",
+    "name": "AZUL BOX&FIT GYM",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "熊本県",
+    "city": "熊本市北区",
+    "address": "熊本県熊本市北区四方寄町1460-4-3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元世界チャンピオンが優しく指導",
+    "featured": false
+  },
+  {
+    "id": "gym-吉田ボクシングジム-スタイルトップ",
+    "name": "吉田ボクシングジム スタイルトップ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "熊本県",
+    "city": "宇土市",
+    "address": "熊本県宇土市新小路町68",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "くびれ美人を目指そう",
+    "featured": false
+  },
+  {
+    "id": "gym-八代ボクシングクラブ",
+    "name": "八代ボクシングクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "熊本県",
+    "city": "八代市",
+    "address": "熊本県八代市松江町267-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "気軽に始められる専門ジム",
+    "featured": false
+  },
+  {
+    "id": "gym-真正ジム",
+    "name": "真正ジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市東灘区",
+    "address": "兵庫県神戸市東灘区青木2-14-14",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "かっこいい体づくり",
+    "featured": false
+  },
+  {
+    "id": "gym-b-monster池袋",
+    "name": "b-monster池袋",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "address": "東京都豊島区南池袋1-23-6 KDG池袋ビル3F/5F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "暗闇ボクシング体験",
+    "featured": false
+  },
+  {
+    "id": "gym-zeal-boxing-fitness-恵比寿店",
+    "name": "ZEAL BOXING FITNESS 恵比寿店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "address": "東京都渋谷区恵比寿4-11-8 グランヌーノ502",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "マンツーマンで基礎から",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングフィットネスジムノア秋葉原スタジオ",
+    "name": "ボクシングフィットネスジムノア秋葉原スタジオ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区外神田6-14-8 7F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "暗闇でリズムに乗せて",
+    "featured": false
+  },
+  {
+    "id": "gym-レパード玉熊ボクシングジム",
+    "name": "レパード玉熊ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区九段南2-7-1 喜京屋ビルB1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "気軽に始められる",
+    "featured": false
+  },
+  {
+    "id": "gym-シュウボクシングジム",
+    "name": "シュウボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "address": "東京都千代田区外神田3-1-15 箸勝ビル6F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "気軽に始められる",
+    "featured": false
+  },
+  {
+    "id": "gym-ワンツースポーツクラブ",
+    "name": "ワンツースポーツクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "中央区",
+    "address": "東京都中央区築地2-7-3 CAMEL TSUKIJI ⅡB1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅近で通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングガーデン・ヨコハマ",
+    "name": "ボクシングガーデン・ヨコハマ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市旭区",
+    "address": "神奈川県横浜市旭区二俣川1-45-83",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅チカで通いやすい",
+    "featured": false
+  },
+  {
+    "id": "gym-ピューマ渡久地ボクシングジム",
+    "name": "ピューマ渡久地ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区東麻布1-25-3 富田ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "あなたのペースで続けられる",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングクラブ新橋",
+    "name": "ボクシングクラブ新橋",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "港区",
+    "address": "東京都港区新橋2-20-15 新橋駅前ビル1号館2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "丁寧なサポート",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングクラブ新宿",
+    "name": "ボクシングクラブ新宿",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区新宿4-1-22 新宿コムロビルB1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者向けサポートが充実",
+    "featured": false
+  },
+  {
+    "id": "gym-lastyle新宿西口店",
+    "name": "Lastyle新宿西口店",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区西新宿7-12-24 第二小島ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "週1回で結果が出る",
+    "featured": false
+  },
+  {
+    "id": "gym-極東ボクシングジム",
+    "name": "極東ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "文京区",
+    "address": "東京都文京区関口1-1-5 サニーマンション2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "世界チャンピオン輩出の伝統ジム",
+    "featured": false
+  },
+  {
+    "id": "gym-矢代ボクシングフィットネスクラブ",
+    "name": "矢代ボクシングフィットネスクラブ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "東京都台東区三ノ輪1-28-15 小川ビル4-5F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "95%が未経験者",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングクラブ上野",
+    "name": "ボクシングクラブ上野",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "東京都台東区上野7-3-9 アルベルゴ上野2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "上野駅徒歩1分",
+    "featured": false
+  },
+  {
+    "id": "gym-girl-s-fun-boxing-gym",
+    "name": "Girl's Fun Boxing Gym",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "台東区",
+    "address": "東京都台東区浅草橋1-1-15 原田ビル5F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ボクシング×ヨガ",
+    "featured": false
+  },
+  {
+    "id": "gym-一力ボクシングジム",
+    "name": "一力ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "墨田区",
+    "address": "東京都墨田区墨田3-37-7",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "仕事帰りに気軽にダイエット",
+    "featured": false
+  },
+  {
+    "id": "gym-reason押上ボクシングジム",
+    "name": "Reason押上ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "墨田区",
+    "address": "東京都墨田区押上2-20-12 美朝ビル1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ダイエットからプロ志向まで",
+    "featured": false
+  },
+  {
+    "id": "gym-伴流ボクシングジム",
+    "name": "伴流ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "江東区",
+    "address": "東京都江東区亀戸6-40-8",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性向け料金",
+    "featured": false
+  },
+  {
+    "id": "gym-戸高秀樹ボクシングジム",
+    "name": "戸高秀樹ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "目黒区",
+    "address": "東京都目黒区自由が丘1-17-17 FLEG自由が丘B1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "おしゃれで快適なボクシングジム",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシングフィットネスジムノア中目黒スタジオ",
+    "name": "ボクシングフィットネスジムノア中目黒スタジオ",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "目黒区",
+    "address": "東京都目黒区上目黒3-3-5",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "暗闇×音楽×ボクシング",
+    "featured": false
+  },
+  {
+    "id": "gym-笹崎ボクシングジム",
+    "name": "笹崎ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "目黒区",
+    "address": "東京都目黒区鷹番3-4-13 笹崎ボクシングビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "小学生からシニアまで",
+    "featured": false
+  },
+  {
+    "id": "gym-川島ボクシングジム",
+    "name": "川島ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "address": "東京都大田区北千束3-20-6 田部井ビル1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から女性まで",
+    "featured": false
+  },
+  {
+    "id": "gym-ナックルスポーツボクシングジム",
+    "name": "ナックルスポーツボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "address": "東京都大田区北馬込2-14-2 和田ビル1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅近ボクシングジム",
+    "featured": false
+  },
+  {
+    "id": "gym-竹原慎二-畑山隆則ボクサ・フィットネスジム",
+    "name": "竹原慎二＆畑山隆則ボクサ・フィットネスジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "address": "東京都大田区大森北1-37-2 2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "世界チャンピオンのボクシング理論",
+    "featured": false
+  },
+  {
+    "id": "gym-用賀ボクシングジム-グローブス",
+    "name": "用賀ボクシングジム グローブス",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "address": "東京都世田谷区用賀4-12-12 Hiro's用賀",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "気軽に始められる",
+    "featured": false
+  },
+  {
+    "id": "gym-ウェルネス会津ボクシングセンター",
+    "name": "ウェルネス会津ボクシングセンター",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "福島県",
+    "city": "会津若松市",
+    "address": "福島県会津若松市東千石 2-1-12 ウェルネス会津東千石ビル",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も女性も気軽に",
+    "featured": false
+  },
+  {
+    "id": "gym-吉祥寺鉄拳8ボクシングジム",
+    "name": "吉祥寺鉄拳8ボクシングジム",
+    "sports": [
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "武蔵野市",
+    "address": "東京都武蔵野市吉祥寺南町3-6-1 コンフォート宇田川1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キッズからプロ志望まで",
+    "featured": false
   }
 ]
