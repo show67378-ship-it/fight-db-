@@ -43,6 +43,25 @@ export default function Home() {
             <br />
             選手・ジムの情報もまとめて見つかります。
           </p>
+
+          <form
+            action="/search"
+            method="GET"
+            className="mt-8 flex max-w-xl flex-wrap gap-2 rounded-lg border border-accent/40 bg-surface p-2 shadow-lg shadow-black/20"
+          >
+            <input
+              name="q"
+              placeholder="選手名・ジム名・地域・団体で検索"
+              className="min-w-[200px] flex-1 rounded-sm bg-transparent px-3 py-3 text-base text-ink placeholder:text-ink-dim focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="font-head rounded-sm bg-accent px-6 py-3 text-sm font-semibold uppercase tracking-wide text-accent-ink transition hover:opacity-90"
+            >
+              検索する
+            </button>
+          </form>
+
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/matches"
