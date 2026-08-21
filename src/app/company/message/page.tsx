@@ -19,6 +19,14 @@ export default function CompanyMessagePage() {
         </div>
       </div>
 
+      <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <Stat label="戦績" value="0-2-0" />
+        <Stat label="年齢" value="31歳" />
+        <Stat label="身長" value="182cm" />
+        <Stat label="体重" value="125kg" />
+      </div>
+      <p className="mt-2 text-[11px] text-ink-dim">※ 代表は選手ではありません(ネタ枠)。</p>
+
       <div className="mt-8 space-y-5 text-sm leading-relaxed text-ink">
         <p>はじめまして。株式会社ISHIHARA SHOW 代表取締役の石原しょうです。</p>
 
@@ -158,6 +166,15 @@ export default function CompanyMessagePage() {
           会社概要はこちら
         </Link>
       </p>
+    </div>
+  );
+}
+
+function Stat({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded-lg border border-border bg-surface px-4 py-3 text-center">
+      <p className="font-head text-[11px] font-semibold uppercase tracking-wide text-ink-dim">{label}</p>
+      <p className="tabular mt-1 text-lg font-semibold text-ink">{value}</p>
     </div>
   );
 }
