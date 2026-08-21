@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getAthletes, getGyms, getTrialApplications } from "@/lib/data";
+import { getAthletes, getGyms, getListingRequests, getTrialApplications } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
 
@@ -7,6 +7,7 @@ export default function AdminHomePage() {
   const gyms = getGyms();
   const athletes = getAthletes();
   const applications = getTrialApplications();
+  const listingRequests = getListingRequests();
 
   return (
     <div className="mx-auto max-w-3xl px-5 py-12">
@@ -42,6 +43,20 @@ export default function AdminHomePage() {
             {applications.some((a) => a.status === "new") && (
               <span className="ml-2 text-warn">
                 (未対応 {applications.filter((a) => a.status === "new").length}件)
+              </span>
+            )}
+          </p>
+        </Link>
+        <Link
+          href="/admin/listing-requests"
+          className="rounded-lg border border-border bg-surface p-6 transition hover:border-accent"
+        >
+          <p className="font-head text-lg font-bold text-ink">ジム掲載依頼一覧</p>
+          <p className="mt-1 tabular text-sm text-ink-dim">
+            {listingRequests.length}件
+            {listingRequests.some((r) => r.status === "new") && (
+              <span className="ml-2 text-warn">
+                (未対応 {listingRequests.filter((r) => r.status === "new").length}件)
               </span>
             )}
           </p>

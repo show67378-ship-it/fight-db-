@@ -100,3 +100,21 @@ export interface TrialApplication {
   status: TrialApplicationStatus;
   createdAt: string;
 }
+
+export type GymListingRequestStatus = "new" | "reviewing" | "added" | "rejected";
+
+export interface GymListingRequest {
+  id: string;
+  gymName: string;
+  sports: SportSlug[];
+  prefecture: string;
+  city: string;
+  address?: string;
+  phone?: string;
+  websiteUrl?: string;
+  description?: string;
+  contactName: string;
+  contactEmail: string;
+  status: GymListingRequestStatus;
+  createdAt: string;
+}

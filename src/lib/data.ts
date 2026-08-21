@@ -2,6 +2,7 @@ import type {
   Athlete,
   DreamMatchCard,
   Gym,
+  GymListingRequest,
   Match,
   OrganizationSlug,
   SportSlug,
@@ -34,6 +35,10 @@ export function getDreamMatches(): DreamMatchCard[] {
 
 export function getTrialApplications(): TrialApplication[] {
   return readJson<TrialApplication[]>("trial-applications.json");
+}
+
+export function getListingRequests(): GymListingRequest[] {
+  return readJson<GymListingRequest[]>("listing-requests.json");
 }
 
 export function getAthlete(id: string): Athlete | undefined {

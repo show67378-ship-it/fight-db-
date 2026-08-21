@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import { visibleSports } from "@/lib/taxonomy";
 import type { Gym, SportSlug } from "@/lib/types";
 import GymCard from "@/components/GymCard";
@@ -27,6 +28,13 @@ export default function GymsBrowser({ gyms }: { gyms: Gym[] }) {
       <p className="font-head text-xs font-semibold uppercase tracking-[0.2em] text-accent">Gym Search</p>
       <h1 className="font-head mt-3 text-3xl font-bold text-ink">ジムを探す</h1>
       <p className="mt-2 text-ink-dim">競技・地域からジムを検索できます。</p>
+      <p className="mt-2 text-sm text-ink-dim">
+        掲載されていないジムの関係者の方は{" "}
+        <Link href="/gyms/list-your-gym" className="text-accent hover:underline">
+          こちらから掲載を依頼
+        </Link>
+        できます(無料)。
+      </p>
 
       <div className="mt-6 flex flex-wrap gap-3">
         <input

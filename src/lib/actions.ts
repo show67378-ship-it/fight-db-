@@ -3,7 +3,15 @@
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { readJson, writeJson } from "./store";
-import type { Athlete, Gym, GymInstructor, OrganizationSlug, SportSlug, TrialApplication } from "./types";
+import type {
+  Athlete,
+  Gym,
+  GymInstructor,
+  GymListingRequest,
+  OrganizationSlug,
+  SportSlug,
+  TrialApplication,
+} from "./types";
 
 function newId(prefix: string, name: string): string {
   const base = name
@@ -183,4 +191,36 @@ export async function updateTrialApplicationStatus(id: string, status: TrialAppl
     writeJson("trial-applications.json", applications);
   }
   revalidatePath("/admin/applications");
+}
+
+export async function submitListingRequest(formData: FormData) {
+  const requests = readJson<GymListingRequest[]>("listing-requests.json");
+  requests.unshift({
+    id: newId("listing", str(formData, "gymName")),
+    gymName: str(formData, "gymName"),
+    sports: formData.getAll("sports") as SportSlug[],
+    prefecture: str(formData, "prefecture"),
+    city: str(formData, "city"),
+    address: optStr(formData, "address"),
+    phone: optStr(formData, "phone"),
+    websiteUrl: optStr(formData, "websiteUrl"),
+    description: optStr(formData, "description"),
+    contactName: str(formData, "contactName"),
+    contactEmail: str(formData, "contactEmail"),
+    status: "new",
+    createdAt: new Date().toISOString(),
+  });
+  writeJson("listing-requests.json", requests);
+  revalidatePath("/admin/listing-requests");
+  redirect("/gyms/list-your-gym?submitted=1");
+}
+
+export async function updateListingRequestStatus(id: string, status: GymListingRequest["status"]) {
+  const requests = readJson<GymListingRequest[]>("listing-requests.json");
+  const idx = requests.findIndex((r) => r.id === id);
+  if (idx !== -1) {
+    requests[idx].status = status;
+    writeJson("listing-requests.json", requests);
+  }
+  revalidatePath("/admin/listing-requests");
 }
