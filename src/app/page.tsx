@@ -62,15 +62,20 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="mt-8 flex flex-wrap items-center gap-2 border-t border-border pt-6">
-            <span className="font-head text-[11px] font-semibold uppercase tracking-wide text-ink-dim">
-              対応競技
-            </span>
-            {visibleSports.map((s) => (
-              <Link key={s.slug} href={`/${s.slug}`}>
-                <SportTag sport={s.slug} />
-              </Link>
-            ))}
+          <div className="mt-8 flex flex-wrap items-center justify-between gap-6 border-t border-border pt-6">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="font-head text-[11px] font-semibold uppercase tracking-wide text-ink-dim">
+                対応競技
+              </span>
+              {visibleSports.map((s) => (
+                <Link key={s.slug} href={`/${s.slug}`}>
+                  <SportTag sport={s.slug} />
+                </Link>
+              ))}
+            </div>
+            <p className="font-head text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+              格闘<span className="text-accent">.com</span>
+            </p>
           </div>
         </div>
       </section>
