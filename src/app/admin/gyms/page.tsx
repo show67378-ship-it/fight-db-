@@ -3,8 +3,13 @@ import { getGyms } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
 
-export default function AdminGymsPage() {
-  const gyms = getGyms();
+export default async function AdminGymsPage({ searchParams }: PageProps<"/admin/gyms">) {
+  const { q: rawQ } = await searchParams;
+  const q = (Array.isArray(rawQ) ? rawQ[0] : rawQ)?.trim() ?? "";
+  const allGyms = getGyms();
+  const gyms = q
+    ? allGyms.filter((g) => [g.name, g.prefecture, g.city].some((v) => v.includes(q)))
+    : allGyms;
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-12">
@@ -21,7 +26,33 @@ export default function AdminGymsPage() {
         </Link>
       </div>
 
-      <div className="mt-6 space-y-2">
+      <form action="/admin/gyms" method="GET" className="mt-6 flex gap-2">
+        <input
+          name="q"
+          defaultValue={q}
+          placeholder="ジム名・都道府県・市区町村で検索"
+          className="min-w-[240px] flex-1 rounded-sm border border-border bg-surface px-3 py-2 text-sm text-ink placeholder:text-ink-dim focus:border-accent focus:outline-none"
+        />
+        <button
+          type="submit"
+          className="font-head rounded-sm border border-border px-4 py-2 text-xs font-semibold uppercase tracking-wide text-ink transition hover:border-accent"
+        >
+          検索
+        </button>
+        {q && (
+          <Link
+            href="/admin/gyms"
+            className="font-head flex items-center rounded-sm border border-border px-4 py-2 text-xs font-semibold uppercase tracking-wide text-ink-dim transition hover:text-ink"
+          >
+            クリア
+          </Link>
+        )}
+      </form>
+      <p className="tabular mt-3 text-xs text-ink-dim">
+        {gyms.length}件{q && ` / 全${allGyms.length}件`}
+      </p>
+
+      <div className="mt-3 space-y-2">
         {gyms.map((g) => (
           <Link
             key={g.id}

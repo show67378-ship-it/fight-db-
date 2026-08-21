@@ -5,8 +5,15 @@ import type { Athlete } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
-export default function AdminAthletesPage() {
-  const athletes = getAthletes();
+export default async function AdminAthletesPage({ searchParams }: PageProps<"/admin/athletes">) {
+  const { q: rawQ } = await searchParams;
+  const q = (Array.isArray(rawQ) ? rawQ[0] : rawQ)?.trim() ?? "";
+  const allAthletes = getAthletes();
+  const athletes = q
+    ? allAthletes.filter((a) =>
+        [a.name, a.nameKana, a.nickname, a.weightClass].filter((v): v is string => Boolean(v)).some((v) => v.includes(q))
+      )
+    : allAthletes;
   const unaffiliated = athletes.filter((a) => a.organizations.length === 0);
 
   return (
@@ -23,6 +30,34 @@ export default function AdminAthletesPage() {
           + 新規追加
         </Link>
       </div>
+
+      <form action="/admin/athletes" method="GET" className="mt-6 flex gap-2">
+        <input
+          name="q"
+          defaultValue={q}
+          placeholder="選手名・よみがな・異名・階級で検索"
+          className="min-w-[240px] flex-1 rounded-sm border border-border bg-surface px-3 py-2 text-sm text-ink placeholder:text-ink-dim focus:border-accent focus:outline-none"
+        />
+        <button
+          type="submit"
+          className="font-head rounded-sm border border-border px-4 py-2 text-xs font-semibold uppercase tracking-wide text-ink transition hover:border-accent"
+        >
+          検索
+        </button>
+        {q && (
+          <Link
+            href="/admin/athletes"
+            className="font-head flex items-center rounded-sm border border-border px-4 py-2 text-xs font-semibold uppercase tracking-wide text-ink-dim transition hover:text-ink"
+          >
+            クリア
+          </Link>
+        )}
+      </form>
+      {q && (
+        <p className="tabular mt-3 text-xs text-ink-dim">
+          {athletes.length}件 / 全{allAthletes.length}件
+        </p>
+      )}
 
       {organizations.map((org) => {
         const orgAthletes = athletes.filter((a) => a.organizations.includes(org.slug));
