@@ -49,7 +49,8 @@
     "photo": "",
     "planTier": "free",
     "description": "RIZINスター選手、朝倉未来・朝倉海両選手が2017年に豊橋から移転して設立したホームジム。",
-    "websiteUrl": "https://japan-tt.com/"
+    "websiteUrl": "https://japan-tt.com/",
+    "featured": false
   },
   {
     "id": "gym-reversal-standout",

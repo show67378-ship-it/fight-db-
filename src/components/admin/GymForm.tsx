@@ -103,6 +103,11 @@ export default function GymForm({
         </div>
       </div>
 
+      <label className="flex items-center gap-2 text-sm text-ink">
+        <input type="checkbox" name="featured" defaultChecked={gym?.featured} />
+        トップページの「注目のジム」に表示する
+      </label>
+
       <button
         type="submit"
         className="font-head rounded-sm bg-accent px-6 py-3 text-sm font-semibold uppercase tracking-wide text-accent-ink transition hover:opacity-90"

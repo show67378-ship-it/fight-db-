@@ -38,6 +38,10 @@ function optNum(formData: FormData, key: string): number | undefined {
   return Number.isFinite(n) ? n : undefined;
 }
 
+function bool(formData: FormData, key: string): boolean {
+  return formData.get(key) === "on";
+}
+
 function parseInstructors(raw: string): GymInstructor[] | undefined {
   const list = raw
     .split("\n")
@@ -67,6 +71,7 @@ function gymFromForm(formData: FormData, existing?: Gym): Gym {
     description: str(formData, "description"),
     instructors: parseInstructors(str(formData, "instructors")),
     websiteUrl: optStr(formData, "websiteUrl"),
+    featured: bool(formData, "featured"),
   };
 }
 
@@ -134,6 +139,7 @@ function athleteFromForm(formData: FormData, existing?: Athlete): Athlete {
     record,
     recordNote: optStr(formData, "recordNote"),
     sourceUrl: optStr(formData, "sourceUrl"),
+    featured: bool(formData, "featured"),
   };
 }
 

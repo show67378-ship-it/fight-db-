@@ -34,6 +34,7 @@ export interface Gym {
   description: string;
   instructors?: GymInstructor[];
   websiteUrl?: string;
+  featured?: boolean;
 }
 
 export interface Athlete {
@@ -58,6 +59,7 @@ export interface Athlete {
   record?: { wins: number; losses: number; draws: number };
   recordNote?: string;
   sourceUrl?: string;
+  featured?: boolean;
 }
 
 export type PredictionStatus = "open" | "closed";

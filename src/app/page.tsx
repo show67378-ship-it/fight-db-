@@ -17,10 +17,9 @@ export default function Home() {
     .filter((c) => activeSports.includes(c.sport))
     .sort((a, b) => b.votes - a.votes)
     .slice(0, 3);
-  const featuredGyms = getGyms()
-    .filter((g) => g.sports.some((s) => activeSports.includes(s)))
-    .slice(0, 3);
-  const featuredAthletes = athletes.slice(0, 3);
+  const eligibleGyms = getGyms().filter((g) => g.sports.some((s) => activeSports.includes(s)));
+  const featuredGyms = pickFeatured(eligibleGyms);
+  const featuredAthletes = pickFeatured(athletes);
 
   return (
     <div>
@@ -76,31 +75,51 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Predictions */}
-      <section id="predictions" className="mx-auto max-w-6xl px-5 py-10">
+      {/* Gyms */}
+      <section className="mx-auto max-w-6xl px-5 py-10">
         <div className="flex items-end justify-between">
           <div>
-            <p className="font-head text-xs font-semibold uppercase tracking-wide text-accent">Prediction</p>
-            <h2 className="font-head mt-1 text-2xl font-bold text-ink">注目の勝敗予想</h2>
+            <p className="font-head text-xs font-semibold uppercase tracking-wide text-accent">Gym</p>
+            <h2 className="font-head mt-1 text-2xl font-bold text-ink">注目のジム</h2>
           </div>
-          <Link href="/matches" className="text-xs font-medium text-ink-dim hover:text-ink">
-            すべて見る →
+          <Link href="/gyms" className="text-xs font-medium text-ink-dim hover:text-ink">
+            ジムを探す →
           </Link>
         </div>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {openMatches.map((m) => (
-            <MatchPreviewCard
-              key={m.id}
-              match={m}
-              athleteA={getAthlete(m.athleteAId)!}
-              athleteB={getAthlete(m.athleteBId)!}
-            />
+          {featuredGyms.map((g) => (
+            <GymCard key={g.id} gym={g} />
           ))}
         </div>
       </section>
 
+      {/* Predictions */}
+      <section id="predictions" className="border-t border-border bg-surface/40">
+        <div className="mx-auto max-w-6xl px-5 py-10">
+          <div className="flex items-end justify-between">
+            <div>
+              <p className="font-head text-xs font-semibold uppercase tracking-wide text-accent">Prediction</p>
+              <h2 className="font-head mt-1 text-2xl font-bold text-ink">注目の勝敗予想</h2>
+            </div>
+            <Link href="/matches" className="text-xs font-medium text-ink-dim hover:text-ink">
+              すべて見る →
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {openMatches.map((m) => (
+              <MatchPreviewCard
+                key={m.id}
+                match={m}
+                athleteA={getAthlete(m.athleteAId)!}
+                athleteB={getAthlete(m.athleteBId)!}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Dream match ranking */}
-      <section className="border-y border-border bg-surface/40">
+      <section className="border-t border-border">
         <div className="mx-auto max-w-6xl px-5 py-10">
           <div className="flex items-end justify-between">
             <div>
@@ -133,24 +152,6 @@ export default function Home() {
               );
             })}
           </div>
-        </div>
-      </section>
-
-      {/* Gyms */}
-      <section className="mx-auto max-w-6xl px-5 py-10">
-        <div className="flex items-end justify-between">
-          <div>
-            <p className="font-head text-xs font-semibold uppercase tracking-wide text-accent">Gym</p>
-            <h2 className="font-head mt-1 text-2xl font-bold text-ink">注目のジム</h2>
-          </div>
-          <Link href="/gyms" className="text-xs font-medium text-ink-dim hover:text-ink">
-            ジムを探す →
-          </Link>
-        </div>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {featuredGyms.map((g) => (
-            <GymCard key={g.id} gym={g} />
-          ))}
         </div>
       </section>
 
@@ -192,4 +193,9 @@ export default function Home() {
       </p>
     </div>
   );
+}
+
+function pickFeatured<T extends { featured?: boolean }>(items: T[], limit = 6): T[] {
+  const marked = items.filter((i) => i.featured);
+  return (marked.length > 0 ? marked : items).slice(0, limit);
 }
