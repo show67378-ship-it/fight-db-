@@ -7621,5 +7621,1844 @@
     "planTier": "free",
     "description": "東京駅・大手町駅徒歩5分、和術慧舟會の大手町道場。",
     "featured": false
+  },
+  {
+    "id": "gym-alma-fight-gym-homies",
+    "name": "ALMA FIGHT GYM HOMIES",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も女性も。誰でも柔術を楽しめる清潔で安全な道場",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム・ホープ",
+    "name": "カルペディエム・ホープ",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "岐阜県",
+    "city": "岐阜市",
+    "address": "岐阜県岐阜市寺田7-101",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "岐阜市でブラジリアン柔術を始めるなら！初心者も女性も安心。",
+    "featured": false
+  },
+  {
+    "id": "gym-rita柔術",
+    "name": "RiTa柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "富山県",
+    "city": "高岡市",
+    "address": "高岡市山町筋 西繊ビル3階",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・運動経験ゼロでも大丈夫！護身術としても学べる柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-body-make-studio-eleven",
+    "name": "BODY make studio ELEVEN",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "現役プロトレーナーがマンツーマンで指導。未経験者・女性も気軽に。",
+    "featured": false
+  },
+  {
+    "id": "gym-オーバーリミット札幌",
+    "name": "オーバーリミット札幌",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "世界チャンピオンから学ぶ、打撃なしの安全な格闘技。",
+    "featured": false
+  },
+  {
+    "id": "gym-ギムナシオン札幌",
+    "name": "ギムナシオン札幌",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ブラジリアン柔術で心身を磨く。初心者から始められる。",
+    "featured": false
+  },
+  {
+    "id": "gym-homies-asahikawa",
+    "name": "HOMIES ASAHIKAWA",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "北海道",
+    "city": "旭川市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者も大歓迎。自分のペースで始められるブラジリアン柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム-十勝",
+    "name": "カルペディエム 十勝",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "北海道",
+    "city": "河東郡音更町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "打撃なしの寝技中心。初心者・女性も安心して始められる柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-グレイシーバッハ神戸",
+    "name": "グレイシーバッハ神戸",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "完全未経験OK。世界基準の柔術を三宮で気軽に。",
+    "featured": false
+  },
+  {
+    "id": "gym-over-limit-jiu-jitsu-kobe",
+    "name": "OVER LIMIT JIU-JITSU KOBE",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市長田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "アジア急成長中のチーム。グラップリング特化で初心者も安全に学べる。",
+    "featured": false
+  },
+  {
+    "id": "gym-トリスケリオン柔術アカデミー",
+    "name": "トリスケリオン柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "兵庫県",
+    "city": "伊丹市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "小柄でも強くなれる。初心者から生涯スポーツまで、安全に始める柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム-芦屋",
+    "name": "カルペディエム 芦屋",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "兵庫県",
+    "city": "芦屋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "頭と体で楽しむ知的格闘技。初心者から世界を目指す選手まで。",
+    "featured": false
+  },
+  {
+    "id": "gym-グレイシーバッハ豊岡",
+    "name": "グレイシーバッハ豊岡",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "兵庫県",
+    "city": "豊岡市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "気軽に柔術を始めよう。全年代向けのプログラムが揃っています。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム-那覇",
+    "name": "カルペディエム 那覇",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "沖縄県",
+    "city": "那覇市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "沖縄・那覇でブラジリアン柔術を始めるなら！初心者や女性も安心。",
+    "featured": false
+  },
+  {
+    "id": "gym-island-bjj-basecamp-ishigaki",
+    "name": "Island BJJ Basecamp Ishigaki",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "沖縄県",
+    "city": "石垣市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "石垣島でブラジリアン柔術を始めてみませんか？初心者も女性も大歓迎。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース大阪",
+    "name": "トライフォース大阪",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "堺筋本町駅徒歩2分！ブラジリアン柔術で心身を鍛え、新しい自分に出会う。",
+    "featured": false
+  },
+  {
+    "id": "gym-グレイシーバッハ梅田・大阪",
+    "name": "グレイシーバッハ梅田・大阪",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "南森町駅徒歩6分。ブラジリアン柔術で新しい挑戦を始めませんか？",
+    "featured": false
+  },
+  {
+    "id": "gym-なにわ柔術",
+    "name": "なにわ柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市平野区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "大阪市平野区で柔術を始めるなら！初心者さんも女性も安心。",
+    "featured": false
+  },
+  {
+    "id": "gym-ストライプル取手柔術アカデミー",
+    "name": "ストライプル取手柔術アカデミー",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "取手市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者専用クラスで安心。女性向け料金プランで気軽に始める柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-ピアレスウルフ",
+    "name": "ピアレスウルフ",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "つくば市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシングと柔術を基礎から学べる、初心者・女性向けのジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-盛岡ブラジリアン柔術アカデミー",
+    "name": "盛岡ブラジリアン柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "岩手県",
+    "city": "盛岡市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "年齢・性別問わず、未経験から楽しく強くなれる柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-flow-jiu-jitsu-miyako",
+    "name": "Flow Jiu-Jitsu Miyako",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "岩手県",
+    "city": "宮古市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "岩手県宮古市初の常設柔術ジム。未経験者も大歓迎。",
+    "featured": false
+  },
+  {
+    "id": "gym-ラグナロク柔術",
+    "name": "ラグナロク柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "香川県",
+    "city": "高松市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "基本に忠実に。柔術の本質を学べる高松の道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-グレイシーバッハ香川",
+    "name": "グレイシーバッハ香川",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "香川県",
+    "city": "坂出市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "世界的に信頼されたブランドで、気軽に柔術を始めよう。",
+    "featured": false
+  },
+  {
+    "id": "gym-トラスト柔術アカデミー鹿児島",
+    "name": "トラスト柔術アカデミー鹿児島",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "鹿児島県",
+    "city": "鹿児島市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "鹿児島市唯一の常設柔術道場。初心者・女性も安心して学べます。",
+    "featured": false
+  },
+  {
+    "id": "gym-リバーサル-フィットネススタジオ-チェンジ",
+    "name": "リバーサル フィットネススタジオ チェンジ",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市西区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "格闘技未経験者から女性まで、誰でも始められる横浜の総合格闘技スタジオ。",
+    "featured": false
+  },
+  {
+    "id": "gym-gtジム",
+    "name": "GTジム",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市都筑区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性も大歓迎。目的に応じて気軽に始められるキックボクシングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-アクシス柔術アカデミー-群馬支部",
+    "name": "アクシス柔術アカデミー 群馬支部",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "群馬県",
+    "city": "高崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から女性・シニアまで安心。ヒクソン・グレイシー柔術を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-藤田柔術本部",
+    "name": "藤田柔術本部",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "広島県",
+    "city": "広島市安佐北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "殴る蹴るなし。初心者から70代まで、幅広い年代が安心して始められる柔術道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-マックス柔術アカデミー-ヨガスタジオつくば竹園",
+    "name": "マックス柔術アカデミー＆ヨガスタジオつくば竹園",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "茨城県",
+    "city": "つくば市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性も安心。年齢・体力に合わせた柔術で無理なく成長。",
+    "featured": false
+  },
+  {
+    "id": "gym-アンカレッジ大橋",
+    "name": "アンカレッジ大橋",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験・女性・初心者歓迎！駅前でキックボクシングを気軽に始めよう。",
+    "featured": false
+  },
+  {
+    "id": "gym-福住柔術",
+    "name": "福住柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市天白区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "柔術専門道場で、未経験者から親子まで楽しく学べる。",
+    "featured": false
+  },
+  {
+    "id": "gym-rbアカデミー",
+    "name": "RBアカデミー",
+    "sports": [
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市青葉区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "年齢や体力に関わらず習える技術体系。初心者からシニアまで安心。",
+    "featured": false
+  },
+  {
+    "id": "gym-ヒロブラジリアン柔術アカデミー横浜",
+    "name": "ヒロブラジリアン柔術アカデミー横浜",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市中区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "本場ブラジル直輸入。知的格闘技で冷静さと集中力を磨く。",
+    "featured": false
+  },
+  {
+    "id": "gym-アクシス柔術アカデミー横浜",
+    "name": "アクシス柔術アカデミー横浜",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者・初心者大歓迎。柔術を通じた心身の充実を実現。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース横浜",
+    "name": "トライフォース横浜",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市神奈川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者でも安全に始められる「マット上のチェス」ブラジリアン柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-トゥーカンブラジリアン柔術",
+    "name": "トゥーカンブラジリアン柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市緑区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性・キッズ大歓迎。力ではなく技で楽しむブラジリアン柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-エクストリーム柔術アカデミー",
+    "name": "エクストリーム柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市神奈川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・運動未経験でも大丈夫。柔術を楽しく続けるなら横浜へ。",
+    "featured": false
+  },
+  {
+    "id": "gym-jp柔術アカデミー",
+    "name": "JP柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市旭区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者8割。楽しく学べる護身術・体幹トレーニング。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット綱島",
+    "name": "ファイトフィット綱島",
+    "sports": [
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市港北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者向け格闘技フィットネス。安全で10種類以上のクラスが受け放題。",
+    "featured": false
+  },
+  {
+    "id": "gym-ビスカ-ブラジリアン柔術",
+    "name": "ビスカ ブラジリアン柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "川崎市多摩区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も安心。愛情と情熱で、あなたのペースをサポート。",
+    "featured": false
+  },
+  {
+    "id": "gym-グラップリング-ブラジリアン柔術-空",
+    "name": "グラップリング ブラジリアン柔術 空",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "川崎市川崎区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性割引ありで気軽に始めるブラジリアン柔術。駅近で通いやすい。",
+    "featured": false
+  },
+  {
+    "id": "gym-x-treme-ebina",
+    "name": "X-TREME EBINA",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "海老名市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "打撃なし・年齢性別問わず。初心者も気軽に始める柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-x-treme-ebina-大和支部",
+    "name": "X-TREME EBINA 大和支部",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "大和市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験・女性・シニアも安心。駅近で手ぶらOK、レベル別指導のブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイティングアカデミー・ドラゴンテイル",
+    "name": "ファイティングアカデミー・ドラゴンテイル",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "厚木市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "格闘技初心者から経験者まで。複数の格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-アンビシャス柔術アカデミー",
+    "name": "アンビシャス柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "厚木市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "一番強い自分になりたい。性別・経験問わず始められる柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-アラバンカ柔術アカデミー",
+    "name": "アラバンカ柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "座間市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "年齢・性別・体力不問。誰もが安心して学べる最強の護身術。",
+    "featured": false
+  },
+  {
+    "id": "gym-格闘技-フィットネスジムluminous",
+    "name": "格闘技&フィットネスジムLuminous",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "相模原市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "世界一敷居の低い格闘技ジム。初心者女性もストレス解消＆ダイエットで笑顔に。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム鎌倉",
+    "name": "カルペディエム鎌倉",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "鎌倉市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者9割以上。女性向けクラスで安全に柔術を始められます。",
+    "featured": false
+  },
+  {
+    "id": "gym-y-kスポーツアカデミー",
+    "name": "Y&Kスポーツアカデミー",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横須賀市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者・女性も安心。本格的な格闘技を気軽に始めたい方向けのジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-supreme柔術",
+    "name": "SUPREME柔術",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "逗子市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "敷居の低さ、通いやすさ、個性を伸ばす指導で人生を変える柔術道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム大船",
+    "name": "カルペディエム大船",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "鎌倉市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者9割以上。基礎から学べる初心者向け柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ストライプルオハナ",
+    "name": "ストライプルオハナ",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "藤沢市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・未経験者大歓迎。湘南でブラジリアン柔術を気軽に始めよう。",
+    "featured": false
+  },
+  {
+    "id": "gym-tatoru",
+    "name": "TATORU",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "熊本県",
+    "city": "熊本市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "会員ファーストの柔術道場。女性割引で気軽に始められます。",
+    "featured": false
+  },
+  {
+    "id": "gym-flow-jiu-jitsu-morioka",
+    "name": "Flow Jiu-Jitsu Morioka",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "岩手県",
+    "city": "盛岡市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から上級者まで、安心して始められるブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット秋葉原",
+    "name": "ファイトフィット秋葉原",
+    "sports": [
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "朝から夜まで通える。初心者も安心の格闘技フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ヨハンボス-スポーツスクール",
+    "name": "ヨハンボス スポーツスクール",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "港区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性向けに全19クラス通い放題で、世界レベルの技術を学べる。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム-青山",
+    "name": "カルペディエム 青山",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "港区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性も安心。表参道の和気あいあい柔術道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム-三田",
+    "name": "カルペディエム 三田",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "港区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "柔術未経験者も女性も安心。田町駅近くで基礎から学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット新橋",
+    "name": "ファイトフィット新橋",
+    "sports": [
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "港区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅直結で朝活も夜トレも。初心者から試合志望者まで安心・安全。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース新宿",
+    "name": "トライフォース新宿",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "新宿駅徒歩3分。初心者から女性まで気軽に始められるブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ストライプル早稲田-ヒルマ道場",
+    "name": "ストライプル早稲田 ヒルマ道場",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "文京区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性割引あり。未経験者も気軽に始められるブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ブラジリアン柔術部",
+    "name": "ブラジリアン柔術部",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "台東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も安心。楽しく学んで強くなる、ブラジリアン柔術への第一歩。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース浅草橋",
+    "name": "トライフォース浅草橋",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "台東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅近5分。初心者から女性まで、幅広いコースで無理なく始められる。",
+    "featured": false
+  },
+  {
+    "id": "gym-natural9",
+    "name": "NATURAL9",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "品川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性歓迎。スポーツ感覚で格闘技を楽しめる都心のジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース五反田",
+    "name": "トライフォース五反田",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "品川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "力より技が必要な寝技で、老若男女誰もが笑顔で強くなれる。",
+    "featured": false
+  },
+  {
+    "id": "gym-fight-base",
+    "name": "FIGHT BASE",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "目黒区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者からプロまで、自分のペースで楽しく格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム-自由が丘",
+    "name": "カルペディエム 自由が丘",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "目黒区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者・女性も安心。基本から丁寧に学べる自由が丘の道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-スウェルズ柔術ジム",
+    "name": "スウェルズ柔術ジム",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "目黒区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "打撃なし・安全な寝技中心。年齢性別問わず初心者から始める柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-k-1ジム蒲田",
+    "name": "K-1ジム蒲田",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "JR蒲田駅徒歩1分。初心者・女性向けクラス充実のキックボクシングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-千鳥柔術アカデミー",
+    "name": "千鳥柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "大田区唯一のグレイシー公認。性別・経験不問で気軽に始められる柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-慶應柔術三田会",
+    "name": "慶應柔術三田会",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅近で通いやすい。ブラジリアン柔術の基礎から丁寧に学べます。",
+    "featured": false
+  },
+  {
+    "id": "gym-一心柔術アカデミー",
+    "name": "一心柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "強いカラダ、強い心、美しいカラダ。初心者から選手志望まで学べる柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-フィットネス柔術蒲田",
+    "name": "フィットネス柔術蒲田",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ゆる〜く格闘技を始めませんか？初心者向けの格闘技フィットネススタジオ。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット蒲田",
+    "name": "ファイトフィット蒲田",
+    "sports": [
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅前で格闘技！初心者安心、スパーリング禁止で安全。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイティングラボ大森",
+    "name": "ファイティングラボ大森",
+    "sports": [
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駅徒歩1分で10種類以上の格闘技が学べる。初心者・女性大歓迎！",
+    "featured": false
+  },
+  {
+    "id": "gym-life-jiu-jitsu-academy",
+    "name": "Life Jiu Jitsu Academy",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者向けビギナークラスが充実。未経験から気軽に始められる柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-hearts-kix-駒沢",
+    "name": "HEARTS KIX 駒沢",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性・初心者向けの充実したクラス。プロ格闘家から安心して学べる。",
+    "featured": false
+  },
+  {
+    "id": "gym-fired-up-gym",
+    "name": "Fired Up Gym",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "格闘技初心者から女性まで、やる気に満ちて燃え上がれるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-オハラブロスジム",
+    "name": "オハラブロスジム",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング・柔術・格闘技エクササイズが学べる駒沢のジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-アクシス柔術アカデミー",
+    "name": "アクシス柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性・学生は入会金無料。駅チカで通いやすいブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-igloo-brazilian-jiu-jitsu",
+    "name": "IGLOO BRAZILIAN JIU JITSU",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ブラジリアン柔術の基礎から学べる。初心者・女性にも優しいジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-スパークルー-ブラジリアン柔術ジム",
+    "name": "スパークルー ブラジリアン柔術ジム",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性大歓迎。10代〜60代が学ぶ地域密着型柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-hearts-kix-新宿",
+    "name": "HEARTS KIX 新宿",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性も安心。プロが丁寧に指導する格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-スクランブル渋谷-knockout-クロスポイント渋谷",
+    "name": "スクランブル渋谷(KNOCKOUT クロスポイント渋谷)",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者・女性大歓迎！格闘技の楽しさを安心して学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム-広尾",
+    "name": "カルペディエム 広尾",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "港区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性向けプランで気軽に始めるブラジリアン柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-フィジカルスペース柔術アカデミー",
+    "name": "フィジカルスペース柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "杉並区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から大人まで、誰でも楽しく強くなれるブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-pato-studio-大塚店",
+    "name": "PATO STUDIO 大塚店",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "実績豊富なインストラクターから学べる。初心者・女性も安心。",
+    "featured": false
+  },
+  {
+    "id": "gym-gong-gym坂戸",
+    "name": "GONG-GYM坂戸",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "坂戸市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も女性も大歓迎！格闘技フィットネスで理想のボディメイクを始めよう！",
+    "featured": false
+  },
+  {
+    "id": "gym-リラクシンブラジリアン柔術",
+    "name": "リラクシンブラジリアン柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "埼玉県",
+    "city": "熊谷市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から経験者まで、老若男女問わず楽しく学べるブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-バトレチーム米原",
+    "name": "バトレチーム米原",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "滋賀県",
+    "city": "米原市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "2025年4月オープン！新しい自分を発見できるブラジリアン柔術専門道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-藤田柔術-出雲支部",
+    "name": "藤田柔術 出雲支部",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "島根県",
+    "city": "出雲市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も女性も大歓迎！「弱い人のための」ブラジリアン柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット自由が丘",
+    "name": "ファイトフィット自由が丘",
+    "sports": [
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "自由が丘駅から徒歩5分！初心者や女性も安心のデザイナーズ格闘技フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-checkmat-tokyo",
+    "name": "CHECKMAT TOKYO",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者さんも大歓迎！世界トップクラスの柔術を、あなたに合ったスタイルで。",
+    "featured": false
+  },
+  {
+    "id": "gym-頂柔術",
+    "name": "頂柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "荒川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "日暮里駅徒歩6分！ブラジリアン柔術とグラップリングで新しい自分に。",
+    "featured": false
+  },
+  {
+    "id": "gym-tri-h-studio-板橋駅",
+    "name": "TRI.H studio 板橋駅",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "板橋区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "板橋駅徒歩3分！初心者や女性も安心、フィットネスと格闘技。",
+    "featured": false
+  },
+  {
+    "id": "gym-タイフーンクラブ",
+    "name": "タイフーンクラブ",
+    "sports": [
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "板橋区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元プロ格闘家が考案したFIGHT FITNESSで、楽しみながら理想の身体と自信を。",
+    "featured": false
+  },
+  {
+    "id": "gym-空手道禅道会小金井道場",
+    "name": "空手道禅道会小金井道場",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "小金井市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "武蔵小金井駅徒歩15分！空手・総合格闘技・柔術・キックボクシングを学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-splicing",
+    "name": "Splicing",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "江戸川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "笑顔で楽しく、心身ともに健康に！初心者も女性も安心のブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット若葉台",
+    "name": "ファイトフィット若葉台",
+    "sports": [
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "稲城市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "京王若葉台駅徒歩1分！スパーリング禁止で初心者や女性も安心。",
+    "featured": false
+  },
+  {
+    "id": "gym-キングダム聖蹟桜ヶ丘",
+    "name": "キングダム聖蹟桜ヶ丘",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "多摩市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者さん大歓迎！女性も安心のクラスで、新しい自分に出会える。",
+    "featured": false
+  },
+  {
+    "id": "gym-bjjこうち",
+    "name": "BJJこうち",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "高知県",
+    "city": "高知市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "1回500円！初心者大歓迎！基礎から丁寧に教えます。",
+    "featured": false
+  },
+  {
+    "id": "gym-西神bjj",
+    "name": "西神BJJ",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市西区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性・初心者向けの料金設定で気軽に始めるブラジリアン柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース池袋",
+    "name": "トライフォース池袋",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験から気軽に始められる。女性向けクラスも充実した池袋の柔術アカデミー。",
+    "featured": false
+  },
+  {
+    "id": "gym-アーネスト・ホーストジムjapan",
+    "name": "アーネスト・ホーストジムJAPAN",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性・シニアも安心。基礎から丁寧に学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-チームバルボーザジャパン名古屋",
+    "name": "チームバルボーザジャパン名古屋",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市中川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性・初心者も安心。柔術とキックボクシングが学べる駅近道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-ジェントルアーツ名古屋ブラジリアン柔術クラブ",
+    "name": "ジェントルアーツ名古屋ブラジリアン柔術クラブ",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "安全重視のソフトコントロール。ストレスに強い心身を作る柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム-名古屋",
+    "name": "カルペディエム 名古屋",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性向けクラス充実。無料体験で気軽に始められる柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-トラスト柔術アカデミー",
+    "name": "トラスト柔術アカデミー",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "愛知県",
+    "city": "瀬戸市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "3歳から始められるブラジリアン柔術。初心者・女性も安心！",
+    "featured": false
+  },
+  {
+    "id": "gym-b-nine-gym-半田道場",
+    "name": "B-NINE GYM 半田道場",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "半田市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から子どもまで。ブラジリアン柔術とキックボクシングが学べる。",
+    "featured": false
+  },
+  {
+    "id": "gym-meibukai-岡崎ジム",
+    "name": "MEIBUKAI 岡崎ジム",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "岡崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性も安心。楽しみながら理想の自分へ。",
+    "featured": false
+  },
+  {
+    "id": "gym-楽柔会",
+    "name": "楽柔会",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "秋田県",
+    "city": "秋田市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "秋田県唯一のブラジリアン柔術ジム。初心者から経験者まで学べる環境。",
+    "featured": false
+  },
+  {
+    "id": "gym-アルマファイトジム・ワープ",
+    "name": "アルマファイトジム・ワープ",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "青森県",
+    "city": "青森市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "打撃なし・安全・楽しい。初心者・女性も気軽に始めるブラジリアン柔術。",
+    "featured": false
+  },
+  {
+    "id": "gym-field-ring",
+    "name": "FIELD-RING",
+    "sports": [
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "千葉市美浜区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験・初心者大歓迎。95%の会員が初心者からスタート。",
+    "featured": false
+  },
+  {
+    "id": "gym-さくら柔術",
+    "name": "さくら柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "千葉県",
+    "city": "千葉市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "老若男女・運動経験を問わず。初心者歓迎、女性向けプランも充実。",
+    "featured": false
+  },
+  {
+    "id": "gym-axis柔術アカデミー千葉支部",
+    "name": "AXIS柔術アカデミー千葉支部",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "千葉県",
+    "city": "船橋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "女性料金が魅力。駅近で仕事帰りに通えるブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-teppen-gym",
+    "name": "TEPPEN GYM",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "松戸市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング、ムエタイ、柔術が習える。女性向け料金も充実。",
+    "featured": false
+  },
+  {
+    "id": "gym-かえる柔術",
+    "name": "かえる柔術",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "千葉県",
+    "city": "白井市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ゆるい雰囲気で、初心者・女性・未経験者大歓迎の格闘技道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム-君津",
+    "name": "カルペディエム 君津",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "千葉県",
+    "city": "君津市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "打撃なし、安全な寝技で健康的に。男女問わず気軽に始められる柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-グレイシーバッハ福岡",
+    "name": "グレイシーバッハ福岡",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験者大歓迎。世界水準の柔術を、気軽に始められる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース博多",
+    "name": "トライフォース博多",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市博多区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験から始められるブラジリアン柔術。女性向けクラスも充実。",
+    "featured": false
+  },
+  {
+    "id": "gym-アクシス柔術アカデミー福岡",
+    "name": "アクシス柔術アカデミー福岡",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "年齢・性別・経験を問わず、誰もが始められる柔術の楽しさ。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム久留米",
+    "name": "カルペディエム久留米",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "久留米市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "入会者の9割以上が未経験。初心者も安心して柔術を学べる。",
+    "featured": false
+  },
+  {
+    "id": "gym-チームバルボーザジャパン大垣",
+    "name": "チームバルボーザジャパン大垣",
+    "sports": [
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "岐阜県",
+    "city": "大垣市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ブラジリアン柔術とキックボクシングを学べる、初心者・女性歓迎のジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-インパクトジャパンbjj美濃加茂",
+    "name": "インパクトジャパンBJJ美濃加茂",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "岐阜県",
+    "city": "美濃加茂市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "未経験・女性も安心。世界レベルの指導を身近に。",
+    "featured": false
+  },
+  {
+    "id": "gym-パラエストラ可児",
+    "name": "パラエストラ可児",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "岐阜県",
+    "city": "可児市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "技術と戦略で上達できる。年代・体力を問わず楽しく続けられる寝技格闘技。",
+    "featured": false
+  },
+  {
+    "id": "gym-マーズ柔術クラブ",
+    "name": "マーズ柔術クラブ",
+    "sports": [
+      "bjj"
+    ],
+    "prefecture": "群馬県",
+    "city": "藤岡市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "打撃なし・怪我が少ない。初心者・女性も安心して始められる柔術。",
+    "featured": false
   }
 ]
