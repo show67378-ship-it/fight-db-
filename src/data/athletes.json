@@ -27,7 +27,9 @@
     },
     "recordNote": "通算成績(RIZIN成績: 12勝4敗)。最新情報は出典でご確認ください。",
     "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "featured": true
+    "featured": true,
+    "stance": "サウスポー",
+    "backbone": "空手(極真空手)・相撲・ストリートファイト"
   },
   {
     "id": "ath-kai-asakura",
@@ -43,7 +45,9 @@
     "gymId": "gym-japan-top-team",
     "sns": [],
     "recordNote": "正確な現在の戦績は出典でご確認ください(堀口恭司選手への1RKO勝利など多数の実績あり)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
+    "stance": "オーソドックス",
+    "backbone": "極真空手・禅道会・アマチュア相撲・ブラジリアン柔術"
   },
   {
     "id": "ath-naoki-inoue",
@@ -64,7 +68,9 @@
       "draws": 0
     },
     "recordNote": "通算成績(RIZIN成績: 9勝2敗)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
+    "stance": "オーソドックス",
+    "backbone": "空手・ブラジリアン柔術"
   },
   {
     "id": "ath-seika-izawa",
@@ -85,7 +91,9 @@
       "draws": 0
     },
     "recordNote": "通算成績(RIZIN成績: 9勝0敗)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
+    "stance": "オーソドックス",
+    "backbone": "柔道・レスリング"
   },
   {
     "id": "ath-roberto-souza",
@@ -106,7 +114,9 @@
       "draws": 0
     },
     "recordNote": "通算成績(RIZIN成績: 11勝3敗)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
+    "stance": "オーソドックス",
+    "backbone": "ブラジリアン柔術・柔道・サブミッションレスリング"
   },
   {
     "id": "ath-rena",
@@ -127,7 +137,8 @@
       "draws": 0
     },
     "recordNote": "通算成績(RIZIN成績: 14勝4敗)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
+    "backbone": "キックボクシング(シュートボクシング)"
   },
   {
     "id": "ath-ren-hiramoto",
@@ -143,7 +154,9 @@
     "gymNote": "剛毅會 所属(拠点未確認)",
     "sns": [],
     "recordNote": "2026年5月のRIZIN.53時点で現役。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://www.oricon.co.jp/news/2453701/full/"
+    "sourceUrl": "https://www.oricon.co.jp/news/2453701/full/",
+    "stance": "オーソドックス",
+    "backbone": "キックボクシング"
   },
   {
     "id": "ath-kouji",
@@ -159,7 +172,9 @@
     "gymNote": "TEAM ONE 所属(拠点未確認)",
     "sns": [],
     "recordNote": "キックボクシング/MMAで活動。2026年5月のRIZIN.53時点で現役。",
-    "sourceUrl": "https://www.oricon.co.jp/news/2453701/full/"
+    "sourceUrl": "https://www.oricon.co.jp/news/2453701/full/",
+    "stance": "オーソドックス",
+    "backbone": "空手・日本拳法・キックボクシング"
   },
   {
     "id": "ath-shaydullaev",
@@ -180,7 +195,8 @@
       "draws": 0
     },
     "recordNote": "通算成績(RIZIN成績: 7勝0敗)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
+    "backbone": "柔道・レスリング・ブラジリアン柔術"
   },
   {
     "id": "ath-shinya-aoki",
@@ -196,7 +212,9 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "MMA界のレジェンド。複数団体をまたぐため通算戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "stance": "サウスポー",
+    "backbone": "柔道"
   },
   {
     "id": "ath-aj-mckee",
@@ -212,7 +230,9 @@
     "gymNote": "PFL所属。RIZIN参戦は今回が初。",
     "sns": [],
     "recordNote": "PFLでの実績多数。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "stance": "サウスポー",
+    "backbone": "レスリング"
   },
   {
     "id": "ath-luiz-gustavo",
@@ -230,7 +250,8 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "RIZIN公式サイト記載の王者。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/fighters"
+    "sourceUrl": "https://jp.rizinff.com/fighters",
+    "backbone": "ムエタイ"
   },
   {
     "id": "ath-danny-sabatello",
@@ -248,7 +269,9 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "RIZIN公式サイト記載の王者。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/fighters"
+    "sourceUrl": "https://jp.rizinff.com/fighters",
+    "stance": "オーソドックス",
+    "backbone": "レスリング"
   },
   {
     "id": "ath-makoto-shinryu",
@@ -266,7 +289,8 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "RIZIN公式サイト記載の王者。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/fighters"
+    "sourceUrl": "https://jp.rizinff.com/fighters",
+    "backbone": "レスリング"
   },
   {
     "id": "ath-yuki-motoya",
@@ -287,7 +311,8 @@
       "draws": 1
     },
     "recordNote": "通算成績(RIZIN成績: 12勝8敗1分)。最新情報は出典でご確認ください。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
+    "stance": "オーソドックス"
   },
   {
     "id": "ath-hiromasa-ougikubo",
@@ -308,7 +333,9 @@
       "draws": 2
     },
     "recordNote": "通算成績(RIZIN成績: 9勝5敗)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
+    "stance": "オーソドックス",
+    "backbone": "空手"
   },
   {
     "id": "ath-shunta-nomura",
@@ -324,7 +351,8 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "backbone": "空手(伝統派空手)"
   },
   {
     "id": "ath-karshyga-dautbek",
@@ -340,7 +368,8 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "backbone": "ボクシング・シラット"
   },
   {
     "id": "ath-yutaka-saito",
@@ -356,7 +385,8 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "backbone": "空手"
   },
   {
     "id": "ath-ya-man",
@@ -372,7 +402,8 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "backbone": "キックボクシング"
   },
   {
     "id": "ath-vugar-keramov",
@@ -388,7 +419,9 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "stance": "オーソドックス",
+    "backbone": "散打・サンボ"
   },
   {
     "id": "ath-ryo-takaki",
@@ -404,7 +437,8 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "stance": "オーソドックス"
   },
   {
     "id": "ath-natasha-kuzutina",
@@ -420,7 +454,8 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "backbone": "柔道"
   },
   {
     "id": "ath-daichi-tomizawa",
@@ -436,7 +471,9 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "stance": "サウスポー",
+    "backbone": "キックボクシング・空手"
   },
   {
     "id": "ath-donmai-kawabata",
@@ -452,7 +489,8 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "backbone": "柔道"
   },
   {
     "id": "ath-beynoah",
@@ -468,7 +506,9 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手(キックボクシングルール)。詳細は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "stance": "オーソドックス",
+    "backbone": "空手・キックボクシング"
   },
   {
     "id": "ath-hidemason-usami",
@@ -484,7 +524,9 @@
     "gymNote": "所属ジムは未確認",
     "sns": [],
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手(キックボクシングルール)。詳細は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "stance": "サウスポー",
+    "backbone": "空手・キックボクシング"
   },
   {
     "id": "ath-yuta-kawashima",
@@ -526,7 +568,8 @@
       "draws": 0
     },
     "recordNote": "BreakingDown内成績。",
-    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧",
+    "backbone": "柔道"
   },
   {
     "id": "ath-tetsuya-ido",
@@ -547,7 +590,8 @@
       "draws": 0
     },
     "recordNote": "BreakingDown内成績。",
-    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧",
+    "backbone": "プロレス"
   },
   {
     "id": "ath-junji-urata",
@@ -568,7 +612,8 @@
       "draws": 0
     },
     "recordNote": "BreakingDown内成績。",
-    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧",
+    "backbone": "キックボクシング・ムエタイ"
   },
   {
     "id": "ath-souki-yamakawa",
@@ -589,6 +634,7 @@
       "draws": 0
     },
     "recordNote": "BreakingDown内成績。",
-    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
+    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧",
+    "backbone": "少林寺拳法"
   }
 ]

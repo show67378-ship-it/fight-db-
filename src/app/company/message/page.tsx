@@ -29,7 +29,6 @@ export default function CompanyMessagePage() {
         <Stat label="得意技" value="暴飲暴食" />
         <Stat label="バックボーン" value="ゴルフ" />
       </div>
-      <p className="mt-2 text-[11px] text-ink-dim">※ 代表は選手ではありません(ネタ枠)。</p>
 
       <div className="mt-8 space-y-5 text-sm leading-relaxed text-ink">
         <p>はじめまして。株式会社ISHIHARA SHOW 代表取締役の石原しょうです。</p>
