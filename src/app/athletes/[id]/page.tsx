@@ -36,10 +36,10 @@ export default async function AthleteDetailPage({ params }: PageProps<"/athletes
   if (athlete.birthdate) stats.push({ label: "年齢", value: `${age(athlete.birthdate)}歳` });
   if (athlete.heightCm) stats.push({ label: "身長", value: `${athlete.heightCm}cm` });
   if (athlete.weightKg) stats.push({ label: "体重", value: `${athlete.weightKg}kg` });
+  if (athlete.reachCm) stats.push({ label: "リーチ", value: `${athlete.reachCm}cm` });
   if (athlete.fightingStyle) stats.push({ label: "スタイル", value: athlete.fightingStyle });
   if (athlete.signatureMove) stats.push({ label: "得意技", value: athlete.signatureMove });
-  if (athlete.dominantHand) stats.push({ label: "利き手", value: athlete.dominantHand });
-  if (athlete.dominantLeg) stats.push({ label: "利き足", value: athlete.dominantLeg });
+  if (athlete.stance) stats.push({ label: "構え", value: athlete.stance });
   if (athlete.backbone) stats.push({ label: "バックボーン", value: athlete.backbone });
 
   return (

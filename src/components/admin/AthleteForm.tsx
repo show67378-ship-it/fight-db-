@@ -82,14 +82,10 @@ export default function AthleteForm({
         </div>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2">
         <div>
-          <label className={labelCls}>利き手(任意)</label>
-          <input name="dominantHand" defaultValue={athlete?.dominantHand} placeholder="例: 右" className={`mt-1 ${inputCls}`} />
-        </div>
-        <div>
-          <label className={labelCls}>利き足(任意)</label>
-          <input name="dominantLeg" defaultValue={athlete?.dominantLeg} placeholder="例: 右" className={`mt-1 ${inputCls}`} />
+          <label className={labelCls}>構え(任意)</label>
+          <input name="stance" defaultValue={athlete?.stance} placeholder="例: オーソドックス" className={`mt-1 ${inputCls}`} />
         </div>
         <div>
           <label className={labelCls}>バックボーン(任意)</label>
@@ -97,11 +93,12 @@ export default function AthleteForm({
         </div>
       </div>
 
+      <div>
+        <label className={labelCls}>生年月日(任意)</label>
+        <input type="date" name="birthdate" defaultValue={athlete?.birthdate} className={`mt-1 ${inputCls}`} />
+      </div>
+
       <div className="grid gap-4 sm:grid-cols-3">
-        <div>
-          <label className={labelCls}>生年月日(任意)</label>
-          <input type="date" name="birthdate" defaultValue={athlete?.birthdate} className={`mt-1 ${inputCls}`} />
-        </div>
         <div>
           <label className={labelCls}>身長cm(任意)</label>
           <input type="number" step="0.1" name="heightCm" defaultValue={athlete?.heightCm} className={`mt-1 ${inputCls}`} />
@@ -109,6 +106,10 @@ export default function AthleteForm({
         <div>
           <label className={labelCls}>体重kg(任意)</label>
           <input type="number" step="0.1" name="weightKg" defaultValue={athlete?.weightKg} className={`mt-1 ${inputCls}`} />
+        </div>
+        <div>
+          <label className={labelCls}>リーチcm(任意)</label>
+          <input type="number" step="0.1" name="reachCm" defaultValue={athlete?.reachCm} className={`mt-1 ${inputCls}`} />
         </div>
       </div>
 

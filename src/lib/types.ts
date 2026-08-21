@@ -47,6 +47,7 @@ export interface Athlete {
   birthdate?: string;
   heightCm?: number;
   weightKg?: number;
+  reachCm?: number;
   weightClass: string;
   nationality: string;
   gymId?: string;
@@ -55,8 +56,7 @@ export interface Athlete {
   nickname?: string;
   signatureMove?: string;
   fightingStyle?: string;
-  dominantHand?: string;
-  dominantLeg?: string;
+  stance?: string;
   backbone?: string;
   sns: { platform: string; handle: string }[];
   record?: { wins: number; losses: number; draws: number };
