@@ -1958,5 +1958,3315 @@
       }
     ],
     "websiteUrl": "http://www.parakuma.com/"
+  },
+  {
+    "id": "gym-r-blood",
+    "name": "R-BLOOD",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "水戸市",
+    "address": "茨城県水戸市千波町2325",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "水戸市唯一のMMAジムを掲げる、キックボクシング・ボクシング・BJJも学べる総合格闘技ジム。",
+    "websiteUrl": "https://r-blood.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-t-blood",
+    "name": "T-BLOOD",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "土浦市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "荒川沖駅近くのMMA・キックボクシング・グラップリング・BJJジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-wizard-mma-gym",
+    "name": "WIZARD MMA GYM",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "つくば市",
+    "address": "茨城県つくば市田倉5192-22",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "下妻市から移転してきたMMA・キックボクシング・BJJ・グラップリングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-trial",
+    "name": "TRIAL",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "ひたちなか市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "勝田駅近くのMMA・キックボクシング・グラップリング・BJJジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-鹿島道場",
+    "name": "鹿島道場",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "神栖市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング・MMAを学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-ストライプル茨城",
+    "name": "ストライプル茨城",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "かすみがうら市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "BJJ・キックボクシング・MMAを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-マッハ道場-茨城本部",
+    "name": "マッハ道場 茨城本部",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "龍ケ崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "2001年創設、プロ選手の住み込み練習制度もあるMMA・キックボクシング・レスリングジム。",
+    "websiteUrl": "https://machdojo.com/ibaraki/",
+    "featured": false
+  },
+  {
+    "id": "gym-kingcraft宇都宮ジム",
+    "name": "KINGCRAFT宇都宮ジム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "栃木県",
+    "city": "宇都宮市",
+    "address": "栃木県宇都宮市簗瀬町1865-1 カルマーレビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング・MMA・BJJ・フィットネスを学べるジム。",
+    "websiteUrl": "https://kingcraft-gym.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-kingcraft真岡ジム",
+    "name": "KINGCRAFT真岡ジム",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "栃木県",
+    "city": "真岡市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "宇都宮ジムの姉妹店。",
+    "featured": false
+  },
+  {
+    "id": "gym-格闘技ジムfc-y-s",
+    "name": "格闘技ジムFC Y's",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "栃木県",
+    "city": "那須塩原市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "接骨院に併設された格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-crow-forest",
+    "name": "CROW FOREST",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "栃木県",
+    "city": "那須塩原市",
+    "address": "栃木県那須塩原市西三島1-137-4 2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "プロ志望者・女性・ジュニアまで指導するMMA・柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-aacc-spider-gym-ashikaga",
+    "name": "AACC×SPIDER GYM ASHIKAGA",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "栃木県",
+    "city": "足利市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "AACC系列のMMA・グラップリング拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-スポーツジム67-s",
+    "name": "スポーツジム67's",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "栃木県",
+    "city": "宇都宮市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "宇都宮大学陽東キャンパス駅近くのキックボクシング・MMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-デラヒーバジャパン宇都宮",
+    "name": "デラヒーバジャパン宇都宮",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "栃木県",
+    "city": "宇都宮市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "BJJ・グラップリング・MMAを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース前橋",
+    "name": "トライフォース前橋",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "群馬県",
+    "city": "前橋市",
+    "address": "群馬県前橋市田口町1230-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "BJJ・MMAを学べるトライフォース系列ジム。",
+    "websiteUrl": "https://www.tf-maebashi.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-和術慧舟會群馬道場",
+    "name": "和術慧舟會群馬道場",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "群馬県",
+    "city": "前橋市",
+    "address": "群馬県前橋市天川大島町1345-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "全国展開する和術慧舟會のMMA・BJJ道場、黒帯・元プロ選手が指導。",
+    "websiteUrl": "https://wkgunma.wixsite.com/index",
+    "featured": false
+  },
+  {
+    "id": "gym-kirariジム-拳心會",
+    "name": "kirariジム 拳心會",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "群馬県",
+    "city": "佐波郡",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・BJJ・グラップリングを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-takasaki-fight-base",
+    "name": "TAKASAKI FIGHT Base",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "群馬県",
+    "city": "高崎市",
+    "address": "群馬県高崎市片岡町3-11-19",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リング・ケージを備え、キックボクシング・ボクシング・MMAを学べるジム。",
+    "websiteUrl": "https://brave-fc.com/tfb/",
+    "featured": false
+  },
+  {
+    "id": "gym-fourrhombus-上石田本部",
+    "name": "FourRhombus 上石田本部",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "山梨県",
+    "city": "甲府市",
+    "address": "山梨県甲府市上石田1-2-17",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "山梨県唯一の日本修斗協会公認ジム。2005年創設。",
+    "websiteUrl": "https://fourrhombus.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-fourrhombus-国母支部",
+    "name": "FourRhombus 国母支部",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "山梨県",
+    "city": "甲府市",
+    "address": "山梨県甲府市国母7-12-43",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "2024年開設、山梨県初のケージを備えた支部。",
+    "websiteUrl": "https://fourrhombus-kokubo.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-ysa-yamamoto-sports-academy",
+    "name": "YSA(Yamamoto Sports Academy)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "address": "東京都大田区中馬込2-8-1 日経エスプラナード1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元MMA世界王者・山本\"KID\"徳郁氏が設立したジム。",
+    "websiteUrl": "https://adrena.jp/ysa/",
+    "featured": false
+  },
+  {
+    "id": "gym-polar-gym",
+    "name": "POLAR GYM",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "北池袋駅近くのMMA・キックボクシング・BJJ・レスリング・柔道ジム。",
+    "websiteUrl": "https://polar-gym.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-格闘技ジムmyd",
+    "name": "格闘技ジムMYD",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "中野区",
+    "address": "東京都中野区大和町3-38-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "高円寺エリアのMMA・BJJ・グラップリングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-リベルタス学芸大ジム",
+    "name": "リベルタス学芸大ジム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "目黒区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "学芸大学駅すぐ、キックボクシング・MMA・グラップリング・BJJの広い畳スペースを持つジム。",
+    "websiteUrl": "https://libertas325.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-no-face-gym",
+    "name": "NO FACE GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "台東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元ONE Championship世界王者・朴光哲氏が運営する上野のジム。",
+    "websiteUrl": "http://no-face-gym.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-今成柔術",
+    "name": "今成柔術",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "address": "東京都新宿区舟町(四谷三丁目駅徒歩3分)",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "\"足関十段\"今成正和氏によるBJJ・グラップリングジム、MMAクラスも開講。",
+    "websiteUrl": "https://imanari-jiujitsu.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-修斗ジム東京",
+    "name": "修斗ジム東京",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "品川区",
+    "address": "東京都品川区平塚3-14-9(戸越銀座)",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "修斗公認のMMAジム。",
+    "websiteUrl": "https://shooto-gym.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-キングダム立川-キングダムエルガイツ",
+    "name": "キングダム立川(キングダムエルガイツ)",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "立川市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "多摩エリアで唯一ケージを備えるキックボクシング・MMA・BJJジム。聖蹟桜ヶ丘にも支部あり。",
+    "websiteUrl": "https://kdegs.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-knock-out-gym高幡不動",
+    "name": "KNOCK OUT GYM高幡不動",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "日野市",
+    "address": "東京都日野市高幡1008-9 グラシア高幡不動2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "2023年開設、都内でも大型のキックボクシング・MMA・BJJジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-武道・総合格闘技道場-示元會",
+    "name": "武道・総合格闘技道場 示元會",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "座間市",
+    "address": "神奈川県座間市ひばりが丘1-1-28",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "レスリング・キックボクシングをベースにしたMMA、子供から大人まで指導。",
+    "websiteUrl": "https://www.zigenkai.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-秋本道場-jungle-junction",
+    "name": "秋本道場 Jungle Junction",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "神奈川県",
+    "city": "相模原市緑区",
+    "address": "神奈川県相模原市緑区東橋本1-5-10",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元修斗フェザー級1位・秋本じん氏が2003年に設立。",
+    "websiteUrl": "https://www.akimoto-dojo.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-シューティングジム横浜",
+    "name": "シューティングジム横浜",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市神奈川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "修斗公認ジム。修斗二冠王者を輩出。",
+    "websiteUrl": "http://home.m06.itscom.net/shooto_y/",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技ジムmove",
+    "name": "総合格闘技ジムmove",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市青葉区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "市が尾駅近く、初心者・女性にも人気のMMA・キックボクシング・ボクシングジム。",
+    "websiteUrl": "https://x-move.co.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-ストライプル新百合ヶ丘",
+    "name": "ストライプル新百合ヶ丘",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "川崎市麻生区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "BJJ・グラップリング・MMAを学べるストライプル系列ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-hagane-gym",
+    "name": "HAGANE GYM",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "相模原市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "東林間駅近くのMMA・キックボクシングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-god-side-gym",
+    "name": "GOD SIDE GYM",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "黄金町駅近くのMMA・キックボクシング・BJJジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ロデオスタイル",
+    "name": "ロデオスタイル",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横須賀市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "京急大津駅近くのMMA・キックボクシングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-risingsun",
+    "name": "RISINGSUN",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市鶴見区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "修斗・MMA・BJJを学べる鶴見駅近くのジム。",
+    "websiteUrl": "https://www.risingsun-mma.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-サツキジム横浜",
+    "name": "サツキジム横浜",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "上大岡駅近くのMMA・キックボクシング・ボクシングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技-蒼天塾",
+    "name": "総合格闘技 蒼天塾",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "神奈川県",
+    "city": "小田原市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "塚原駅近くの総合格闘技道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場stf",
+    "name": "総合格闘技道場STF",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "address": "埼玉県川越市中原町2-3-2 2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・BJJ・ジュニアクラスを持ち、プロ選手育成プログラムも運営。浦和・富士見にも支部あり。",
+    "websiteUrl": "https://stf-gym.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-fight-beat-workout",
+    "name": "FIGHT BEAT WORKOUT",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "埼玉県",
+    "city": "川口市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "西川口駅近く、現役MMA世界王者が指導する初心者・女性向けジム。",
+    "websiteUrl": "https://www.fight-beat-workout.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-oota-dojo-太田道場",
+    "name": "OOTA DOJO(太田道場)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "埼玉県",
+    "city": "さいたま市大宮区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元パンクラス選手・現パンクラスジャッジの太田純一氏が主宰。熊谷市に支部あり。",
+    "websiteUrl": "https://ootadojo.jimdofree.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-リバーサルジム久喜wings",
+    "name": "リバーサルジム久喜WINGS",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "埼玉県",
+    "city": "久喜市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リバーサルジムチェーンの久喜支部。",
+    "featured": false
+  },
+  {
+    "id": "gym-フリーダム・オズ",
+    "name": "フリーダム・オズ",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "川口市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "蕨駅近くのMMA・キックボクシングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-スーパータイガージム-田中塾",
+    "name": "スーパータイガージム 田中塾",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "千葉県",
+    "city": "船橋市",
+    "address": "千葉県船橋市本町3-2-17 アポロビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初代修斗ライト級王者・田中健一氏が設立。",
+    "websiteUrl": "https://tanakajuku.saikyou.biz/",
+    "featured": false
+  },
+  {
+    "id": "gym-road-mma-gym-勝田台店",
+    "name": "ROAD MMA GYM 勝田台店",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "八千代市",
+    "address": "千葉県八千代市勝田台北1-8-19 ルシーダ勝田台101",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "修斗世界王者経験者が指導するキックボクシング・MMAジム。",
+    "websiteUrl": "https://roadmmagym.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-和術慧舟會-船橋道場",
+    "name": "和術慧舟會 船橋道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "千葉県",
+    "city": "船橋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "全国展開する和術慧舟會の船橋道場。",
+    "websiteUrl": "https://www.wk-fu.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-transcend-gym",
+    "name": "TRANSCEND GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "千葉県",
+    "city": "市川市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "鬼越駅近くのMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ユナイテッドジム千葉",
+    "name": "ユナイテッドジム千葉",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "千葉県",
+    "city": "市川市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "行徳エリアのMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-studio-spin-on-msd護心道",
+    "name": "Studio Spin On MSD護心道",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "千葉県",
+    "city": "習志野市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "実籾駅近くのMMA・グラップリングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-fight-farm",
+    "name": "FIGHT FARM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "千葉県",
+    "city": "船橋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "津田沼駅近くのMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-レンジャージム船橋店",
+    "name": "レンジャージム船橋店",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "船橋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "船橋駅近くのMMA・キックボクシングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-クラブバーバリアン",
+    "name": "クラブバーバリアン",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "富山県",
+    "city": "富山市",
+    "address": "富山県富山市大町2区287-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技・MMAを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-bluehouse",
+    "name": "BLUEHOUSE",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "富山県",
+    "city": "富山市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・BJJ・グラップリングを学べる初心者歓迎のジム。",
+    "websiteUrl": "https://bluehouse-mmagym.jimdofree.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-evermove",
+    "name": "Evermove",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "富山県",
+    "city": "富山市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "2020年開設のMMA・BJJジム。",
+    "websiteUrl": "http://evermove.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-和術慧舟會-s-p-o富山支部",
+    "name": "和術慧舟會 S.P.O富山支部",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "富山県",
+    "city": "中新川郡立山町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "PRIDE/UFC時代から多くの選手を輩出した和術慧舟會の富山支部。",
+    "featured": false
+  },
+  {
+    "id": "gym-fight-holic",
+    "name": "Fight Holic",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "石川県",
+    "city": "野々市市",
+    "address": "石川県野々市市住吉町23-23",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "石川県最大級の設備を誇るMMA・キックボクシング・BJJジム。",
+    "websiteUrl": "http://fightholic.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場フューズ",
+    "name": "総合格闘技道場フューズ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "石川県",
+    "city": "加賀市",
+    "address": "石川県加賀市美岬町そ54-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-cbimpact",
+    "name": "CBIMPACT",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "石川県",
+    "city": "金沢市",
+    "address": "石川県金沢市大豆田本町1-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "金沢・小松エリアNo.1を掲げるBJJ・キックボクシング・MMA・グラップリングジム。",
+    "websiteUrl": "https://cbimpact.net/",
+    "featured": false
+  },
+  {
+    "id": "gym-la-gym-japan",
+    "name": "LA GYM JAPAN",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "石川県",
+    "city": "金沢市",
+    "address": "石川県金沢市出雲町イ454",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "空手・キックボクシング・BJJにMMAプログラムを備えたジム。",
+    "websiteUrl": "https://www.lagym.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-shooto-gym-総斗會三村道場-越前支部",
+    "name": "SHOOTO GYM 総斗會三村道場 越前支部",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福井県",
+    "city": "越前市",
+    "address": "福井県越前市松森町19-3-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "修斗公認のMMA道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-mma-jam-fukui",
+    "name": "MMA JAM FUKUI",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福井県",
+    "city": "福井市",
+    "address": "福井県福井市宝永3-22-24 宝永ビル1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "JR福井駅徒歩13分のMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-sunny-mma",
+    "name": "SUNNY MMA",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福井県",
+    "city": "小浜市",
+    "address": "福井県小浜市四谷町9-22 サクマビルB1F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "日本修斗協会認定ジム。会員の約9割が未経験からスタート。",
+    "websiteUrl": "https://www.sunnymma.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-vertice松本mma",
+    "name": "Vertice松本MMA",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "長野県",
+    "city": "松本市",
+    "address": "長野県松本市渚2丁目",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "2025年開設、現役プロ選手が指導するMMA・ボクシング・キックボクシング・レスリング・グラップリング・BJJジム。",
+    "websiteUrl": "https://www.verticematsumotomma.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-飛翔塾hmd",
+    "name": "飛翔塾HMD",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "長野県",
+    "city": "長野市",
+    "address": "長野県長野市青木島1-21-16",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・BJJ・グラップリング・空手を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-sweet-gym",
+    "name": "Sweet gym",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "長野県",
+    "city": "長野市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "元プロMMA選手が運営する、初心者に優しい長野駅前のジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイティングラボ長野",
+    "name": "ファイティングラボ長野",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "長野県",
+    "city": "長野市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング・MMAを学べるジム。",
+    "websiteUrl": "https://tkdj.net/dojo/nagano/",
+    "featured": false
+  },
+  {
+    "id": "gym-エヌ・トラスト-n-trust",
+    "name": "エヌ・トラスト(N-TRUST)",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "三重県",
+    "city": "名張市",
+    "address": "三重県名張市蔵持町原出2013",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "公認K-1ジムで、MMA・BJJ・キックボクシング・グラップリングも学べる。",
+    "websiteUrl": "https://www.n-trust-jp.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-enjoy-津-enjoy-shiba-gym",
+    "name": "Enjoy 津(Enjoy Shiba Gym)",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "三重県",
+    "city": "津市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "24時間ジムにMMA・柔術クラス(キッズBJJあり)を併設。",
+    "websiteUrl": "http://enjoyshibagym.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-皇子山mma",
+    "name": "皇子山MMA",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "滋賀県",
+    "city": "大津市",
+    "address": "滋賀県大津市長等3-1-13 401",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "琵琶湖浜大津駅徒歩4分、現役王者が指導するMMAジム。",
+    "websiteUrl": "https://otukakutougi.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場harvest",
+    "name": "総合格闘技道場HARVEST",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "滋賀県",
+    "city": "米原市",
+    "address": "滋賀県米原市枝折179-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場no-name",
+    "name": "総合格闘技道場NO,NAME",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "滋賀県",
+    "city": "草津市",
+    "address": "滋賀県草津市矢橋町1922-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-ニュー・グラウンド",
+    "name": "ニュー・グラウンド",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "滋賀県",
+    "city": "高島市",
+    "address": "滋賀県高島市今津町桜町2-6-2",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-g-o-sキックボクシングジム-草津支部",
+    "name": "G.O.Sキックボクシングジム 草津支部",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "滋賀県",
+    "city": "草津市",
+    "address": "滋賀県草津市木川町648-3",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシングジムだがMMAクラスも開講。彦根にも支部あり。",
+    "websiteUrl": "https://gos-kick.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-m3a-fit",
+    "name": "M3A FIT",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "奈良県",
+    "city": "桜井市",
+    "address": "奈良県桜井市芝1030-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "2018年設立、立ち技MMA・レスリングの道場。プロMMAデビュー選手も輩出。",
+    "featured": false
+  },
+  {
+    "id": "gym-m3a-fitplus",
+    "name": "M3A FITplus",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "奈良県",
+    "city": "北葛城郡王寺町",
+    "address": "奈良県北葛城郡王寺町王寺2-6-1 まさごビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "M3Aブランド第二拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-m3a-fit-tri",
+    "name": "M3A FIT TRI",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "奈良県",
+    "city": "奈良市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "M3Aブランド第三拠点。キックボクシング・MMA・BJJ・グラップリング。",
+    "websiteUrl": "https://m3afit-tri.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-正道会館-tigerdojo",
+    "name": "正道会館 TIGERDOJO",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "奈良県",
+    "city": "香芝市",
+    "address": "奈良県香芝市鎌田148-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "フルコンタクト空手の正道会館支部、MMAプログラムも展開。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場-創道塾",
+    "name": "総合格闘技道場 創道塾",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "和歌山県",
+    "city": "和歌山市",
+    "address": "和歌山県和歌山市雄松町2-3-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-yokomizo-gym",
+    "name": "YOKOMIZO GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "和歌山県",
+    "city": "和歌山市",
+    "address": "和歌山県和歌山市田尻184-6",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-g-free",
+    "name": "G-FREE",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "和歌山県",
+    "city": "和歌山市",
+    "address": "和歌山県和歌山市吹屋町5-20-1-1",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ガイオジム",
+    "name": "ガイオジム",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市千種区",
+    "address": "愛知県名古屋市千種区今池1-9-16 仲屋ビル4F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "今池駅徒歩1分、MMA・キックボクシングジム。",
+    "websiteUrl": "https://imaike.gaiogym.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-グラップリングシュートボクサーズ名古屋",
+    "name": "グラップリングシュートボクサーズ名古屋",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市緑区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "GSB系列のMMA・グラップリングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-グラップリングシュートボクサーズ大須",
+    "name": "グラップリングシュートボクサーズ大須",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市中区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "GSB系列の大須拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-meibukai-知立ジム",
+    "name": "MEIBUKAI 知立ジム",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "愛知県",
+    "city": "知立市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・BJJ・グラップリングを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-バッファローmmaスポーツジム",
+    "name": "バッファローMMAスポーツジム",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛知県",
+    "city": "春日井市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMAスポーツジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-mma-studio獅王-z",
+    "name": "MMA STUDIO獅王'Z",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛知県",
+    "city": "岡崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA専門スタジオ。",
+    "featured": false
+  },
+  {
+    "id": "gym-istn-third-mma-長久手",
+    "name": "ISTN THIRD MMA 長久手",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛知県",
+    "city": "長久手市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ISHITSUNA(ISTN)ブランドの長久手拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-ishitsuna-mma-春日井",
+    "name": "ISHITSUNA MMA 春日井",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛知県",
+    "city": "春日井市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ISTNブランドの春日井拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-ネックススポーツ-スプラッシュ",
+    "name": "ネックススポーツ スプラッシュ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛知県",
+    "city": "岡崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ネックスブランドの岡崎拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-submit-mma",
+    "name": "SUBMIT MMA",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "静岡県",
+    "city": "御殿場市",
+    "address": "静岡県御殿場市茱萸沢11-22 芹澤ビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "富士山麓を拠点に御殿場・裾野エリアで活動するMMAチーム。",
+    "websiteUrl": "https://submitmma.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-ko-gym",
+    "name": "KO GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "静岡県",
+    "city": "浜松市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-浜松街中道場",
+    "name": "浜松街中道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "静岡県",
+    "city": "浜松市中区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-iggy-hand-s-gym",
+    "name": "IGGY HAND'S GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "静岡県",
+    "city": "三島市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ジョーズウエスト",
+    "name": "ジョーズウエスト",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "静岡県",
+    "city": "浜松市西区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-和術慧舟會-駿河道場",
+    "name": "和術慧舟會 駿河道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "静岡県",
+    "city": "沼津市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "和術慧舟會の駿河道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-修斗ジム大阪",
+    "name": "修斗ジム大阪",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市淀川区",
+    "address": "大阪府大阪市淀川区西中島1-11-9 3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "修斗公認のMMA・BJJ・キックボクシング・グラップリングジム。",
+    "websiteUrl": "http://www.shooto-gym-osaka.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-t-b-nation",
+    "name": "T.B. NATION",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大東市",
+    "address": "大阪府大東市三箇5-6-50",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング・MMA・グローブ空手を学べるジム。",
+    "websiteUrl": "https://tb-na.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-ikuno-jj",
+    "name": "IKUNO JJ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市生野区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技アングラー",
+    "name": "総合格闘技アングラー",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "枚方市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-tkスポーツジム-直心会生野道場",
+    "name": "TKスポーツジム(直心会生野道場)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市生野区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-パラエストラ森ノ宮",
+    "name": "パラエストラ森ノ宮",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市東成区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "パラエストラ・ネットワークの森ノ宮拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-fine",
+    "name": "&fine",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "堺市中区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-polar-gym-osaka",
+    "name": "POLAR GYM OSAKA",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市住吉区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-修斗gyms直心会",
+    "name": "修斗GYMS直心会",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "寝屋川市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "修斗系列のMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-reversal-gym-osaka-anne",
+    "name": "reversal gym osaka anne",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市中央区",
+    "address": "大阪府大阪市中央区瓦町1-7-1 エスペランサ瓦町5F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リバーサルジムチェーンのキックボクシング・MMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ubf格闘技ジム",
+    "name": "UBF格闘技ジム",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトシェイプジムaqua-umeda",
+    "name": "ファイトシェイプジムAQUA UMEDA",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-mixed-martial-arts-team-ctt",
+    "name": "Mixed Martial Arts Team CTT",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市東淀川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "その名の通りMMAに特化したチーム。",
+    "featured": false
+  },
+  {
+    "id": "gym-グレイシーバッハ姫路",
+    "name": "グレイシーバッハ姫路",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "姫路市",
+    "address": "兵庫県姫路市本町68-170 大手前第一ビル2F3号",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "BJJを中心にMMA・キックボクシングも指導するジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-修斗gym神戸",
+    "name": "修斗GYM神戸",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "修斗公認のMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-和術慧舟會兵庫支部",
+    "name": "和術慧舟會兵庫支部",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "兵庫県",
+    "city": "伊丹市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "和術慧舟會の兵庫支部。",
+    "featured": false
+  },
+  {
+    "id": "gym-ゴンズジム",
+    "name": "ゴンズジム",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-キングジム神戸",
+    "name": "キングジム神戸",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市長田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-スフィーダ",
+    "name": "スフィーダ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-sfk-kick-boxing-gym",
+    "name": "SFK KICK BOXING GYM",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市長田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング・MMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-hero-z-kick-boxing-gym",
+    "name": "HERO'z KICK & BOXING GYM",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "姫路市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング・MMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-柔専館",
+    "name": "柔専館",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "兵庫県",
+    "city": "神戸市垂水区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "柔術・MMAを学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-ボクシング-スポーツジムbmc",
+    "name": "ボクシング&スポーツジムBMC",
+    "sports": [
+      "mma",
+      "boxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "尼崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ボクシング・MMAを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ground-core",
+    "name": "GROUND CORE",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・BJJ・グラップリング・レスリング・サンボを学べるジム。",
+    "websiteUrl": "http://www.ground-core.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-swag-gym-kyoto",
+    "name": "SWAG GYM KYOTO",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-axel-fight-club",
+    "name": "AXEL FIGHT CLUB",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市山科区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-seikenkai-誠拳会",
+    "name": "SEIKENKAI(誠拳会)",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "京都府",
+    "city": "京都市右京区",
+    "address": "京都府京都市右京区西院清水町156",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・グラップリング・BJJの夜間クラスを持つ道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技ジムbattle",
+    "name": "総合格闘技ジムBATTLE",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "新潟県",
+    "city": "新潟市秋葉区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ピロクテテス新潟-亀田",
+    "name": "ピロクテテス新潟(亀田)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "新潟県",
+    "city": "新潟市江南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ぴろくてておす格闘技アカデミー-関屋",
+    "name": "ぴろくてておす格闘技アカデミー(関屋)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "新潟県",
+    "city": "新潟市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイティングラボ新潟",
+    "name": "ファイティングラボ新潟",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "新潟県",
+    "city": "新潟市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-新潟イエローマンズ",
+    "name": "新潟イエローマンズ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "新潟県",
+    "city": "長岡市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-team-zelus",
+    "name": "TEAM ZELUS",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "新潟県",
+    "city": "柏崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-nascer-do-sol",
+    "name": "NASCER DO SOL",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "岐阜県",
+    "city": "瑞穂市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-グラップリングシュートボクサーズ多治見",
+    "name": "グラップリングシュートボクサーズ多治見",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "岐阜県",
+    "city": "多治見市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "GSB系列の多治見拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-マーシャルアーツクラブ中津川",
+    "name": "マーシャルアーツクラブ中津川",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "岐阜県",
+    "city": "中津川市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-コンキリオ",
+    "name": "コンキリオ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "岐阜県",
+    "city": "各務原市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ノースキングスジム",
+    "name": "ノースキングスジム",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市東区",
+    "address": "北海道札幌市東区北11条東5-1-12 K-World Bldg 3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "修斗系列、初心者からプロまで指導するMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-オウプネス札幌-team-fortissimo",
+    "name": "オウプネス札幌(Team Fortissimo)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市豊平区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-core-quest-kushiro",
+    "name": "CORE QUEST KUSHIRO",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "釧路市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-パワーオブドリーム",
+    "name": "パワーオブドリーム",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ケージを備えた設備充実のMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ベラトレオ-bellatleo",
+    "name": "ベラトレオ(Bellatleo)",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "北海道",
+    "city": "函館市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "道南エリア唯一の総合MMA・BJJ道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-hlcgym",
+    "name": "HLCGYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "旭川市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-arms-gym",
+    "name": "ARMS GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-シャムエボルヴ-siam-evolve",
+    "name": "シャムエボルヴ(Siam Evolve)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市清田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-alma-fight-gym-base",
+    "name": "ALMA FIGHT GYM BASE",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ラフターズジム",
+    "name": "ラフターズジム",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "帯広市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-go-one-gym",
+    "name": "GO ONE GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "釧路市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ケージを備えたMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-棚田道場",
+    "name": "棚田道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "北海道",
+    "city": "室蘭市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "地元の柔道・空手経験者が集まって始まった、参加無料の草の根MMA道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-otaru-team-03",
+    "name": "OTARU TEAM 03",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "北海道",
+    "city": "小樽市",
+    "address": "北海道小樽市入船1-8 丸福小樽ビル3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・BJJ・キックボクシングを学べる新しいジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-1st-stage",
+    "name": "1st Stage",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "青森県",
+    "city": "青森市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-scarfist-aomori-gym",
+    "name": "Scarfist Aomori Gym",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "青森県",
+    "city": "青森市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-メビウススポーツアカデミー",
+    "name": "メビウススポーツアカデミー",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "青森県",
+    "city": "上北郡野辺地町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-t-pleasure",
+    "name": "T-Pleasure",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "青森県",
+    "city": "五所川原市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-answer-fight-sports-gym",
+    "name": "ANSWER FIGHT SPORTS GYM",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "岩手県",
+    "city": "久慈市",
+    "address": "岩手県久慈市八日町1-32",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "久慈駅徒歩11分、MMA・BJJ・キックボクシング・グラップリングを学べるジム。",
+    "websiteUrl": "https://answerfight.com",
+    "featured": false
+  },
+  {
+    "id": "gym-オーガフィスト仙台",
+    "name": "オーガフィスト仙台",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "宮城県",
+    "city": "仙台市青葉区",
+    "address": "宮城県仙台市青葉区木町通2-3-14 セントSGビル2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "北四番丁駅近く、低価格・通い放題のMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-alma-fight-gym-shuko",
+    "name": "ALMA FIGHT GYM SHUKO",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "宮城県",
+    "city": "仙台市若林区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・BJJ・キックボクシングを学べるジム。",
+    "websiteUrl": "https://afg-shuko.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-大道塾-仙台東支部-武山道場",
+    "name": "大道塾 仙台東支部 武山道場",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "宮城県",
+    "city": "仙台市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMAの先駆けとされる大道塾の仙台東支部。柔道・レスリング・BJJ・ウエイトを取り入れる。",
+    "websiteUrl": "https://takeyama-dojo.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-セレジェイラ柔術-ボクセ",
+    "name": "セレジェイラ柔術&ボクセ",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "宮城県",
+    "city": "柴田郡大河原町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リングを備えた柔術・格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-神龍ワールドジム",
+    "name": "神龍ワールドジム",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "宮城県",
+    "city": "亘理郡亘理町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ケージを備えたMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-スタートゲート24ジム",
+    "name": "スタートゲート24ジム",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "宮城県",
+    "city": "仙台市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "長町・原町・泉バイパスの3拠点で展開、MMA・キックボクシング・レスリングも学べる。",
+    "websiteUrl": "https://start-gate.net/",
+    "featured": false
+  },
+  {
+    "id": "gym-katana-gym-akita",
+    "name": "Katana Gym Akita",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "秋田県",
+    "city": "秋田市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・BJJ・グラップリングを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-フラッシュジム",
+    "name": "フラッシュジム",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "山形県",
+    "city": "上山市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リングを備えたMMA・キックボクシング・グラップリングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-grabaka-gym-koriyama",
+    "name": "Grabaka Gym Koriyama",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "福島県",
+    "city": "郡山市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・グラップリング・フィットネスを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-braveheart-koriyama",
+    "name": "Braveheart Koriyama",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "福島県",
+    "city": "郡山市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・BJJ・グラップリングを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-hiroshima-seikenkai",
+    "name": "HIROSHIMA SEIKENKAI",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "広島県",
+    "city": "広島市西区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リングを備えた格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-tkエスペランサ",
+    "name": "TKエスペランサ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "広島県",
+    "city": "広島市西区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-スピリット-spirit",
+    "name": "スピリット(Spirit)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "広島県",
+    "city": "広島市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リニューアルした格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ktcmma",
+    "name": "KTCMMA",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "広島県",
+    "city": "安芸郡海田町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・BJJ・グラップリング・レスリング・ウエイトを学べるジム。",
+    "websiteUrl": "https://ktcmma.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-アブソリュート岡山",
+    "name": "アブソリュート岡山",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "岡山県",
+    "city": "岡山市北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "設備充実のMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ゼロ戦クラブ",
+    "name": "ゼロ戦クラブ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "岡山県",
+    "city": "岡山市北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場セコンドアウト",
+    "name": "総合格闘技道場セコンドアウト",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "岡山県",
+    "city": "津山市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-正道会館菱川道場-okayama",
+    "name": "正道会館菱川道場 OKAYAMA",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "岡山県",
+    "city": "岡山市北区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "正道会館の岡山道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場double",
+    "name": "総合格闘技道場DOUBLE",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "鳥取県",
+    "city": "鳥取市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-hide-s-work-out-gym",
+    "name": "HIDE'S WORK OUT GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "鳥取県",
+    "city": "倉吉市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "倉吉駅徒歩10分の格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-purebred鳥取",
+    "name": "PUREBRED鳥取",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "鳥取県",
+    "city": "米子市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リングを備えたMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-毛利道場-住吉支部",
+    "name": "毛利道場 住吉支部",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "山口県",
+    "city": "周南市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "毛利道場の住吉支部。",
+    "featured": false
+  },
+  {
+    "id": "gym-master-japan-yamaguchi-ube",
+    "name": "Master Japan Yamaguchi Ube",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "山口県",
+    "city": "宇部市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ゴールドジム宇部内のMMAプログラム。",
+    "featured": false
+  },
+  {
+    "id": "gym-master-japan-shimonoseki",
+    "name": "Master Japan Shimonoseki",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "山口県",
+    "city": "下関市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "ゴールドジム下関シーモール内のMMAプログラム。",
+    "featured": false
+  },
+  {
+    "id": "gym-blaze",
+    "name": "Blaze",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "香川県",
+    "city": "綾歌郡綾川町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・ボクシング・BJJ・パーソナルトレーニングを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-mma-zジム",
+    "name": "MMA Zジム",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "徳島県",
+    "city": "徳島市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA専門ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-blaze-mma-スポーツスタジオ",
+    "name": "BLAZE MMA スポーツスタジオ",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "徳島県",
+    "city": "美馬市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・BJJを学べるスタジオ。",
+    "featured": false
+  },
+  {
+    "id": "gym-andreios",
+    "name": "ANDREIOS",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "徳島県",
+    "city": "板野郡藍住町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リングを備え空手も教えるMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-little-giant-gym",
+    "name": "Little Giant Gym",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛媛県",
+    "city": "松山市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "愛媛出身のプロMMA選手・越智晴生氏が運営。",
+    "websiteUrl": "https://lg-gym.jp/",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場arms",
+    "name": "総合格闘技道場ARMS",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛媛県",
+    "city": "今治市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-hope",
+    "name": "HOPE",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "愛媛県",
+    "city": "宇和島市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "本格ケージを備えたMMAジム。",
+    "websiteUrl": "https://hope-gym.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース高知北川添支部",
+    "name": "トライフォース高知北川添支部",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "高知県",
+    "city": "高知市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・BJJ・グラップリングを学べるトライフォース系列ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース高知春野支部",
+    "name": "トライフォース高知春野支部",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "高知県",
+    "city": "高知市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "トライフォース高知の春野支部。",
+    "featured": false
+  },
+  {
+    "id": "gym-mma-rangers-gym",
+    "name": "MMA RANGERS GYM",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市博多区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "2014年開設、本格ケージを備えた大型MMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-libre-リブレ",
+    "name": "LIBRE リブレ",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者・女性・キッズ向けのMMAジム。",
+    "websiteUrl": "https://libre-mmagym.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-マスタージャパン福岡",
+    "name": "マスタージャパン福岡",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市博多区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "BJJ・MMA・キックボクシングを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-柔術-キックボクシング-フィットネスジムisc",
+    "name": "柔術 キックボクシング フィットネスジムISC",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "平尾駅近くの柔術・キックボクシングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-lotus福岡古賀道場",
+    "name": "Lotus福岡古賀道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福岡県",
+    "city": "柳川市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-カルペディエム福岡",
+    "name": "カルペディエム福岡",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市博多区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "祇園駅近くの総合格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-赤崎道場-a-spirit",
+    "name": "赤崎道場 A-SPIRIT",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "薬院エリアの格闘技道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-和術慧舟會-若杉道場",
+    "name": "和術慧舟會 若杉道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "箱崎駅近くの和術慧舟會道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-柔術-mmaアカデミーg-face",
+    "name": "柔術&MMAアカデミーG-face",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "福岡県",
+    "city": "北九州市八幡西区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "黒崎駅近くの柔術・MMAアカデミー。",
+    "featured": false
+  },
+  {
+    "id": "gym-blaite",
+    "name": "BLAITE",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福岡県",
+    "city": "八女市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-t-rex-柔術アカデミー",
+    "name": "T-REX 柔術アカデミー",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "柔術・MMAアカデミー。",
+    "featured": false
+  },
+  {
+    "id": "gym-アカデミア-ヴィトーリア",
+    "name": "アカデミア ヴィトーリア",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "福岡県",
+    "city": "福岡市東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "千早駅近くの格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-デスティニー柔術フレイム",
+    "name": "デスティニー柔術フレイム",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "福岡県",
+    "city": "豊前市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "柔術・MMAを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-mskc-丸徳総合格闘倶楽部-川副道場",
+    "name": "MSKC 丸徳総合格闘倶楽部 川副道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "佐賀県",
+    "city": "佐賀市川副町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-mskc-丸徳総合格闘倶楽部-多久道場",
+    "name": "MSKC 丸徳総合格闘倶楽部 多久道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "佐賀県",
+    "city": "多久市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MSKC川副道場の多久支部。",
+    "featured": false
+  },
+  {
+    "id": "gym-伊達木道場",
+    "name": "伊達木道場",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "長崎県",
+    "city": "長崎市",
+    "address": "長崎県長崎市鍛冶屋町3-7 桜華ハウス5F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・ムエタイ・BJJ・空手を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-095bjj-長崎柔術",
+    "name": "095BJJ 長崎柔術",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "長崎県",
+    "city": "長崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "新地中華街駅近くのMMA・キックボクシング・BJJジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-誠王会熊本道場",
+    "name": "誠王会熊本道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "熊本県",
+    "city": "熊本市東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "フリーファイトアカデミー系のMMA団体。",
+    "websiteUrl": "https://seioukai-kumamoto.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-セイゴ道場-mma-studio",
+    "name": "セイゴ道場 MMA STUDIO",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "熊本県",
+    "city": "熊本市西区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "24時間利用可能なMMAスタジオ。",
+    "websiteUrl": "https://seigo-dojo.com/",
+    "featured": false
+  },
+  {
+    "id": "gym-p-s-lab熊本",
+    "name": "P's LAB熊本",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "熊本県",
+    "city": "合志市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-大分総合格闘技イクス",
+    "name": "大分総合格闘技イクス",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大分県",
+    "city": "大分市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "南大分駅近くのMMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-blows-oita-life",
+    "name": "BLOWS OITA LIFE",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "大分県",
+    "city": "大分市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-blue-house-miyazaki",
+    "name": "BLUE HOUSE Miyazaki",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "宮崎県",
+    "city": "宮崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・キックボクシング・BJJ・グラップリングを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-バッファロー柔術",
+    "name": "バッファロー柔術",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "宮崎県",
+    "city": "宮崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA・BJJ・空手を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-nico-mma-dojo",
+    "name": "nico mma dojo",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "鹿児島県",
+    "city": "鹿児島市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "MMA専門道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場-桂塾",
+    "name": "総合格闘技道場 桂塾",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "鹿児島県",
+    "city": "鹿児島市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技-山田道場",
+    "name": "総合格闘技 山田道場",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "鹿児島県",
+    "city": "鹿児島市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-鹿児島格闘技道場-和心會",
+    "name": "鹿児島格闘技道場 和心會",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "鹿児島県",
+    "city": "鹿児島市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-ドロップ-drop",
+    "name": "ドロップ(Drop)",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "沖縄県",
+    "city": "宜野湾市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-リバーサルジム沖縄-クロスライン",
+    "name": "リバーサルジム沖縄 クロスライン",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "沖縄県",
+    "city": "那覇市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "リングを備えたリバーサルジムチェーンの沖縄拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-グランドスラム沖縄a・p・p",
+    "name": "グランドスラム沖縄A・P・P",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "沖縄県",
+    "city": "名護市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-krazybee-沖縄",
+    "name": "KRAZYBEE 沖縄",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "沖縄県",
+    "city": "糸満市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "KRAZY BEE系列の沖縄拠点。",
+    "featured": false
+  },
+  {
+    "id": "gym-shimazilians-alive沖縄支部",
+    "name": "SHIMAZILIANS／ALIVE沖縄支部",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "沖縄県",
+    "city": "南城市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "月額3,000円からの低価格MMAジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-bj-mma-school",
+    "name": "BJ MMA SCHOOL",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "沖縄県",
+    "city": "豊見城市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ワイルドシーサー石垣",
+    "name": "ワイルドシーサー石垣",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "沖縄県",
+    "city": "石垣市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "離島・石垣島にあるMMAジム。",
+    "featured": false
   }
 ]
