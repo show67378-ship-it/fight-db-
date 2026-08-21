@@ -32,24 +32,6 @@
     "backbone": "空手(極真空手)・相撲・ストリートファイト"
   },
   {
-    "id": "ath-kai-asakura",
-    "name": "朝倉 海",
-    "nameKana": "あさくら かい",
-    "sport": "mma",
-    "organizations": [
-      "rizin"
-    ],
-    "photo": "",
-    "weightClass": "バンタム級",
-    "nationality": "日本",
-    "gymId": "gym-japan-top-team",
-    "sns": [],
-    "recordNote": "正確な現在の戦績は出典でご確認ください(堀口恭司選手への1RKO勝利など多数の実績あり)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "stance": "オーソドックス",
-    "backbone": "極真空手・禅道会・アマチュア相撲・ブラジリアン柔術"
-  },
-  {
     "id": "ath-naoki-inoue",
     "name": "井上 直樹",
     "nameKana": "いのうえ なおき",
@@ -73,29 +55,6 @@
     "backbone": "空手・ブラジリアン柔術"
   },
   {
-    "id": "ath-seika-izawa",
-    "name": "伊澤 星花",
-    "nameKana": "いざわ せいか",
-    "sport": "mma",
-    "organizations": [
-      "rizin"
-    ],
-    "photo": "",
-    "weightClass": "女子スーパーアトム級(王者)",
-    "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "record": {
-      "wins": 15,
-      "losses": 0,
-      "draws": 0
-    },
-    "recordNote": "通算成績(RIZIN成績: 9勝0敗)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "stance": "オーソドックス",
-    "backbone": "柔道・レスリング"
-  },
-  {
     "id": "ath-roberto-souza",
     "name": "ホベルト・サトシ・ソウザ",
     "nameKana": "ほべると さとし そうざ",
@@ -117,28 +76,6 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
     "stance": "オーソドックス",
     "backbone": "ブラジリアン柔術・柔道・サブミッションレスリング"
-  },
-  {
-    "id": "ath-rena",
-    "name": "RENA",
-    "nameKana": "れな",
-    "sport": "mma",
-    "organizations": [
-      "rizin"
-    ],
-    "photo": "",
-    "weightClass": "女子スーパーアトム級",
-    "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "record": {
-      "wins": 15,
-      "losses": 5,
-      "draws": 0
-    },
-    "recordNote": "通算成績(RIZIN成績: 14勝4敗)。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "backbone": "キックボクシング(シュートボクシング)"
   },
   {
     "id": "ath-ren-hiramoto",
@@ -508,24 +445,6 @@
     "recordNote": "2026年9月10日「超RIZIN.5」出場選手(キックボクシングルール)。詳細は出典でご確認ください。",
     "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
     "stance": "オーソドックス",
-    "backbone": "空手・キックボクシング"
-  },
-  {
-    "id": "ath-hidemason-usami",
-    "name": "宇佐美 秀メイソン",
-    "nameKana": "うさみ ひでめいそん",
-    "sport": "kickboxing",
-    "organizations": [
-      "rizin"
-    ],
-    "photo": "",
-    "weightClass": "71.0kg契約",
-    "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手(キックボクシングルール)。詳細は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
-    "stance": "サウスポー",
     "backbone": "空手・キックボクシング"
   },
   {

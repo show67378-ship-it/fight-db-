@@ -84,20 +84,6 @@
     "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
   },
   {
-    "id": "match-superrizin5-rena-kuzutina",
-    "sport": "mma",
-    "organization": "rizin",
-    "eventName": "超RIZIN.5 浪速の超復活祭り",
-    "eventDate": "2026-09-10",
-    "venue": "京セラドーム大阪",
-    "athleteAId": "ath-rena",
-    "athleteBId": "ath-natasha-kuzutina",
-    "status": "open",
-    "votesA": 0,
-    "votesB": 0,
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
-  },
-  {
     "id": "match-superrizin5-tomizawa-kawabata",
     "sport": "mma",
     "organization": "rizin",
@@ -106,20 +92,6 @@
     "venue": "京セラドーム大阪",
     "athleteAId": "ath-daichi-tomizawa",
     "athleteBId": "ath-donmai-kawabata",
-    "status": "open",
-    "votesA": 0,
-    "votesB": 0,
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585"
-  },
-  {
-    "id": "match-superrizin5-beynoah-usami",
-    "sport": "kickboxing",
-    "organization": "rizin",
-    "eventName": "超RIZIN.5 浪速の超復活祭り",
-    "eventDate": "2026-09-10",
-    "venue": "京セラドーム大阪",
-    "athleteAId": "ath-beynoah",
-    "athleteBId": "ath-hidemason-usami",
     "status": "open",
     "votesA": 0,
     "votesB": 0,

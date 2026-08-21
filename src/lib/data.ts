@@ -53,6 +53,10 @@ export function getMatch(id: string): Match | undefined {
   return getMatches().find((m) => m.id === id);
 }
 
+export function getDreamMatch(id: string): DreamMatchCard | undefined {
+  return getDreamMatches().find((c) => c.id === id);
+}
+
 export function gymsBySport(sport: SportSlug): Gym[] {
   return getGyms().filter((g) => g.sports.includes(sport));
 }

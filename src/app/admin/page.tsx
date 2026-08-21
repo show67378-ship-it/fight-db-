@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getAthletes, getGyms, getListingRequests, getTrialApplications } from "@/lib/data";
+import { getAthletes, getDreamMatches, getGyms, getListingRequests, getTrialApplications } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
 
@@ -8,6 +8,7 @@ export default function AdminHomePage() {
   const athletes = getAthletes();
   const applications = getTrialApplications();
   const listingRequests = getListingRequests();
+  const dreamMatches = getDreamMatches();
 
   return (
     <div className="mx-auto max-w-3xl px-5 py-12">
@@ -32,6 +33,13 @@ export default function AdminHomePage() {
         >
           <p className="font-head text-lg font-bold text-ink">選手管理</p>
           <p className="mt-1 tabular text-sm text-ink-dim">{athletes.length}件</p>
+        </Link>
+        <Link
+          href="/admin/dream-matches"
+          className="rounded-lg border border-border bg-surface p-6 transition hover:border-accent"
+        >
+          <p className="font-head text-lg font-bold text-ink">次に観たい試合管理</p>
+          <p className="mt-1 tabular text-sm text-ink-dim">{dreamMatches.length}件</p>
         </Link>
         <Link
           href="/admin/applications"

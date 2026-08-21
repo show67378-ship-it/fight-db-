@@ -6,6 +6,9 @@ export const dynamic = "force-dynamic";
 
 export default function DreamMatchesPage() {
   const athletes = getAthletes().filter((a) => activeSports.includes(a.sport));
-  const dreamMatches = getDreamMatches().filter((c) => activeSports.includes(c.sport));
+  const athleteIds = new Set(athletes.map((a) => a.id));
+  const dreamMatches = getDreamMatches().filter(
+    (c) => activeSports.includes(c.sport) && athleteIds.has(c.athleteAId) && athleteIds.has(c.athleteBId)
+  );
   return <DreamMatchesBrowser athletes={athletes} dreamMatches={dreamMatches} />;
 }

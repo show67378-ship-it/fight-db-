@@ -10,11 +10,20 @@ export const dynamic = "force-dynamic";
 
 export default function Home() {
   const athletes = getAthletes().filter((a) => activeSports.includes(a.sport));
+  const athleteExists = (id: string) => getAthlete(id) !== undefined;
   const openMatches = getMatches()
-    .filter((m) => m.status === "open" && activeSports.includes(m.sport))
+    .filter(
+      (m) =>
+        m.status === "open" &&
+        activeSports.includes(m.sport) &&
+        athleteExists(m.athleteAId) &&
+        athleteExists(m.athleteBId)
+    )
     .slice(0, 3);
   const topDreamMatches = getDreamMatches()
-    .filter((c) => activeSports.includes(c.sport))
+    .filter(
+      (c) => activeSports.includes(c.sport) && athleteExists(c.athleteAId) && athleteExists(c.athleteBId)
+    )
     .sort((a, b) => b.votes - a.votes)
     .slice(0, 3);
   const eligibleGyms = getGyms().filter((g) => g.sports.some((s) => activeSports.includes(s)));

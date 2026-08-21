@@ -1,5 +1,5 @@
 import { activeSports } from "@/lib/taxonomy";
-import { getAthlete, getMatches, organizations } from "@/lib/data";
+import { getAthlete, getAthletes, getMatches, organizations } from "@/lib/data";
 import MatchPreviewCard from "@/components/MatchPreviewCard";
 import OrgTag from "@/components/OrgTag";
 
@@ -10,7 +10,10 @@ export const metadata = {
 };
 
 export default function MatchesPage() {
-  const matches = getMatches().filter((m) => activeSports.includes(m.sport));
+  const athleteIds = new Set(getAthletes().map((a) => a.id));
+  const matches = getMatches().filter(
+    (m) => activeSports.includes(m.sport) && athleteIds.has(m.athleteAId) && athleteIds.has(m.athleteBId)
+  );
 
   return (
     <div className="mx-auto max-w-6xl px-5 py-12">

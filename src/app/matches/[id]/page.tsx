@@ -11,8 +11,9 @@ export default async function MatchDetailPage({ params }: PageProps<"/matches/[i
   const match = getMatch(id);
   if (!match) notFound();
 
-  const athleteA = getAthlete(match.athleteAId)!;
-  const athleteB = getAthlete(match.athleteBId)!;
+  const athleteA = getAthlete(match.athleteAId);
+  const athleteB = getAthlete(match.athleteBId);
+  if (!athleteA || !athleteB) notFound();
 
   return (
     <div className="mx-auto max-w-2xl px-5 py-12">

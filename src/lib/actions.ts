@@ -5,9 +5,11 @@ import { redirect } from "next/navigation";
 import { readJson, writeJson } from "./store";
 import type {
   Athlete,
+  DreamMatchCard,
   Gym,
   GymInstructor,
   GymListingRequest,
+  Match,
   OrganizationSlug,
   SportSlug,
   TrialApplication,
@@ -170,8 +172,63 @@ export async function deleteAthlete(id: string) {
     "athletes.json",
     athletes.filter((a) => a.id !== id)
   );
+
+  // 選手を削除すると、その選手が絡む勝敗予想・ドリームマッチも参照切れになるため一緒に削除する
+  const matches = readJson<Match[]>("matches.json");
+  writeJson(
+    "matches.json",
+    matches.filter((m) => m.athleteAId !== id && m.athleteBId !== id)
+  );
+
+  const dreamMatches = readJson<DreamMatchCard[]>("dream-matches.json");
+  writeJson(
+    "dream-matches.json",
+    dreamMatches.filter((c) => c.athleteAId !== id && c.athleteBId !== id)
+  );
+
   revalidatePath("/", "layout");
   redirect("/admin/athletes");
+}
+
+function dreamMatchFromForm(formData: FormData, existing?: DreamMatchCard): DreamMatchCard {
+  const athleteAId = str(formData, "athleteAId");
+  const athleteBId = str(formData, "athleteBId");
+  return {
+    id: existing?.id ?? newId("dream", `${athleteAId}-${athleteBId}`),
+    sport: str(formData, "sport") as SportSlug,
+    organization: str(formData, "organization") as OrganizationSlug,
+    athleteAId,
+    athleteBId,
+    votes: optNum(formData, "votes") ?? existing?.votes ?? 0,
+  };
+}
+
+export async function createDreamMatch(formData: FormData) {
+  const cards = readJson<DreamMatchCard[]>("dream-matches.json");
+  cards.push(dreamMatchFromForm(formData));
+  writeJson("dream-matches.json", cards);
+  revalidatePath("/", "layout");
+  redirect("/admin/dream-matches");
+}
+
+export async function updateDreamMatch(id: string, formData: FormData) {
+  const cards = readJson<DreamMatchCard[]>("dream-matches.json");
+  const idx = cards.findIndex((c) => c.id === id);
+  if (idx === -1) redirect("/admin/dream-matches");
+  cards[idx] = dreamMatchFromForm(formData, cards[idx]);
+  writeJson("dream-matches.json", cards);
+  revalidatePath("/", "layout");
+  redirect("/admin/dream-matches");
+}
+
+export async function deleteDreamMatch(id: string) {
+  const cards = readJson<DreamMatchCard[]>("dream-matches.json");
+  writeJson(
+    "dream-matches.json",
+    cards.filter((c) => c.id !== id)
+  );
+  revalidatePath("/", "layout");
+  redirect("/admin/dream-matches");
 }
 
 export async function submitTrialApplication(gymId: string, formData: FormData) {

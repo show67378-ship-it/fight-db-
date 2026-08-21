@@ -19,7 +19,10 @@ export default async function SportPage({ params }: PageProps<"/[sport]">) {
 
   const sport = getSport(slug as SportSlug);
   const sportAthletes = athletesBySport(sport.slug);
-  const sportMatches = matchesBySport(sport.slug).filter((m) => m.status === "open");
+  const athleteIds = new Set(sportAthletes.map((a) => a.id));
+  const sportMatches = matchesBySport(sport.slug).filter(
+    (m) => m.status === "open" && athleteIds.has(m.athleteAId) && athleteIds.has(m.athleteBId)
+  );
   const sportGyms = gymsBySport(sport.slug);
 
   return (

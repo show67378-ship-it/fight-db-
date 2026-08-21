@@ -24,7 +24,10 @@ export default async function AthleteDetailPage({ params }: PageProps<"/athletes
 
   const gym = athlete.gymId ? getGym(athlete.gymId) : undefined;
   const athleteMatches = getMatches().filter(
-    (m) => m.athleteAId === athlete.id || m.athleteBId === athlete.id
+    (m) =>
+      (m.athleteAId === athlete.id || m.athleteBId === athlete.id) &&
+      getAthlete(m.athleteAId) &&
+      getAthlete(m.athleteBId)
   );
   const nextMatch = athleteMatches.find((m) => m.status === "open");
   const pastMatches = athleteMatches.filter((m) => m.status === "closed");
