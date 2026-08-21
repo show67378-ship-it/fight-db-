@@ -35,8 +35,8 @@ export default function Home() {
       {/* Hero */}
       <section className="border-b border-border">
         <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
-          <h1 className="font-head max-w-2xl text-4xl font-bold leading-[1.15] tracking-tight text-ink sm:text-5xl">
-            観るだけじゃない。<br />予想して、投票して、<br />応援する。
+          <h1 className="font-head max-w-3xl text-4xl font-bold leading-[1.15] tracking-tight text-ink sm:text-5xl">
+            観るだけじゃない。<br />予想して、投票して、応援する。
           </h1>
           <p className="mt-5 max-w-xl text-ink-dim">
             MMAの勝敗予想とドリームマッチ投票で楽しむ、参加型の格闘技プラットフォーム。
