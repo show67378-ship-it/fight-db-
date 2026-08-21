@@ -26,14 +26,13 @@ export default function Home() {
       {/* Hero */}
       <section className="border-b border-border">
         <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
-          <p className="font-head text-xs font-semibold uppercase tracking-[0.2em] text-accent">
-            MMA
-          </p>
-          <h1 className="font-head mt-4 max-w-2xl text-4xl font-bold leading-[1.15] tracking-tight text-ink sm:text-5xl">
+          <h1 className="font-head max-w-2xl text-4xl font-bold leading-[1.15] tracking-tight text-ink sm:text-5xl">
             観るだけじゃない。<br />予想して、投票して、応援する。
           </h1>
           <p className="mt-5 max-w-xl text-ink-dim">
-            MMAの勝敗予想とドリームマッチ投票で楽しむ、参加型の格闘技プラットフォーム。選手・ジムの情報もまとめて見つかります。
+            MMAの勝敗予想とドリームマッチ投票で楽しむ、参加型の格闘技プラットフォーム。
+            <br />
+            選手・ジムの情報もまとめて見つかります。
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link

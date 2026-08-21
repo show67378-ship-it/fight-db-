@@ -8,9 +8,17 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1992-07-15",
+    "heightCm": 177,
+    "weightKg": 66,
     "weightClass": "フェザー級",
     "nationality": "日本",
     "gymId": "gym-japan-top-team",
+    "gymNote": "国内のトップファイターが多数所属する日本有数のメガジム",
+    "bio": "言わずと知れた現代MMAを象徴するスター選手。\r\nTHE OUTSIDERの二階級チャンピオン。\r\nBreaking Downの創業者及び発案者。",
+    "nickname": "路上の伝説",
+    "signatureMove": "左ハイキック",
+    "fightingStyle": "オールラウンダー",
     "sns": [],
     "record": {
       "wins": 18,
@@ -18,7 +26,8 @@
       "draws": 1
     },
     "recordNote": "通算成績(RIZIN成績: 12勝4敗)。最新情報は出典でご確認ください。",
-    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters"
+    "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
+    "featured": true
   },
   {
     "id": "ath-kai-asakura",
