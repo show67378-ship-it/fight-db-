@@ -84,6 +84,21 @@ export default function AthleteForm({
 
       <div className="grid gap-4 sm:grid-cols-3">
         <div>
+          <label className={labelCls}>利き手(任意)</label>
+          <input name="dominantHand" defaultValue={athlete?.dominantHand} placeholder="例: 右" className={`mt-1 ${inputCls}`} />
+        </div>
+        <div>
+          <label className={labelCls}>利き足(任意)</label>
+          <input name="dominantLeg" defaultValue={athlete?.dominantLeg} placeholder="例: 右" className={`mt-1 ${inputCls}`} />
+        </div>
+        <div>
+          <label className={labelCls}>バックボーン(任意)</label>
+          <input name="backbone" defaultValue={athlete?.backbone} placeholder="例: レスリング" className={`mt-1 ${inputCls}`} />
+        </div>
+      </div>
+
+      <div className="grid gap-4 sm:grid-cols-3">
+        <div>
           <label className={labelCls}>生年月日(任意)</label>
           <input type="date" name="birthdate" defaultValue={athlete?.birthdate} className={`mt-1 ${inputCls}`} />
         </div>

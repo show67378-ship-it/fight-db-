@@ -24,6 +24,11 @@ export default function CompanyMessagePage() {
         <Stat label="年齢" value="31歳" />
         <Stat label="身長" value="182cm" />
         <Stat label="体重" value="125kg" />
+        <Stat label="利き手" value="右" />
+        <Stat label="利き足" value="右" />
+        <Stat label="スタイル" value="突進" />
+        <Stat label="得意技" value="暴飲暴食" />
+        <Stat label="バックボーン" value="ゴルフ" />
       </div>
       <p className="mt-2 text-[11px] text-ink-dim">※ 代表は選手ではありません(ネタ枠)。</p>
 

@@ -38,6 +38,9 @@ export default async function AthleteDetailPage({ params }: PageProps<"/athletes
   if (athlete.weightKg) stats.push({ label: "体重", value: `${athlete.weightKg}kg` });
   if (athlete.fightingStyle) stats.push({ label: "スタイル", value: athlete.fightingStyle });
   if (athlete.signatureMove) stats.push({ label: "得意技", value: athlete.signatureMove });
+  if (athlete.dominantHand) stats.push({ label: "利き手", value: athlete.dominantHand });
+  if (athlete.dominantLeg) stats.push({ label: "利き足", value: athlete.dominantLeg });
+  if (athlete.backbone) stats.push({ label: "バックボーン", value: athlete.backbone });
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-12">
