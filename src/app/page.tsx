@@ -227,7 +227,7 @@ export default function Home() {
   );
 }
 
-function pickFeatured<T extends { featured?: boolean }>(items: T[], limit = 6): T[] {
+function pickFeatured<T extends { featured?: boolean }>(items: T[], limit = 3): T[] {
   const marked = items.filter((i) => i.featured);
   return (marked.length > 0 ? marked : items).slice(0, limit);
 }
