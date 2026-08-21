@@ -48,9 +48,14 @@
     "trialInfo": "体験・見学については直接お問い合わせください",
     "photo": "",
     "planTier": "free",
-    "description": "RIZINスター選手、朝倉未来・朝倉海両選手が2017年に豊橋から移転して設立したホームジム。",
+    "description": "トライフォース六本木として２０１３年に設立され、移転に伴いトライフォース赤坂に名称変更。その後、日本から世界で戦える選手を育成し、海外のメガジムに匹敵する練習環境を日本国内に作るため、トライフォース赤坂のMMA部門を刷新・独立させる形で２０２３年に秋に本格始動した国内最大級のMMAジム。\r\n所属選手は朝倉未来、朝倉海、ヒロヤ、秋元強真など国内トップクラスのMMAファイターを多数抱える。\r\nそのほか、所属ではない国内外のトップMMAファイターが多数練習しており、名実ともに国内最大級のメガジムである。",
+    "instructors": [
+      {
+        "name": "小倉 將裕（おぐちゃん）、堀江 圭功（RIZIN現役ファイター）、昇侍（RIZIN現役ファイター、元キングオブパンクラシスト）、伊藤 俊亮（柔術黒帯３段、トライフォース赤坂オーナー）"
+      }
+    ],
     "websiteUrl": "https://japan-tt.com/",
-    "featured": false
+    "featured": true
   },
   {
     "id": "gym-reversal-standout",
@@ -67,104 +72,6 @@
     "planTier": "free",
     "description": "キックボクシング・グラップリング・MMAを学べる複数店舗展開のジムチェーン。",
     "websiteUrl": "https://www.reversal.jp/"
-  },
-  {
-    "id": "gym-target-kickboxing",
-    "name": "TARGET キックボクシングジム",
-    "sports": [
-      "kickboxing"
-    ],
-    "prefecture": "東京都",
-    "city": "豊島区巣鴨",
-    "address": "東京都豊島区巣鴨2-5-2 都ビル5F",
-    "trialInfo": "体験・見学については直接お問い合わせください",
-    "photo": "",
-    "planTier": "free",
-    "description": "元キックボクシング世界王者・伊藤隆氏が2000年に設立。9人のチャンピオン・23本のベルトを輩出。",
-    "instructors": [
-      {
-        "name": "伊藤隆",
-        "title": "代表・元キックボクシング世界王者"
-      }
-    ],
-    "websiteUrl": "https://target-fight.com/"
-  },
-  {
-    "id": "gym-overlimit-tokyo",
-    "name": "Over Limit Tokyo",
-    "sports": [
-      "bjj"
-    ],
-    "prefecture": "東京都",
-    "city": "東京都内(詳細エリアは要問い合わせ)",
-    "trialInfo": "体験・見学については直接お問い合わせください",
-    "photo": "",
-    "planTier": "free",
-    "description": "国際的なOver Limit BJJ協会の東京支部。ブラジル人黒帯4段のエジソン・カゴハラ氏が指導。",
-    "instructors": [
-      {
-        "name": "エジソン・カゴハラ",
-        "title": "黒帯4段"
-      }
-    ],
-    "websiteUrl": "https://over-limit.com/overlimittokyo/"
-  },
-  {
-    "id": "gym-kyoei-boxing",
-    "name": "協栄ボクシングジム",
-    "sports": [
-      "boxing"
-    ],
-    "prefecture": "東京都",
-    "city": "新宿区",
-    "address": "東京都新宿区新宿5-2-1",
-    "trialInfo": "体験・見学については直接お問い合わせください",
-    "photo": "",
-    "planTier": "free",
-    "description": "日本の「御三家」の一つに数えられる歴史あるプロボクシングジム。",
-    "websiteUrl": "https://kyoeigym.com/admission/"
-  },
-  {
-    "id": "gym-teiken-boxing",
-    "name": "帝拳ジム",
-    "sports": [
-      "boxing"
-    ],
-    "prefecture": "東京都",
-    "city": "新宿区神楽坂",
-    "trialInfo": "体験・見学については直接お問い合わせください",
-    "photo": "",
-    "planTier": "free",
-    "description": "飯田橋・神楽坂エリアにある、日本トップクラスのプロボクシングジム。",
-    "websiteUrl": "https://boxmob.jp/sp/gym/gym.html?gid=276"
-  },
-  {
-    "id": "gym-watanabe-boxing",
-    "name": "ワタナベボクシングジム",
-    "sports": [
-      "boxing"
-    ],
-    "prefecture": "東京都",
-    "city": "品川区西五反田",
-    "trialInfo": "体験・見学については直接お問い合わせください",
-    "photo": "",
-    "planTier": "free",
-    "description": "品川区西五反田に拠点を置く、老舗のプロボクシングジム。",
-    "websiteUrl": "https://ja.wikipedia.org/wiki/ワタナベボクシングジム"
-  },
-  {
-    "id": "gym-shisei-boxing",
-    "name": "志成ボクシングジム",
-    "sports": [
-      "boxing"
-    ],
-    "prefecture": "東京都",
-    "city": "目黒区",
-    "trialInfo": "体験・見学については直接お問い合わせください",
-    "photo": "",
-    "planTier": "free",
-    "description": "目黒駅・不動前駅の間に位置するプロボクシングジム。",
-    "websiteUrl": "https://note.com/ko903/n/ncb2b7ea1c0ea"
   },
   {
     "id": "gym-brave-azabujuban",
@@ -6514,6 +6421,1205 @@
     "photo": "",
     "planTier": "free",
     "description": "水島中学校柔道場を拠点とするゼロ戦クラブの支部。",
+    "featured": false
+  },
+  {
+    "id": "gym-イクサボクシングジム",
+    "name": "イクサボクシングジム",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "西尾市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "心と体を鍛えて新しい自分を発見。初心者から選手志向まで対応。",
+    "featured": false
+  },
+  {
+    "id": "gym-スタートゲート24ジム-仙台長町店",
+    "name": "スタートゲート24ジム 仙台長町店",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "宮城県",
+    "city": "仙台市太白区",
+    "address": "長町リトル・ヒルズ3F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "長町駅徒歩30秒！24時間営業でいつでも通える総合格闘技＆フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-スタイルプラスジム",
+    "name": "スタイルプラスジム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "山梨県",
+    "city": "富士吉田市",
+    "address": "山梨県富士吉田市下吉田8-18-35",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者からプロまで、格闘技・フィットネス・ヨガで楽しく運動不足解消やダイエット。",
+    "featured": false
+  },
+  {
+    "id": "gym-スタートゲート24ジム-仙台原町店",
+    "name": "スタートゲート24ジム 仙台原町店",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "宮城県",
+    "city": "仙台市宮城野区",
+    "address": "宮城県仙台市宮城野区原町3-1-8 原町プラザ2F",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "運動が苦手でも大丈夫！初心者・女性も安心の24時間ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-t-t-m-urushi-dojo-ウルシ道場",
+    "name": "T.T.M URUSHI DOJO(ウルシ道場)",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "大田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "京急蒲田駅徒歩2分、総合格闘技やキックボクシングを学べるアットホームなジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット新潟海老ケ瀬インター前",
+    "name": "ファイトフィット新潟海老ケ瀬インター前",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "新潟県",
+    "city": "新潟市東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も女性も安心！スパーリングなしで楽しく運動。",
+    "featured": false
+  },
+  {
+    "id": "gym-リバーサルジム茅ヶ崎-グランドスラムk-r-e-w",
+    "name": "リバーサルジム茅ヶ崎 グランドスラムK.R.E.W.",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "茅ヶ崎市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "茅ヶ崎駅徒歩4分、総合格闘技・キックボクシング・グラップリングが学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-スタートゲート24ジム-仙台泉バイパス店",
+    "name": "スタートゲート24ジム 仙台泉バイパス店",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "宮城県",
+    "city": "仙台市泉区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "24時間いつでも通える初心者・女性も安心の格闘技＆フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイティングラボ伊那箕輪",
+    "name": "ファイティングラボ伊那箕輪",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "長野県",
+    "city": "上伊那郡箕輪町",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者も女性も大歓迎！格闘技・フィットネスを通い放題で楽しもう。",
+    "featured": false
+  },
+  {
+    "id": "gym-アカデミー水道橋",
+    "name": "ＳＫアカデミー水道橋",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "文京区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "水道橋駅近く、様々な格闘技を自由に体験できるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-k-ism",
+    "name": "K-ism",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "新潟県",
+    "city": "長岡市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "長岡市でキックボクシングや柔術を始められるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-正道会館菱川道場-kurashiki",
+    "name": "正道会館菱川道場 KURASHIKI",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "岡山県",
+    "city": "倉敷市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "空手、総合格闘技、キックボクシングなど多彩なクラスを持つジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-誠至会本部道場",
+    "name": "誠至会本部道場",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "大阪市中央区",
+    "address": "本町駅徒歩1分",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "タイ人トレーナーが指導するキックボクシング・ムエタイジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-シュートボクシング摂津富田ジム",
+    "name": "シュートボクシング摂津富田ジム",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "高槻市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "摂津富田駅徒歩4分、シュートボクシング・キックボクシング・MMAが学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-吉田道場-ハイブリッドレスリング",
+    "name": "吉田道場 ハイブリッドレスリング",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "大阪府",
+    "city": "泉佐野市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "泉佐野駅徒歩10分、様々な格闘技を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場stf-浦和ジム",
+    "name": "総合格闘技道場STF 浦和ジム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "さいたま市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "武蔵浦和駅徒歩15分、格闘技フィットネスを学べるSTF系列ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ポゴナクラブジム",
+    "name": "ポゴナクラブジム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "川口市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "東川口駅徒歩8分、キックボクシングや柔術を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-総合格闘技道場stf-富士見ジム",
+    "name": "総合格闘技道場STF 富士見ジム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "富士見市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "鶴瀬駅徒歩5分のSTF系列ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-誠心館柔術アカデミー",
+    "name": "誠心館柔術アカデミー",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "滋賀県",
+    "city": "草津市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "南草津駅徒歩8分、ブラジリアン柔術を学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-ピュアブレッド",
+    "name": "ピュアブレッド",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "上尾市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "北上尾駅徒歩12分、格闘技とフィットネスを習い放題のジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-oota-dojo-annex",
+    "name": "OOTA DOJO ANNEX",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "埼玉県",
+    "city": "熊谷市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "熊谷駅徒歩5分、太田道場の熊谷支部。",
+    "featured": false
+  },
+  {
+    "id": "gym-クラッシュ",
+    "name": "クラッシュ",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "静岡県",
+    "city": "藤枝市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "キックボクシング、柔術、MMAを楽しく学べるアットホームなジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-グラバカジム-赤羽ジム",
+    "name": "グラバカジム 赤羽ジム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "北区",
+    "address": "JR赤羽駅東口徒歩4分",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者や女性も安心のブラジリアン柔術・キックボクシングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット渋谷宇田川町",
+    "name": "ファイトフィット渋谷宇田川町",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "渋谷駅徒歩5分、初心者や女性も安心のスパーリングなし格闘技フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット渋谷宮益坂",
+    "name": "ファイトフィット渋谷宮益坂",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "渋谷ヒカリエ徒歩4分、朝7時から夜23時まで営業の格闘技フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-中野トイカツ道場",
+    "name": "中野トイカツ道場",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "中野区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "中野駅徒歩3分、キックボクシングも寝技も楽しめるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット池袋西口",
+    "name": "ファイトフィット池袋西口",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "池袋駅徒歩30秒、初心者・女性も安心のスパーリングなし格闘技フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-駒込カタナジム",
+    "name": "駒込カタナジム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "北区",
+    "address": "東京都北区中里 レイハウス駒込201号室",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "駒込駅徒歩2分、総合格闘技・キックボクシング・柔術を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイティングラボ赤羽",
+    "name": "ファイティングラボ赤羽",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "北区",
+    "address": "TSビル4階",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "JR赤羽駅徒歩1分の格闘技フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトレ東武練馬",
+    "name": "ファイトレ東武練馬",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "板橋区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "東武練馬駅徒歩2分の格闘技コミュニティジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-グラバカジム-練馬ジム",
+    "name": "グラバカジム 練馬ジム",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "練馬区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "練馬駅徒歩2分、朝6時から深夜まで通える格闘技フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-キュートジム",
+    "name": "キュートジム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "足立区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "梅島駅徒歩10分、初心者から経験者まで楽しく格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-シーザージム新小岩",
+    "name": "シーザージム新小岩",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "葛飾区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "新小岩駅徒歩10分、立技総合格闘技シュートボクシングを学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-zoomer-fitnessgym",
+    "name": "ZOOMER FITNESSGYM",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市中区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "鶴舞駅徒歩11分、初心者から競技者まで指導するジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ts-gym",
+    "name": "TS GYM",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "栄駅徒歩11分、キックボクシング初心者も安心のジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-格闘技道場ブレイヴ",
+    "name": "格闘技道場ブレイヴ",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市中川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "複数の格闘技が学べる、女性向けプランのあるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ナゴヤファイトクラブ",
+    "name": "ナゴヤファイトクラブ",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市中区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "大須観音駅徒歩4分、キックボクシング＆総合格闘技のジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-heat24中川店",
+    "name": "HEAT24中川店",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市中川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "南荒子駅徒歩10分、24時間営業のジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-エキポセロ",
+    "name": "エキポセロ",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "名古屋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "格闘技初心者も女性も0から始められるアットホームなジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-hyブラジリアン柔術",
+    "name": "HYブラジリアン柔術",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "愛知県",
+    "city": "尾張旭市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "尾張旭駅徒歩10分、親子で始められるブラジリアン柔術道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-フォレストプラス-下地店",
+    "name": "フォレストプラス 下地店",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "豊橋市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者から女性まで、キックボクシングで理想の体を作るジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット柏",
+    "name": "ファイトフィット柏",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "柏市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "柏駅徒歩6分、全国通い放題の格闘技フィットネスジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-flatupジム",
+    "name": "FLATUPジム",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "成田市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "公津の杜駅徒歩16分、キックボクシングと総合格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-香取道場",
+    "name": "香取道場",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "香取市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "初心者からプロ志望まで学べる道場。",
+    "featured": false
+  },
+  {
+    "id": "gym-feel-the-mma-fitness",
+    "name": "feel the mma fitness",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "香取市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "佐原駅徒歩7分、初心者専門のセミパーソナル指導ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ストライプル世田谷・自由が丘",
+    "name": "ストライプル世田谷・自由が丘",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "世田谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "自由が丘駅徒歩7分、普通の人が楽しく強くなれるブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ブレイブハート福島",
+    "name": "ブレイブハート福島",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "福島県",
+    "city": "福島市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "福島駅徒歩圏内、女性向け料金もあるブラジリアン柔術ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-kickboxing-academy-sapporo",
+    "name": "Kickboxing Academy Sapporo",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "北海道",
+    "city": "札幌市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "すすきの駅徒歩8分、プロ指導者による楽しいトレーニング体験。",
+    "featured": false
+  },
+  {
+    "id": "gym-blast-bjj-studio",
+    "name": "BLAST BJJ STUDIO",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "姫路市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "野里駅徒歩4分、初心者からシニアまで通えるBJJスタジオ。",
+    "featured": false
+  },
+  {
+    "id": "gym-aqua-ma-fitness",
+    "name": "AQUA MA Fitness",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "香川県",
+    "city": "高松市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "三条駅徒歩14分、おしゃれで清潔な格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-リバーサルジム横浜グランドスラム",
+    "name": "リバーサルジム横浜グランドスラム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市西区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "平沼橋駅徒歩2分、横浜駅徒歩7分の総合格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-リバーサルジム戸塚グランドスラム",
+    "name": "リバーサルジム戸塚グランドスラム",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市戸塚区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "戸塚駅徒歩7分で学べる総合格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット横浜ポートサイド",
+    "name": "ファイトフィット横浜ポートサイド",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市神奈川区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "横浜駅徒歩6分、駅直結でスパーリング禁止のジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ソニックスクワッド",
+    "name": "ソニックスクワッド",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市港南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "港南台駅徒歩5分、複数の格闘技が学べる総合ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-エイワスポーツジム",
+    "name": "エイワスポーツジム",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "神奈川県",
+    "city": "横浜市西区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "横浜駅徒歩7分、自分のペースで格闘技が学べるアットホームなジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-zeek-gym",
+    "name": "ZEEK GYM",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "千葉市中央区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "西千葉駅徒歩1分、ダイエット・ストレス解消・護身まで対応するジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-jungle-gym",
+    "name": "JUNGLE GYM",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "広島県",
+    "city": "広島市南区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "格闘技初心者も女性も安心のレベル別指導ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-n-field宝塚小林本店",
+    "name": "N-FIELD宝塚小林本店",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "兵庫県",
+    "city": "宝塚市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "小林駅徒歩3分、初心者から選手育成まで対応するジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-shiroi-dream-box",
+    "name": "SHIROI DREAM BOX",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "千葉県",
+    "city": "白井市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "性別・年齢関係なく楽しめるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-fubuki-bjj-academy",
+    "name": "FUBUKI BJJ ACADEMY",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "愛知県",
+    "city": "春日井市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "勝川駅徒歩12分、初心者・女性も安心のブラジリアン柔術アカデミー。",
+    "featured": false
+  },
+  {
+    "id": "gym-ストライプルつくば",
+    "name": "ストライプルつくば",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "茨城県",
+    "city": "つくば市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "強さより始めやすさを掲げる初心者向け格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-istn-mma-boxing-lab",
+    "name": "ISTN MMA BOXING LAB",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "愛知県",
+    "city": "尾張旭市",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "三号駅徒歩5分、プロ指導者から学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-tri-h-studio-飯田橋",
+    "name": "TRI.H studio 飯田橋",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "飯田橋駅徒歩5分、プロ指導で格闘技をはじめられるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-hide-s-kick",
+    "name": "HIDE'S KICK",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "西新宿五丁目駅徒歩8分、経験豊富なトレーナーが指導するジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-暁道場",
+    "name": "暁道場",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "早稲田駅徒歩3分、未経験・女性も安心の総合格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット新宿",
+    "name": "ファイトフィット新宿",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "新宿駅西口徒歩6分、朝7時から夜23時まで通えるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット高田馬場駅前",
+    "name": "ファイトフィット高田馬場駅前",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "新宿区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "高田馬場駅徒歩1分、10種類以上の格闘技を学べるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-シーザージム浅草",
+    "name": "シーザージム浅草",
+    "sports": [
+      "mma"
+    ],
+    "prefecture": "東京都",
+    "city": "台東区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "浅草駅徒歩10分、シュートボクシングで鍛えるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ファイトフィット錦糸町",
+    "name": "ファイトフィット錦糸町",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "墨田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "錦糸町駅徒歩2分、初心者率95%の格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-fight-club-渋谷",
+    "name": "FIGHT CLUB 渋谷",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "渋谷区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "渋谷駅徒歩2分、習う・観る・飲むを楽しめるジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-トライフォース-東中野",
+    "name": "トライフォース 東中野",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "中野区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "落合駅徒歩1分、全クラス通い放題24時間ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-ライトシングアカデミー",
+    "name": "ライトシングアカデミー",
+    "sports": [
+      "mma",
+      "kickboxing",
+      "boxing"
+    ],
+    "prefecture": "東京都",
+    "city": "中野区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "中野新橋駅徒歩6分、自分のペースで学べるアカデミー。",
+    "featured": false
+  },
+  {
+    "id": "gym-トイカツグラップリング東中野",
+    "name": "トイカツグラップリング東中野",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "中野区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "落合駅徒歩1分、初心者9割対応のグラップリングジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-t・grip-tokyo",
+    "name": "T・GRIP TOKYO",
+    "sports": [
+      "mma",
+      "bjj"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "雑司ヶ谷駅徒歩4分、初心者から女性まで学べる総合格闘技ジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-尾下塾",
+    "name": "尾下塾",
+    "sports": [
+      "mma",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "豊島区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "東池袋駅徒歩1分、駅近で通いやすいジム。",
+    "featured": false
+  },
+  {
+    "id": "gym-和術慧舟會-大手町道場",
+    "name": "和術慧舟會 大手町道場",
+    "sports": [
+      "mma",
+      "bjj",
+      "kickboxing"
+    ],
+    "prefecture": "東京都",
+    "city": "千代田区",
+    "trialInfo": "体験・見学については直接お問い合わせください",
+    "photo": "",
+    "planTier": "free",
+    "description": "東京駅・大手町駅徒歩5分、和術慧舟會の大手町道場。",
     "featured": false
   }
 ]
