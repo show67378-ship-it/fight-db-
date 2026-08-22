@@ -1,5 +1,5 @@
 import { activeSports } from "@/lib/taxonomy";
-import { getAthlete, getAthletes, getMatches, organizations } from "@/lib/data";
+import { getAthletes, getMatches, organizations } from "@/lib/data";
 import MatchPreviewCard from "@/components/MatchPreviewCard";
 import OrgTag from "@/components/OrgTag";
 
@@ -9,10 +9,11 @@ export const metadata = {
   title: "勝敗予想 | 格闘.com",
 };
 
-export default function MatchesPage() {
-  const athleteIds = new Set(getAthletes().map((a) => a.id));
-  const matches = getMatches().filter(
-    (m) => activeSports.includes(m.sport) && athleteIds.has(m.athleteAId) && athleteIds.has(m.athleteBId)
+export default async function MatchesPage() {
+  const [allAthletes, allMatches] = await Promise.all([getAthletes(), getMatches()]);
+  const athleteById = new Map(allAthletes.map((a) => [a.id, a]));
+  const matches = allMatches.filter(
+    (m) => activeSports.includes(m.sport) && athleteById.has(m.athleteAId) && athleteById.has(m.athleteBId)
   );
 
   return (
@@ -40,8 +41,8 @@ export default function MatchesPage() {
                   <MatchPreviewCard
                     key={m.id}
                     match={m}
-                    athleteA={getAthlete(m.athleteAId)!}
-                    athleteB={getAthlete(m.athleteBId)!}
+                    athleteA={athleteById.get(m.athleteAId)!}
+                    athleteB={athleteById.get(m.athleteBId)!}
                   />
                 ))}
               </div>
@@ -59,8 +60,8 @@ export default function MatchesPage() {
                     <MatchPreviewCard
                       key={m.id}
                       match={m}
-                      athleteA={getAthlete(m.athleteAId)!}
-                      athleteB={getAthlete(m.athleteBId)!}
+                      athleteA={athleteById.get(m.athleteAId)!}
+                      athleteB={athleteById.get(m.athleteBId)!}
                     />
                   ))}
                 </div>

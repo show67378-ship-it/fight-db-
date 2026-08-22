@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 
 export default async function EditAthletePage({ params }: PageProps<"/admin/athletes/[id]">) {
   const { id } = await params;
-  const athlete = getAthlete(id);
+  const athlete = await getAthlete(id);
   if (!athlete) notFound();
 
   const boundUpdate = updateAthlete.bind(null, id);

@@ -8,11 +8,11 @@ export const dynamic = "force-dynamic";
 
 export default async function MatchDetailPage({ params }: PageProps<"/matches/[id]">) {
   const { id } = await params;
-  const match = getMatch(id);
+  const match = await getMatch(id);
   if (!match) notFound();
 
-  const athleteA = getAthlete(match.athleteAId);
-  const athleteB = getAthlete(match.athleteBId);
+  const athleteA = await getAthlete(match.athleteAId);
+  const athleteB = await getAthlete(match.athleteBId);
   if (!athleteA || !athleteB) notFound();
 
   return (

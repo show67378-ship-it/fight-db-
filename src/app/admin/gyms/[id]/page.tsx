@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 
 export default async function EditGymPage({ params }: PageProps<"/admin/gyms/[id]">) {
   const { id } = await params;
-  const gym = getGym(id);
+  const gym = await getGym(id);
   if (!gym) notFound();
 
   const boundUpdate = updateGym.bind(null, id);

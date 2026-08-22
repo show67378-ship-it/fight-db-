@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { getAthletes, getGym, getGyms } from "@/lib/data";
+import { getAthletes, getGyms } from "@/lib/data";
 import { activeSports } from "@/lib/taxonomy";
+import type { Athlete, Gym } from "@/lib/types";
 import GymCard from "@/components/GymCard";
 import Avatar from "@/components/Avatar";
 
@@ -10,13 +11,13 @@ export const metadata = {
   title: "検索 | 格闘.com",
 };
 
-function matchesAthlete(a: ReturnType<typeof getAthletes>[number], q: string): boolean {
+function matchesAthlete(a: Athlete, q: string): boolean {
   return [a.name, a.nameKana, a.nickname, a.weightClass, a.gymNote, a.bio, a.backbone, a.fightingStyle, a.stance]
     .filter((v): v is string => Boolean(v))
     .some((v) => v.includes(q));
 }
 
-function matchesGym(g: ReturnType<typeof getGyms>[number], q: string): boolean {
+function matchesGym(g: Gym, q: string): boolean {
   return [g.name, g.prefecture, g.city, g.address, g.description]
     .filter((v): v is string => Boolean(v))
     .some((v) => v.includes(q));
@@ -26,8 +27,10 @@ export default async function SearchPage({ searchParams }: PageProps<"/search">)
   const { q: rawQ } = await searchParams;
   const q = (Array.isArray(rawQ) ? rawQ[0] : rawQ)?.trim() ?? "";
 
-  const athletes = q ? getAthletes().filter((a) => activeSports.includes(a.sport) && matchesAthlete(a, q)) : [];
-  const gyms = q ? getGyms().filter((g) => activeSports.some((s) => g.sports.includes(s)) && matchesGym(g, q)) : [];
+  const [allAthletes, allGyms] = await Promise.all([getAthletes(), getGyms()]);
+  const gymById = new Map(allGyms.map((g) => [g.id, g]));
+  const athletes = q ? allAthletes.filter((a) => activeSports.includes(a.sport) && matchesAthlete(a, q)) : [];
+  const gyms = q ? allGyms.filter((g) => activeSports.some((s) => g.sports.includes(s)) && matchesGym(g, q)) : [];
   const hasResults = athletes.length > 0 || gyms.length > 0;
 
   return (
@@ -71,7 +74,7 @@ export default async function SearchPage({ searchParams }: PageProps<"/search">)
                   <p className="font-head truncate text-base font-semibold text-ink">{a.name}</p>
                   <p className="text-xs text-ink-dim">
                     {a.weightClass}
-                    {a.gymId && ` ・ ${getGym(a.gymId)?.name ?? ""}`}
+                    {a.gymId && ` ・ ${gymById.get(a.gymId)?.name ?? ""}`}
                   </p>
                 </div>
               </Link>

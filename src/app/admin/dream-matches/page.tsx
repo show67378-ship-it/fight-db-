@@ -5,9 +5,8 @@ import type { DreamMatchCard } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
-export default function AdminDreamMatchesPage() {
-  const cards = getDreamMatches();
-  const athletes = getAthletes();
+export default async function AdminDreamMatchesPage() {
+  const [cards, athletes] = await Promise.all([getDreamMatches(), getAthletes()]);
   const getAthleteName = (id: string) => athletes.find((a) => a.id === id)?.name ?? "(削除済みの選手)";
 
   return (

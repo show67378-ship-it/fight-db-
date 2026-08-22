@@ -11,25 +11,24 @@
     "birthdate": "1992-07-15",
     "heightCm": 177,
     "weightKg": 66,
+    "reachCm": 178,
     "weightClass": "フェザー級",
     "nationality": "日本",
     "gymId": "gym-japan-top-team",
-    "gymNote": "国内のトップファイターが多数所属する日本有数のメガジム",
-    "bio": "言わずと知れた現代MMAを象徴するスター選手。\r\nTHE OUTSIDERの二階級チャンピオン。\r\nBreaking Downの創業者及び発案者。",
+    "bio": "現代MMAを象徴するスーパースター。\r\nTHE OUTSIDERの二階級チャンピオン。\r\nBreaking Downの創業者及び代表取締役。\r\nMMAの歴史はきっと朝倉未来以前、朝倉未来以後で語られる。",
     "nickname": "路上の伝説",
     "signatureMove": "左ハイキック",
     "fightingStyle": "オールラウンダー",
+    "stance": "サウスポー",
+    "backbone": "空手(極真空手)・相撲・喧嘩",
     "sns": [],
     "record": {
       "wins": 18,
       "losses": 5,
       "draws": 1
     },
-    "recordNote": "通算成績(RIZIN成績: 12勝4敗)。最新情報は出典でご確認ください。",
     "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "featured": true,
-    "stance": "サウスポー",
-    "backbone": "空手(極真空手)・相撲・ストリートファイト"
+    "featured": true
   },
   {
     "id": "ath-naoki-inoue",
@@ -40,19 +39,26 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1997-06-14",
+    "heightCm": 175,
+    "weightKg": 61,
+    "reachCm": 177,
     "weightClass": "バンタム級(王者)",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
+    "gymNote": "キルクリフFC所属（アメリカ合衆国）",
+    "bio": "元RIZINバンダム級チャンピオン。\r\n「キックボクシングをやってもチャンピオンになれる」と有識者に言われるほどの打撃スキルと高いグラップリングスキルを合わせ持つ。\r\n高い打撃スキルを持つが、KOよりも一本勝ちの方が多い選手である。",
+    "nickname": "地獄のエンジェル",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "backbone": "空手・ブラジリアン柔術",
     "sns": [],
     "record": {
       "wins": 19,
       "losses": 4,
       "draws": 0
     },
-    "recordNote": "通算成績(RIZIN成績: 9勝2敗)。",
     "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "stance": "オーソドックス",
-    "backbone": "空手・ブラジリアン柔術"
+    "featured": false
   },
   {
     "id": "ath-roberto-souza",
@@ -63,19 +69,27 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1989-09-19",
+    "heightCm": 180,
+    "weightKg": 71,
+    "reachCm": 185,
     "weightClass": "ライト級(王者)",
     "nationality": "ブラジル/日本",
-    "gymNote": "所属ジムは未確認",
+    "gymId": "gym-bonsai-iwata",
+    "bio": "寝たら終わりと思わせるほどの柔術スキルを持つ。\r\n道着柔術においてMMAファイターの中では世界一との呼び声も高い。\r\n他のファイターの柔術スキルとは一線を画す実力を持つ。\r\n柔術ばかりが目立つが、KO勝ちも増えており、強烈なパンチで相手を追い詰め\r\n隙があると一瞬で一本勝ちするというのが彼の決まり勝ちパターンである。",
+    "nickname": "シン柔術マジシャン",
+    "signatureMove": "三角締め",
+    "fightingStyle": "柔術家",
+    "stance": "オーソドックス",
+    "backbone": "ブラジリアン柔術",
     "sns": [],
     "record": {
       "wins": 18,
       "losses": 3,
       "draws": 0
     },
-    "recordNote": "通算成績(RIZIN成績: 11勝3敗)。",
     "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "stance": "オーソドックス",
-    "backbone": "ブラジリアン柔術・柔道・サブミッションレスリング"
+    "featured": false
   },
   {
     "id": "ath-ren-hiramoto",
@@ -86,14 +100,26 @@
       "rizin"
     ],
     "photo": "",
+    "heightCm": 174,
+    "weightKg": 66,
+    "reachCm": 179,
     "weightClass": "フェザー級/ライト級",
     "nationality": "日本",
-    "gymNote": "剛毅會 所属(拠点未確認)",
+    "gymNote": "剛毅會所属（国内だが一般クラス確認出来ず）",
+    "bio": "打撃スキルだけで言えば、RIZINナンバーワンとの呼び声が高い。\r\nMMAの立ち技において彼よりも殺傷能力の高く、テクニカルな打撃を持つ選手は存在しないかもしれない。\r\n日本MMAのスーパースター朝倉未来の宿敵。\r\nヒールな発言が目立つ選手ではあるが、誰よりも格闘技を愛しているのは彼なのではないだろうか",
+    "nickname": "令和の黒きカリスマ",
+    "signatureMove": "打撃全般",
+    "fightingStyle": "ストライカー",
+    "stance": "両利き",
+    "backbone": "キックボクシング",
     "sns": [],
-    "recordNote": "2026年5月のRIZIN.53時点で現役。詳細戦績は出典でご確認ください。",
+    "record": {
+      "wins": 4,
+      "losses": 3,
+      "draws": 0
+    },
     "sourceUrl": "https://www.oricon.co.jp/news/2453701/full/",
-    "stance": "オーソドックス",
-    "backbone": "キックボクシング"
+    "featured": true
   },
   {
     "id": "ath-kouji",
@@ -104,14 +130,23 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1985-05-06",
+    "heightCm": 173,
+    "weightKg": 61,
+    "reachCm": 178,
     "weightClass": "フェザー級/ライト級",
     "nationality": "日本",
-    "gymNote": "TEAM ONE 所属(拠点未確認)",
-    "sns": [],
-    "recordNote": "キックボクシング/MMAで活動。2026年5月のRIZIN.53時点で現役。",
-    "sourceUrl": "https://www.oricon.co.jp/news/2453701/full/",
+    "gymNote": "TEAM ONE 所属",
+    "bio": "K－１から参戦した、人気選手。\r\n特に集客力が高いことで知られ、\r\nKOされないことで有名である。\r\nこれからの活躍に期待！",
+    "nickname": "鋼のエンペラー",
+    "signatureMove": "倒れないこと",
+    "fightingStyle": "ストライカー",
     "stance": "オーソドックス",
-    "backbone": "空手・日本拳法・キックボクシング"
+    "backbone": "キックボクシング",
+    "sns": [],
+    "recordNote": "MMA戦績を記載",
+    "sourceUrl": "https://www.oricon.co.jp/news/2453701/full/",
+    "featured": false
   },
   {
     "id": "ath-shaydullaev",
@@ -122,18 +157,27 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "2000-10-11",
+    "heightCm": 170,
+    "weightKg": 66,
+    "reachCm": 174,
     "weightClass": "フェザー級(王者)",
     "nationality": "キルギス",
-    "gymNote": "所属ジムは未確認",
+    "gymNote": "イーラスMMA（キルギス）",
+    "bio": "MMA戦績１９戦１９勝の全フィニッシュのパーフェクトレコードを持つ。\r\nまだ判定までいっておらずまだ底の見えない選手。\r\nまさに怪物である。RIZINパウンドフォーパウンドを決めるなら彼だろう。\r\nRIZINどころか世界最強の団体のUFCへ参戦したとしても彼はチャンピオンになるのではないだろうか.......",
+    "nickname": "キルギスの犬鷲",
+    "signatureMove": "パウンド",
+    "fightingStyle": "レスラー",
+    "stance": "オーソドックス",
+    "backbone": "柔道、レスリング",
     "sns": [],
     "record": {
       "wins": 19,
       "losses": 0,
       "draws": 0
     },
-    "recordNote": "通算成績(RIZIN成績: 7勝0敗)。",
     "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "backbone": "柔道・レスリング・ブラジリアン柔術"
+    "featured": false
   },
   {
     "id": "ath-shinya-aoki",
@@ -144,14 +188,28 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1983-05-09",
+    "heightCm": 180,
+    "weightKg": 70,
+    "reachCm": 180,
     "weightClass": "ライト級",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "recordNote": "MMA界のレジェンド。複数団体をまたぐため通算戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "gymId": "gym-paraestra-tokyo",
+    "bio": "MMA界のレジェンド。\r\n世界最高クラスの寝技師。",
+    "nickname": "跳関十段",
+    "signatureMove": "あらゆる寝技",
+    "fightingStyle": "柔術家",
     "stance": "サウスポー",
-    "backbone": "柔道"
+    "backbone": "柔道",
+    "sns": [],
+    "record": {
+      "wins": 49,
+      "losses": 12,
+      "draws": 0
+    },
+    "recordNote": "偶発的な反則による１無効試合",
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "featured": false
   },
   {
     "id": "ath-aj-mckee",
@@ -162,14 +220,21 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1995-04-07",
+    "heightCm": 178,
+    "weightKg": 66,
+    "reachCm": 188,
     "weightClass": "フェザー級",
     "nationality": "アメリカ",
-    "gymNote": "PFL所属。RIZIN参戦は今回が初。",
-    "sns": [],
-    "recordNote": "PFLでの実績多数。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "gymNote": "ボディショップ・フィットネス(アメリカ合衆国)",
+    "bio": "世界的トップMMAファイター。\r\n過去のBellator対抗戦では当時RIZINライト級絶対王者のホベルトサトシソウザに接戦の末に判定勝利した。（数度に渡りバックポジションをサトシソウザに取られても一本を取られなかった。）\r\n日本で試合するのが大好き。\r\n過去に実の父で総合格闘家のアントニオマッキーは青木真也に負けている。\r\n全ての面において世界最高クラスの実力を誇る。",
+    "nickname": "Mercenary（傭兵)",
+    "signatureMove": "ハイキック",
+    "fightingStyle": "オールラウンダー",
     "stance": "サウスポー",
-    "backbone": "レスリング"
+    "sns": [],
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "featured": false
   },
   {
     "id": "ath-luiz-gustavo",
@@ -180,15 +245,20 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1996-05-25",
     "heightCm": 175,
     "weightKg": 71,
-    "weightClass": "ライト級(王者)",
+    "reachCm": 179,
+    "weightClass": "ライト級",
     "nationality": "ブラジル",
-    "gymNote": "所属ジムは未確認",
+    "gymNote": "ブラジリアン・ティーケーオー(ブラジル)",
+    "bio": "ブラジル出身の殺し屋ストライカー",
+    "nickname": "ファベーラの必殺仕事人",
+    "signatureMove": "ストレート",
+    "fightingStyle": "ストライカー",
     "sns": [],
-    "recordNote": "RIZIN公式サイト記載の王者。詳細戦績は出典でご確認ください。",
     "sourceUrl": "https://jp.rizinff.com/fighters",
-    "backbone": "ムエタイ"
+    "featured": false
   },
   {
     "id": "ath-danny-sabatello",
@@ -199,16 +269,27 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1993-03-31",
     "heightCm": 178,
     "weightKg": 61,
+    "reachCm": 177,
     "weightClass": "バンタム級(王者)",
     "nationality": "アメリカ",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "recordNote": "RIZIN公式サイト記載の王者。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/fighters",
+    "gymNote": "アメリカントップチーム（アメリカ合衆国）",
+    "bio": "ヒールを演じているがナイスな兄貴。\r\nテイクダウンされてからの立ち上がり、ポジションキープ、バックコントロール、スクランブルでのポジション奪りが非常に上手。\r\n寝技でも打撃でもフィニッシュできる選手。",
+    "nickname": "ジ・イタリアン・ギャングスター",
+    "signatureMove": "スクランブル",
+    "fightingStyle": "レスラー",
     "stance": "オーソドックス",
-    "backbone": "レスリング"
+    "backbone": "レスリング",
+    "sns": [],
+    "record": {
+      "wins": 19,
+      "losses": 4,
+      "draws": 1
+    },
+    "sourceUrl": "https://jp.rizinff.com/fighters",
+    "featured": false
   },
   {
     "id": "ath-makoto-shinryu",
@@ -219,15 +300,27 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "2000-07-05",
     "heightCm": 165.5,
     "weightKg": 57,
     "weightClass": "フライ級(王者)",
-    "nationality": "日本(宮城県)",
-    "gymNote": "所属ジムは未確認",
+    "nationality": "日本",
+    "gymNote": "アメリカントップチーム所属（アメリカ合衆国）",
+    "bio": "全てにおいて高い能力を誇るオールラウンダー。\r\n特に寝技が強く、試合では特定の技ではなくあらゆる技で一本勝ちしている。\r\n寝技が突出しているからかKO勝ちはない。\r\nだが元シュートボクシングの日本チャンピオンでもあり打撃も非常に強力である。\r\n身体が非常に柔らかくギロチンチョーク等は中々入らないと本人は語っている。\r\n基本負ける試合は判定負けが多く、フィニッシュされることが少ない。（堀口戦のみ一本負け）",
+    "nickname": "日本のラフ・ダイヤモンド",
+    "signatureMove": "寝技",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "backbone": "レスリング、柔術",
     "sns": [],
-    "recordNote": "RIZIN公式サイト記載の王者。詳細戦績は出典でご確認ください。",
+    "record": {
+      "wins": 23,
+      "losses": 5,
+      "draws": 1
+    },
+    "recordNote": "上記のほか偶発的アイポークによる１無効試合",
     "sourceUrl": "https://jp.rizinff.com/fighters",
-    "backbone": "レスリング"
+    "featured": false
   },
   {
     "id": "ath-yuki-motoya",
@@ -238,18 +331,27 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1989-09-14",
+    "heightCm": 170,
+    "weightKg": 57,
+    "reachCm": 173,
     "weightClass": "バンタム級",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
+    "gymNote": "アメリカントップチーム（アメリカ合衆国）",
+    "bio": "寝技のデパートとも呼ばれるベテラン選手。",
+    "nickname": "DEEOのファンタジスタ",
+    "signatureMove": "寝技",
+    "fightingStyle": "グラップラー",
+    "stance": "オーソドックス",
+    "backbone": "サッカー",
     "sns": [],
     "record": {
       "wins": 37,
       "losses": 13,
       "draws": 1
     },
-    "recordNote": "通算成績(RIZIN成績: 12勝8敗1分)。最新情報は出典でご確認ください。",
     "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "stance": "オーソドックス"
+    "featured": false
   },
   {
     "id": "ath-hiromasa-ougikubo",
@@ -260,19 +362,27 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1987-04-01",
+    "heightCm": 162,
+    "weightKg": 57,
+    "reachCm": 163,
     "weightClass": "フライ級",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
+    "gymNote": "THE BLACKBELT JAPAN",
+    "bio": "塩試合と言われることは多いが、その試合には技が光る。\r\n彼に判定勝ちするのは至難の業。\r\n世界最高の塩をご賞味ください。",
+    "nickname": "打・投・極・根性",
+    "signatureMove": "塩漬け",
+    "fightingStyle": "グラップラー",
+    "stance": "オーソドックス",
+    "backbone": "空手",
     "sns": [],
     "record": {
       "wins": 27,
       "losses": 8,
       "draws": 2
     },
-    "recordNote": "通算成績(RIZIN成績: 9勝5敗)。",
     "sourceUrl": "https://en.wikipedia.org/wiki/List_of_current_Rizin_Fighting_Federation_fighters",
-    "stance": "オーソドックス",
-    "backbone": "空手"
+    "featured": false
   },
   {
     "id": "ath-shunta-nomura",
@@ -283,13 +393,22 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1997-10-11",
+    "heightCm": 173,
+    "weightKg": 177,
+    "reachCm": 71,
     "weightClass": "ライト級",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
+    "gymNote": "アメリカントップチーム（アメリカ合衆国）",
+    "bio": "堀口恭二に憧れる日本MMAライト級の至宝。",
+    "nickname": "日本ライト級の至宝",
+    "signatureMove": "寝技",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "backbone": "空手(伝統派空手)",
     "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
     "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
-    "backbone": "空手(伝統派空手)"
+    "featured": false
   },
   {
     "id": "ath-karshyga-dautbek",
@@ -300,13 +419,28 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1993-12-07",
+    "heightCm": 170,
+    "weightKg": 66,
+    "reachCm": 170,
     "weightClass": "フェザー級",
     "nationality": "カザフスタン",
-    "gymNote": "所属ジムは未確認",
+    "gymNote": "カザフスタントップチーム（カザフスタン）",
+    "bio": "カザフスタンのボクシングチャンピオン。\r\n岩石パンチと呼ばれる破壊力抜群のパンチが特徴である。\r\n鈴木千裕や萩原京平、YA-MANなどRIZINの強豪ストライカーに勝利している。",
+    "nickname": "キング・オブ・カザフスタン",
+    "signatureMove": "右ストレート",
+    "fightingStyle": "ストライカー",
+    "stance": "オーソドックス",
+    "backbone": "ボクシング",
     "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "record": {
+      "wins": 19,
+      "losses": 3,
+      "draws": 0
+    },
+    "recordNote": "上記のほかアイポークにより１無効試合",
     "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
-    "backbone": "ボクシング・シラット"
+    "featured": false
   },
   {
     "id": "ath-yutaka-saito",
@@ -317,13 +451,27 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1987-10-08",
+    "heightCm": 173,
+    "weightKg": 66,
+    "reachCm": 171,
     "weightClass": "フェザー級",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
+    "gymId": "gym-paraestra-koiwa",
+    "bio": "元RIZINフェザー級チャンピオン。朝倉未来と一勝一敗で朝倉未来とRIZINフェザー級の一時代を築いた。朝倉未来は現代ＭＭＡのスーパースターだが、その陰には彼がいた。\r\n彼とのドラマがなければ朝倉未来も今の地位はなかっただろう。\r\nとにかく根性があり打たれ強い事で有名。\r\n拳が固く打撃が強いと言われ、柔術黒帯、レスリングにおいては腰が重くテイクダウンディフェンス能力が非常に高い事で知られる朝倉未来を試合で２度もテイクダウンした。\r\n上記のとおり非常にＭＭＡにおいて高いスキルを持つが、特にスクランブルになった時の細かい技術が経験の長さを表している。\r\nＭＭＡの教科書のような選手",
+    "nickname": "令和の修斗伝承者",
+    "signatureMove": "根性",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "backbone": "空手",
     "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
+    "record": {
+      "wins": 21,
+      "losses": 9,
+      "draws": 2
+    },
     "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
-    "backbone": "空手"
+    "featured": false
   },
   {
     "id": "ath-ya-man",
@@ -334,13 +482,22 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1996-05-31",
+    "heightCm": 173,
+    "weightKg": 63,
+    "reachCm": 171,
     "weightClass": "フェザー級",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
+    "gymNote": "TARGET SHIBUYA所属",
+    "bio": "初代RISEオープンフィンガーグローブマッチ65kg以下級王者。\r\n被弾承知でガンガン前に出てインファイトするのが持ち味。\r\nとにかくYA-MANは試合が面白い選手。",
+    "nickname": "キングオブストリートファイト",
+    "signatureMove": "インファイト",
+    "fightingStyle": "ストライカー",
+    "stance": "オーソドックス",
+    "backbone": "キックボクシング",
     "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
     "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
-    "backbone": "キックボクシング"
+    "featured": false
   },
   {
     "id": "ath-vugar-keramov",
@@ -351,14 +508,22 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1992-02-20",
+    "heightCm": 175,
+    "weightKg": 66,
+    "reachCm": 179,
     "weightClass": "フェザー級",
     "nationality": "アゼルバイジャン",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "gymNote": "ORION FIGHT CLUB所属（アゼルバイジャン）",
+    "bio": "元RIZINフェザー級王者。アゼルバイジャン人初のRIZIN王者。\r\nフィジカルが強く、ゴリゴリのレスラータイプである。",
+    "nickname": "コーカサスの雷",
+    "signatureMove": "フィジカルを活かしたタックル",
+    "fightingStyle": "レスラー",
     "stance": "オーソドックス",
-    "backbone": "散打・サンボ"
+    "backbone": "散打・サンボ",
+    "sns": [],
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "featured": false
   },
   {
     "id": "ath-ryo-takaki",
@@ -369,30 +534,22 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1999-09-12",
+    "heightCm": 178,
+    "weightKg": 66,
+    "reachCm": 179,
     "weightClass": "フェザー級",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
+    "gymNote": "現在フリー",
+    "bio": "元パンクラスフェザー級ランキング1位。\r\n異名のとおり一発のある打撃は持ち味だが非常にバランスの良いオールラウンダーである。\r\n敗退試合もかなり接戦となった試合ばかりで、あまり発言などで目立つタイプではないが、RIZIN上位層の実力を持つ選手である。",
+    "nickname": "一撃秒殺スラッガー",
+    "signatureMove": "右ストレート",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "backbone": "野球",
     "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
     "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
-    "stance": "オーソドックス"
-  },
-  {
-    "id": "ath-natasha-kuzutina",
-    "name": "ナターシャ・クジュティナ",
-    "nameKana": "なたーしゃ くじゅてぃな",
-    "sport": "mma",
-    "organizations": [
-      "rizin"
-    ],
-    "photo": "",
-    "weightClass": "女子アトム級",
-    "nationality": "ロシア",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
-    "backbone": "柔道"
+    "featured": false
   },
   {
     "id": "ath-daichi-tomizawa",
@@ -403,14 +560,22 @@
       "rizin"
     ],
     "photo": "",
+    "birthdate": "1997-10-03",
+    "heightCm": 168,
+    "weightKg": 57,
+    "reachCm": 165,
     "weightClass": "バンタム級",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "gymId": "gym-fighters-flow",
+    "bio": "元K-1選手でBreakingDownで人気に火が点いた、現役RIZIN選手。\r\n飛び膝蹴りでKOすることが多い。\r\nとにかく根性のある選手。\r\n篠塚辰樹の永遠のライバルのような感じになっている。",
+    "nickname": "BDの闘神",
+    "signatureMove": "飛び膝蹴り",
+    "fightingStyle": "ストライカー",
     "stance": "サウスポー",
-    "backbone": "キックボクシング・空手"
+    "backbone": "キックボクシング",
+    "sns": [],
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "featured": false
   },
   {
     "id": "ath-donmai-kawabata",
@@ -421,31 +586,20 @@
       "rizin"
     ],
     "photo": "",
-    "weightClass": "バンタム級",
+    "birthdate": "1989-11-29",
+    "heightCm": 166,
+    "weightKg": 61,
+    "weightClass": "フライ級",
     "nationality": "日本",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手。詳細戦績は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
-    "backbone": "柔道"
-  },
-  {
-    "id": "ath-beynoah",
-    "name": "\"ブラックパンサー\"ベイノア",
-    "nameKana": "べいのあ",
-    "sport": "kickboxing",
-    "organizations": [
-      "rizin"
-    ],
-    "photo": "",
-    "weightClass": "71.0kg契約",
-    "nationality": "未確認",
-    "gymNote": "所属ジムは未確認",
-    "sns": [],
-    "recordNote": "2026年9月10日「超RIZIN.5」出場選手(キックボクシングルール)。詳細は出典でご確認ください。",
-    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "gymId": "gym-japan-top-team",
+    "bio": "大学４年生時に講道館杯全日本柔道体重別選手権大会優勝を経験。\r\nMMAは未経験だが、柔道においては他とは一線を画す実力を持つ。\r\n弱いはずがない。",
+    "signatureMove": "足技",
+    "fightingStyle": "柔道家",
     "stance": "オーソドックス",
-    "backbone": "空手・キックボクシング"
+    "backbone": "柔道",
+    "sns": [],
+    "sourceUrl": "https://jp.rizinff.com/_ct/17853585",
+    "featured": false
   },
   {
     "id": "ath-yuta-kawashima",
@@ -469,91 +623,592 @@
     "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧"
   },
   {
-    "id": "ath-tobima-yasui",
-    "name": "安井 飛馬",
-    "nameKana": "やすい とびま",
+    "id": "ath-zmi31",
+    "name": "秋元強真",
+    "nameKana": "あきもときょうま",
     "sport": "mma",
     "organizations": [
-      "breakingdown"
+      "rizin"
     ],
     "photo": "",
-    "weightClass": "ウェルター級",
+    "birthdate": "2006-03-08",
+    "heightCm": 180,
+    "weightKg": 66,
+    "reachCm": 177.5,
+    "weightClass": "フェザー級",
     "nationality": "日本",
-    "bio": "BreakingDown内では一貫してMMAルールで戦う。",
+    "gymId": "gym-japan-top-team",
+    "bio": "日本MMAに突如現れた超新星。ストライカーではあるものの寝技による一本勝ちやグラップリングで圧倒する試合も見せるなど、オールラウンダーに非常に近い。\r\nとにかくフットワークの速さとハンドスピードが速いのも特徴である。\r\nＲＩＺＩＮ屈指のストライカーである萩原京平に打ち合って勝ち、元BellatorチャンピオンでＫＯ負けをした事のなかった世界屈指のグラップラーであるパッチ―ミックスをＴＫＯし、ＲＩＺＩＮ元チャンピオンで柔術界の鬼人ことクレベルコイケに判定勝ちをした。\r\n年齢的にも非常に若く、将来の活躍が楽しみな選手である。",
+    "nickname": "超強真星",
+    "signatureMove": "右ストレート",
+    "fightingStyle": "ストライカー",
+    "stance": "サウスポー",
+    "backbone": "サッカー、ボクシング",
     "sns": [],
     "record": {
-      "wins": 6,
-      "losses": 0,
+      "wins": 13,
+      "losses": 1,
       "draws": 0
     },
-    "recordNote": "BreakingDown内成績。",
-    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧",
-    "backbone": "柔道"
+    "featured": true
   },
   {
-    "id": "ath-tetsuya-ido",
-    "name": "井土 徹也",
-    "nameKana": "いど てつや",
+    "id": "ath-ncp85",
+    "name": "ヒロヤ",
+    "nameKana": "ひろや",
     "sport": "mma",
     "organizations": [
-      "breakingdown"
+      "rizin"
     ],
     "photo": "",
-    "weightClass": "ミドル級",
+    "birthdate": "1998-05-07",
+    "heightCm": 164,
+    "weightKg": 57,
+    "reachCm": 168,
+    "weightClass": "フライ",
     "nationality": "日本",
-    "bio": "プロレスラー。ミドル級ワンデートーナメント(MMAルール)優勝経験あり。",
+    "gymId": "gym-japan-top-team",
+    "bio": "朝倉未来一年チャレンジから本格的なMMAキャリアをスタートした。\r\nフィジカルと不良時代に培った根性が武器。\r\n基本的にはレスラースタイルで、テイクダウンをして寝技で１本を狙うというよりもパウンドして相手選手を追い詰める選手。\r\nドロドロの展開になってからのジャーマンスープレックスや泥臭く何度もテイクダウンに行く姿で観客を何度も感動させてきた。\r\n前述のとおりレスラータイプではあるものの当時、修斗史上初の2階級同時王者で連勝中だった新井丈に重い打撃をでTKO勝ちし、一躍スターダムへ。\r\n２０２５年にはRIZINフライ級上位層が参戦するRIZINフライ級トーナメントに参戦した。\r\n１回戦で元谷友貴と対戦し敗戦するも、RIZIN屈指の寝業師である元谷に一本を決めさせず、熱戦をした。\r\nとにかくパワー・フィジカル・根性が持ち味。",
+    "nickname": "不屈のヤングガン",
+    "signatureMove": "フィジカルを活かした攻め",
+    "fightingStyle": "レスラー",
+    "stance": "オーソドックス",
+    "backbone": "喧嘩",
     "sns": [],
     "record": {
-      "wins": 5,
-      "losses": 0,
+      "wins": 11,
+      "losses": 16,
       "draws": 0
     },
-    "recordNote": "BreakingDown内成績。",
-    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧",
-    "backbone": "プロレス"
+    "featured": true
   },
   {
-    "id": "ath-junji-urata",
-    "name": "瓜田 純士",
-    "nameKana": "うらた じゅんじ",
-    "sport": "mma",
+    "id": "ath-6dnri",
+    "name": "井原良太郎",
+    "nameKana": "いはらりょうたろう",
+    "sport": "kickboxing",
     "organizations": [
       "breakingdown"
     ],
     "photo": "",
-    "weightClass": "ライト級",
+    "birthdate": "1995-10-09",
+    "heightCm": 170,
+    "weightKg": 60,
+    "reachCm": 174,
+    "weightClass": "バンダム",
     "nationality": "日本",
-    "bio": "「アウトローのカリスマ」の異名。出場12大会。",
+    "gymNote": "秀虎（元THE OUTSIDER選手）に師事",
+    "bio": "『BreakingDown10』のオーディションで行われた「第2回喧嘩自慢最強決定戦」に東京・足立代表のフェザー級選手として出場。\r\n足立区代表としては団体戦で敗れるも、朝倉未来に才能を見出され急遽けが人が出て空きのあったバンダム級トーナメントに参戦することとなり、同バンダム級トーナメントを優勝した。\r\nその後、Breaking Downバンダム級タイトルマッチにて富澤大智（現RIZIN選手）と対戦するも見事な当て感で打撃を当てて判定勝利した。\r\nその後も元UFCファイターや細川一颯（現RIZIN兼Breaking Downライト級チャンピオン）現役RIZINファイターの芦澤竜誠、鈴木博昭に立て続けに勝利した。\r\n天才的な当て感で勝利してきた。",
+    "nickname": "路上に花咲く天才喧嘩坊や",
+    "signatureMove": "カウンター",
+    "fightingStyle": "カウンターパンチャー",
+    "stance": "サウスポー",
+    "backbone": "喧嘩",
     "sns": [],
     "record": {
-      "wins": 6,
+      "wins": 11,
+      "losses": 3,
+      "draws": 0
+    },
+    "featured": false
+  },
+  {
+    "id": "ath-qzmkf",
+    "name": "クレベルコイケ",
+    "nameKana": "くれべるこいけ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1989-10-16",
+    "heightCm": 178,
+    "weightKg": 66,
+    "reachCm": 183,
+    "weightClass": "フェザー級",
+    "nationality": "ブラジル",
+    "gymId": "gym-bonsai-iwata",
+    "bio": "元RIZINフェザー級チャンピオン。\r\nボンサイ柔術をバックボーンに持ちRIZINライト級チャンピオンであるホベルトサトシソウザの兄弟分。\r\n必殺の寝技を持ち、特にダースチョークとボンサイ柔術の選手が得意とする三角締めでフィニッシュすることが多い。\r\n寝技が決まりそうになった時に彼が叫ぶ「ポペガー」が代名詞。\r\n「ポペガー」と叫ばれるとほぼ一本負け確定のもはや死刑宣告である。\r\nちなみに「ポペガー」と宣告されてから寝技の決めの形からエスケープすることを「ポペキャン（ポペガーキャンセル）」とファンの間では呼ばれている。\r\n寝技が目立つ選手だが、彼の長い手足から繰り出されるムエタイ技も厄介である。",
+    "nickname": "柔術界の鬼人",
+    "signatureMove": "三角締め、ダースチョーク",
+    "fightingStyle": "柔術家",
+    "stance": "オーソドックス",
+    "backbone": "柔術",
+    "sns": [],
+    "record": {
+      "wins": 35,
+      "losses": 10,
+      "draws": 1
+    },
+    "recordNote": "上記のほか体重超過による１無効試合あり",
+    "featured": false
+  },
+  {
+    "id": "ath-4cu9r",
+    "name": "鈴木千裕",
+    "nameKana": "すずきちひろ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1999-05-14",
+    "heightCm": 177,
+    "weightKg": 66,
+    "reachCm": 177,
+    "weightClass": "フェザー級",
+    "nationality": "日本",
+    "gymNote": "クロスポイント吉祥寺",
+    "bio": "元RIZINフェザー級チャンピオン。\r\n元Bellatorチャンピオンのパトリシオピットブルや当時連勝してたケラモフにも勝利している。\r\nぶんぶんフルスイングする事が特徴である。\r\nとても勢いのある選手で怪物シェイドゥラエフを倒せるのはもしかしたら彼なのかもしれない。",
+    "nickname": "天下無双の稲妻ボーイ",
+    "signatureMove": "フルスイング",
+    "fightingStyle": "ストライカー",
+    "stance": "オーソドックス",
+    "backbone": "伝統派空手",
+    "sns": [],
+    "record": {
+      "wins": 13,
       "losses": 6,
       "draws": 0
     },
-    "recordNote": "BreakingDown内成績。",
-    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧",
-    "backbone": "キックボクシング・ムエタイ"
+    "recordNote": "対戦相手の体重超過により１無効試合",
+    "featured": false
   },
   {
-    "id": "ath-souki-yamakawa",
-    "name": "山川 そうき",
-    "nameKana": "やまかわ そうき",
+    "id": "ath-jurwk",
+    "name": "久保優太",
+    "nameKana": "くぼゆうた",
     "sport": "mma",
     "organizations": [
-      "breakingdown"
+      "rizin"
     ],
     "photo": "",
-    "weightClass": "バンタム級",
+    "birthdate": "1987-10-19",
+    "heightCm": 175,
+    "weightKg": 66,
+    "reachCm": 176,
+    "weightClass": "フェザー級",
     "nationality": "日本",
-    "bio": "出場9大会。目の負傷により2025年5月に引退。",
+    "gymId": "gym-brave-kitasenju",
+    "bio": "GLORY及びK-1 WORLD GPの元王者。\r\n打撃のスペシャリスト。\r\n平本連と並びRIZINトップクラスの打撃技術を持つ。",
+    "nickname": "微笑みスナイパー",
+    "signatureMove": "打撃全般",
+    "fightingStyle": "ストライカー",
+    "stance": "オーソドックス",
+    "backbone": "キックボクシング",
+    "sns": [],
+    "recordNote": "上記のほかアイポークにより１無効試合",
+    "featured": false
+  },
+  {
+    "id": "ath-vvz0z",
+    "name": "今成 正和",
+    "nameKana": "いまなりまさかず",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1976-02-10",
+    "heightCm": 165,
+    "weightKg": 61,
+    "reachCm": 173,
+    "weightClass": "フェザー級",
+    "nationality": "日本",
+    "gymId": "gym-今成柔術",
+    "bio": "スライディングから後転し、相手の足に絡みついて足関節を狙う動きはイマナリ・ロールと呼ばれている[9][10]。足関節技、特にヒールホールドを得意とし、足関十段の異名を持つ。その独特の風貌とトリッキーなファイトスタイル、関節技の極めの強さで人気を得ている。",
+    "nickname": "足関十段",
+    "signatureMove": "足関節",
+    "fightingStyle": "柔術家",
+    "stance": "オーソドックス",
     "sns": [],
     "record": {
-      "wins": 5,
-      "losses": 4,
-      "draws": 0
+      "wins": 40,
+      "losses": 22,
+      "draws": 2
     },
-    "recordNote": "BreakingDown内成績。",
-    "sourceUrl": "https://ja.wikipedia.org/wiki/BreakingDown_出場者一覧",
-    "backbone": "少林寺拳法"
+    "featured": false
+  },
+  {
+    "id": "ath-lve3c",
+    "name": "武田 光司",
+    "nameKana": "たけだこうじ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1995-08-13",
+    "heightCm": 170,
+    "weightKg": 66,
+    "reachCm": 173,
+    "weightClass": "フェザー級",
+    "nationality": "日本",
+    "gymId": "gym-tribe-tokyo-main",
+    "bio": "レスリングエリート。\r\n6歳でレスリングを始め、小学生・中学生年代で全国優勝を果たすと、埼玉栄高校時代には1年生でJOC杯カデット優勝、3年生で全国高校選抜大会、インターハイ、全国高校生グレコローマン選手権、国民体育大会の高校主要大会全てで優勝し4冠を獲得した。",
+    "nickname": "漆黒のヘラクレス",
+    "signatureMove": "ジャーマンスープレックス",
+    "fightingStyle": "レスラー",
+    "stance": "オーソドックス",
+    "backbone": "レスリング",
+    "sns": [],
+    "featured": false
+  },
+  {
+    "id": "ath-68t8h",
+    "name": "木村 柊也",
+    "nameKana": "きむらしゅうや",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "2000-06-10",
+    "heightCm": 167,
+    "weightKg": 66,
+    "reachCm": 168,
+    "weightClass": "フェザー級",
+    "nationality": "日本",
+    "gymId": "gym-brave-kitasenju",
+    "bio": "日本拳法全日本チャンピオン。\r\nこれからに期待の選手。",
+    "nickname": "阿波の拳王",
+    "fightingStyle": "ストライカー",
+    "stance": "オーソドックス",
+    "backbone": "日本拳法",
+    "sns": [],
+    "featured": false
+  },
+  {
+    "id": "ath-kawyt",
+    "name": "佐藤 将光",
+    "nameKana": "さとうしょうこう",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1987-08-21",
+    "heightCm": 175,
+    "weightKg": 61,
+    "reachCm": 177,
+    "weightClass": "バンダム",
+    "nationality": "日本",
+    "bio": "元修斗世界バンタム級王者。\r\n経験豊富な強豪ベテラン選手。",
+    "nickname": "ミスターいぶし銀",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "sns": [],
+    "featured": false
+  },
+  {
+    "id": "ath-579ug",
+    "name": "太田 忍",
+    "nameKana": "おおたしのぶ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1993-12-28",
+    "heightCm": 165,
+    "weightKg": 61,
+    "reachCm": 168,
+    "weightClass": "バンダム",
+    "nationality": "日本",
+    "bio": "レスリングエリート。\r\n2016年リオデジャネイロオリンピック 銀メダリスト。2019年レスリング世界王者。",
+    "nickname": "銀の忍者レスラー",
+    "signatureMove": "タックル",
+    "fightingStyle": "レスラー",
+    "stance": "オーソドックス",
+    "backbone": "レスリング",
+    "sns": [],
+    "featured": false
+  },
+  {
+    "id": "ath-slamg",
+    "name": "福田龍彌",
+    "nameKana": "ふくだりゅうや",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1992-06-12",
+    "heightCm": 167,
+    "weightKg": 61,
+    "reachCm": 171,
+    "weightClass": "バンダム",
+    "nationality": "日本",
+    "gymNote": "MIBURO",
+    "bio": "DEEP二階級同時制覇王者。\r\n切れ味のある打撃が特徴。",
+    "nickname": "壬生の大蛇",
+    "fightingStyle": "ストライカー",
+    "stance": "オーソドックス",
+    "backbone": "ムエタイ",
+    "sns": [],
+    "record": {
+      "wins": 26,
+      "losses": 10,
+      "draws": 1
+    },
+    "featured": false
+  },
+  {
+    "id": "ath-638om",
+    "name": "安藤 達也",
+    "nameKana": "あんどうたつや",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1990-04-26",
+    "heightCm": 170,
+    "weightKg": 61,
+    "reachCm": 171,
+    "weightClass": "バンダム",
+    "nationality": "日本",
+    "bio": "元レスリング選手。\r\n寝てよし立ってよしのオールラウンダーに近いレスラー。\r\n試合が面白い。",
+    "nickname": "遅れてきた\"怪物\"",
+    "fightingStyle": "レスラー",
+    "stance": "オーソドックス",
+    "backbone": "レスリング",
+    "sns": [],
+    "record": {
+      "wins": 16,
+      "losses": 5,
+      "draws": 1
+    },
+    "featured": false
+  },
+  {
+    "id": "ath-3gcbj",
+    "name": "後藤丈治",
+    "nameKana": "ごとうじょうじ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1996-03-09",
+    "heightCm": 172,
+    "weightKg": 61,
+    "reachCm": 173,
+    "weightClass": "バンダム",
+    "nationality": "日本",
+    "gymId": "gym-tribe-tokyo-main",
+    "bio": "能力の高いオールラウンダー。",
+    "nickname": "北海の宮本武蔵",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "backbone": "柔道、空手",
+    "sns": [],
+    "featured": false
+  },
+  {
+    "id": "ath-7z27m",
+    "name": "征矢 貴",
+    "nameKana": "そやたかき",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1994-10-15",
+    "heightCm": 165,
+    "weightKg": 57,
+    "reachCm": 164,
+    "weightClass": "フライ",
+    "nationality": "日本",
+    "bio": "消化管に炎症が起こる原因不明の国指定の難病『クローン病』と診断され、格闘技から何度も離れる、不死鳥のように復活することから、松戸の不死鳥と呼ばれている。\r\n偏りのないバランスの良い実力に一撃KO可能な破壊力のある打撃を備える。",
+    "nickname": "松戸の不死鳥",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "sns": [],
+    "record": {
+      "wins": 13,
+      "losses": 8,
+      "draws": 1
+    },
+    "featured": false
+  },
+  {
+    "id": "ath-cmzor",
+    "name": "山本 アーセン",
+    "nameKana": "やまもとあーせん",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1996-09-08",
+    "heightCm": 169,
+    "weightKg": 57,
+    "reachCm": 166,
+    "weightClass": "フライ",
+    "nationality": "日本",
+    "gymId": "gym-krazy-bee",
+    "bio": "山本KID徳郁の甥っ子。\r\nレスリングが持ち味。",
+    "nickname": "格闘一家の最強DNA",
+    "signatureMove": "タックル",
+    "fightingStyle": "レスラー",
+    "stance": "オーソドックス",
+    "backbone": "レスリング",
+    "sns": [],
+    "record": {
+      "wins": 7,
+      "losses": 8,
+      "draws": 1
+    },
+    "featured": false
+  },
+  {
+    "id": "ath-m6s2s",
+    "name": "伊藤 裕樹",
+    "nameKana": "いとうゆうき",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1997-04-19",
+    "heightCm": 169,
+    "weightKg": 57,
+    "reachCm": 171,
+    "weightClass": "フライ",
+    "nationality": "日本",
+    "gymNote": "ネックススポーツ",
+    "bio": "日本一MMAの強いギャンブラーとの呼び声の高い選手。\r\n初代THE OUTSIDER50-55kg級王者。\r\nボクシングをバックグラウンドとした打撃が持ち味。",
+    "nickname": "尾張のウォーズマン",
+    "fightingStyle": "ストライカー",
+    "stance": "オーソドックス",
+    "backbone": "ボクシング",
+    "sns": [],
+    "featured": false
+  },
+  {
+    "id": "ath-8e45e",
+    "name": "エンカジムーロ・ズールー",
+    "nameKana": "",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1989-06-19",
+    "heightCm": 169,
+    "weightKg": 57,
+    "reachCm": 171,
+    "weightClass": "フライ",
+    "nationality": "日本",
+    "bio": "堀口恭二をグラつかせた事がある、 南アフリカ共和国出身の強豪選手。\r\n打撃が持ち味。",
+    "nickname": "アフリカ軽量級の雄",
+    "fightingStyle": "ストライカー",
+    "stance": "オーソドックス",
+    "backbone": "極真空手",
+    "sns": [],
+    "record": {
+      "wins": 16,
+      "losses": 9,
+      "draws": 1
+    },
+    "featured": false
+  },
+  {
+    "id": "ath-l069k",
+    "name": "トニー・ララミー",
+    "nameKana": "とにーららみー",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1999-01-06",
+    "heightCm": 169,
+    "weightKg": 57,
+    "reachCm": 171,
+    "weightClass": "フライ",
+    "nationality": "日本",
+    "bio": "初代PFCフライ級王者。\r\nカナダの強豪。",
+    "nickname": "The Wildman",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "backbone": "レスリング",
+    "sns": [],
+    "featured": false
+  },
+  {
+    "id": "ath-kadm9",
+    "name": "イルホム・ノジモフ",
+    "nameKana": "いるほむのじほむ",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1995-03-27",
+    "heightCm": 182,
+    "weightKg": 71,
+    "reachCm": 189,
+    "weightClass": "ライト",
+    "nationality": "ウズベキスタン",
+    "gymNote": "タイガームエタイ所属（タイ）",
+    "bio": "当時絶対王者だったホベルトサトシソウザに膝蹴りにより衝撃KO勝ちをしている。\r\nテクニック裏付けされた抜群のタイミングで飛んでくる膝蹴りはＫＯ必至。",
+    "nickname": "タシケントの闘犬",
+    "signatureMove": "膝蹴り",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "backbone": "ボクシング、レスリング、柔道、空道、テコンドー、コンバットサンボ",
+    "sns": [],
+    "featured": false
+  },
+  {
+    "id": "ath-tgp7f",
+    "name": "堀江圭功",
+    "nameKana": "ほりえよしのり",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1995-05-10",
+    "heightCm": 172,
+    "weightKg": 71,
+    "reachCm": 178,
+    "weightClass": "ライト",
+    "nationality": "日本",
+    "gymId": "gym-alliance-tokyo",
+    "bio": "日本MMA界の特級呪物。\r\n日本MMAの日本人では国内トップクラスの実力を持つ。\r\n殺傷能力の高い打撃と腰の重さが特徴。",
+    "nickname": "裸の銃をもつ漢",
+    "fightingStyle": "オールラウンダー",
+    "stance": "オーソドックス",
+    "backbone": "空手道",
+    "sns": [],
+    "featured": false
+  },
+  {
+    "id": "ath-0jloi",
+    "name": "桜庭 大世",
+    "nameKana": "さくらばたいせい",
+    "sport": "mma",
+    "organizations": [
+      "rizin"
+    ],
+    "photo": "",
+    "birthdate": "1998-11-12",
+    "heightCm": 180,
+    "weightKg": 71,
+    "reachCm": 185,
+    "weightClass": "ライト級",
+    "nationality": "日本",
+    "gymNote": "サクラバファミリア所属",
+    "bio": "父は総合格闘家の桜庭和志。\r\n将来が楽しみな選手である。",
+    "nickname": "Saku Jr.",
+    "signatureMove": "膝十字固め",
+    "fightingStyle": "グラップラー",
+    "stance": "オーソドックス",
+    "backbone": "柔道",
+    "sns": [],
+    "featured": false
   }
 ]

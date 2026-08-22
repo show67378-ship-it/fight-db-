@@ -20,8 +20,8 @@ function nextStatus(current: GymListingRequestStatus): GymListingRequestStatus {
   return "new";
 }
 
-export default function AdminListingRequestsPage() {
-  const requests = getListingRequests();
+export default async function AdminListingRequestsPage() {
+  const requests = await getListingRequests();
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-12">

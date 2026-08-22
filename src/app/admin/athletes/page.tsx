@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export default async function AdminAthletesPage({ searchParams }: PageProps<"/admin/athletes">) {
   const { q: rawQ } = await searchParams;
   const q = (Array.isArray(rawQ) ? rawQ[0] : rawQ)?.trim() ?? "";
-  const allAthletes = getAthletes();
+  const allAthletes = await getAthletes();
   const athletes = q
     ? allAthletes.filter((a) =>
         [a.name, a.nameKana, a.nickname, a.weightClass].filter((v): v is string => Boolean(v)).some((v) => v.includes(q))

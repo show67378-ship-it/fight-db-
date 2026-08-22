@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getAthlete, getAthletes, getDreamMatches, getGyms, getMatches } from "@/lib/data";
+import { getAthletes, getDreamMatches, getGyms, getMatches } from "@/lib/data";
 import { activeSports, visibleSports } from "@/lib/taxonomy";
 import MatchPreviewCard from "@/components/MatchPreviewCard";
 import GymCard from "@/components/GymCard";
@@ -8,10 +8,17 @@ import Avatar from "@/components/Avatar";
 
 export const dynamic = "force-dynamic";
 
-export default function Home() {
-  const athletes = getAthletes().filter((a) => activeSports.includes(a.sport));
-  const athleteExists = (id: string) => getAthlete(id) !== undefined;
-  const openMatches = getMatches()
+export default async function Home() {
+  const [allAthletes, allMatches, allDreamMatches, allGyms] = await Promise.all([
+    getAthletes(),
+    getMatches(),
+    getDreamMatches(),
+    getGyms(),
+  ]);
+  const athleteById = new Map(allAthletes.map((a) => [a.id, a]));
+  const athletes = allAthletes.filter((a) => activeSports.includes(a.sport));
+  const athleteExists = (id: string) => athleteById.has(id);
+  const openMatches = allMatches
     .filter(
       (m) =>
         m.status === "open" &&
@@ -20,13 +27,13 @@ export default function Home() {
         athleteExists(m.athleteBId)
     )
     .slice(0, 3);
-  const topDreamMatches = getDreamMatches()
+  const topDreamMatches = allDreamMatches
     .filter(
       (c) => activeSports.includes(c.sport) && athleteExists(c.athleteAId) && athleteExists(c.athleteBId)
     )
     .sort((a, b) => b.votes - a.votes)
     .slice(0, 3);
-  const eligibleGyms = getGyms().filter((g) => g.sports.some((s) => activeSports.includes(s)));
+  const eligibleGyms = allGyms.filter((g) => g.sports.some((s) => activeSports.includes(s)));
   const featuredGyms = pickFeatured(eligibleGyms);
   const featuredAthletes = pickFeatured(athletes);
 
@@ -142,8 +149,8 @@ export default function Home() {
               <MatchPreviewCard
                 key={m.id}
                 match={m}
-                athleteA={getAthlete(m.athleteAId)!}
-                athleteB={getAthlete(m.athleteBId)!}
+                athleteA={athleteById.get(m.athleteAId)!}
+                athleteB={athleteById.get(m.athleteBId)!}
               />
             ))}
           </div>
@@ -164,8 +171,8 @@ export default function Home() {
           </div>
           <div className="mt-6 space-y-3">
             {topDreamMatches.map((card, i) => {
-              const a = getAthlete(card.athleteAId)!;
-              const b = getAthlete(card.athleteBId)!;
+              const a = athleteById.get(card.athleteAId)!;
+              const b = athleteById.get(card.athleteBId)!;
               return (
                 <div
                   key={card.id}

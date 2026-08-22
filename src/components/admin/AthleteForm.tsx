@@ -5,14 +5,14 @@ const inputCls =
   "w-full rounded-sm border border-border bg-surface-2 px-3 py-2 text-sm text-ink focus:border-accent focus:outline-none";
 const labelCls = "font-head text-xs font-semibold uppercase tracking-wide text-ink-dim";
 
-export default function AthleteForm({
+export default async function AthleteForm({
   athlete,
   action,
 }: {
   athlete?: Athlete;
   action: (formData: FormData) => void | Promise<void>;
 }) {
-  const gyms = getGyms();
+  const gyms = await getGyms();
 
   return (
     <form action={action} className="mt-6 space-y-5">

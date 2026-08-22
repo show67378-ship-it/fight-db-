@@ -5,9 +5,8 @@ import type { Match } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
 
-export default function AdminMatchesPage() {
-  const matches = getMatches();
-  const athletes = getAthletes();
+export default async function AdminMatchesPage() {
+  const [matches, athletes] = await Promise.all([getMatches(), getAthletes()]);
   const getAthleteName = (id: string) => athletes.find((a) => a.id === id)?.name ?? "(削除済みの選手)";
 
   return (

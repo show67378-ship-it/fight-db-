@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { athletesBySport, getAthlete, getDreamMatches, getSport, gymsBySport, matchesBySport } from "@/lib/data";
+import { athletesBySport, getDreamMatches, getSport, gymsBySport, matchesBySport } from "@/lib/data";
 import { visibleSports } from "@/lib/taxonomy";
 import type { SportSlug } from "@/lib/types";
 import MatchPreviewCard from "@/components/MatchPreviewCard";
@@ -23,15 +23,19 @@ export default async function SportPage({ params }: PageProps<"/[sport]">) {
   if (!visibleSports.some((s) => s.slug === slug)) notFound();
 
   const sport = getSport(slug as SportSlug);
-  const sportAthletes = athletesBySport(sport.slug);
-  const athleteIds = new Set(sportAthletes.map((a) => a.id));
-  const sportMatches = matchesBySport(sport.slug).filter(
-    (m) => m.status === "open" && athleteIds.has(m.athleteAId) && athleteIds.has(m.athleteBId)
+  const [sportAthletes, allSportMatches, allDreamMatches, sportGyms] = await Promise.all([
+    athletesBySport(sport.slug),
+    matchesBySport(sport.slug),
+    getDreamMatches(),
+    gymsBySport(sport.slug),
+  ]);
+  const athleteById = new Map(sportAthletes.map((a) => [a.id, a]));
+  const sportMatches = allSportMatches.filter(
+    (m) => m.status === "open" && athleteById.has(m.athleteAId) && athleteById.has(m.athleteBId)
   );
-  const sportDreamMatches = getDreamMatches()
-    .filter((c) => c.sport === sport.slug && athleteIds.has(c.athleteAId) && athleteIds.has(c.athleteBId))
+  const sportDreamMatches = allDreamMatches
+    .filter((c) => c.sport === sport.slug && athleteById.has(c.athleteAId) && athleteById.has(c.athleteBId))
     .sort((a, b) => b.votes - a.votes);
-  const sportGyms = gymsBySport(sport.slug);
 
   const featuredGyms = pickFeatured(sportGyms);
   const featuredAthletes = pickFeatured(sportAthletes);
@@ -84,8 +88,8 @@ export default async function SportPage({ params }: PageProps<"/[sport]">) {
                 <MatchPreviewCard
                   key={m.id}
                   match={m}
-                  athleteA={getAthlete(m.athleteAId)!}
-                  athleteB={getAthlete(m.athleteBId)!}
+                  athleteA={athleteById.get(m.athleteAId)!}
+                  athleteB={athleteById.get(m.athleteBId)!}
                 />
               ))}
             </div>
@@ -106,8 +110,8 @@ export default async function SportPage({ params }: PageProps<"/[sport]">) {
         {sportDreamMatches.length > 0 ? (
           <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {sportDreamMatches.slice(0, 3).map((card) => {
-              const a = getAthlete(card.athleteAId)!;
-              const b = getAthlete(card.athleteBId)!;
+              const a = athleteById.get(card.athleteAId)!;
+              const b = athleteById.get(card.athleteBId)!;
               return (
                 <div key={card.id} className="flex items-center gap-3 rounded-lg border border-border bg-surface p-4">
                   <Avatar name={a.name} sport={card.sport} size={36} />

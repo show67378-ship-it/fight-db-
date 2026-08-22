@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 
 export default async function EditDreamMatchPage({ params }: PageProps<"/admin/dream-matches/[id]">) {
   const { id } = await params;
-  const card = getDreamMatch(id);
+  const card = await getDreamMatch(id);
   if (!card) notFound();
 
   const boundUpdate = updateDreamMatch.bind(null, id);

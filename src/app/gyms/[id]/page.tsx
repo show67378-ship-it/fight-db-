@@ -14,10 +14,11 @@ export default async function GymDetailPage({
 }: PageProps<"/gyms/[id]">) {
   const { id } = await params;
   const { applied } = await searchParams;
-  const gym = getGym(id);
+  const gym = await getGym(id);
   if (!gym) notFound();
 
-  const belongingAthletes = getAthletes().filter((a) => a.gymId === gym.id);
+  const allAthletes = await getAthletes();
+  const belongingAthletes = allAthletes.filter((a) => a.gymId === gym.id);
   const mapQuery = [gym.name, gym.prefecture, gym.city, gym.address].filter(Boolean).join(" ");
 
   return (

@@ -1,0 +1,116 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Gym {
+  id           String   @id
+  name         String
+  sports       String[]
+  prefecture   String
+  city         String
+  address      String?
+  phone        String?
+  contactEmail String?
+  trialInfo    String
+  photo        String
+  planTier     String   @default("free")
+  description  String
+  instructors  Json?
+  websiteUrl   String?
+  featured     Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model Athlete {
+  id            String   @id
+  name          String
+  nameKana      String
+  sport         String
+  organizations String[]
+  photo         String
+  birthdate     String?
+  heightCm      Float?
+  weightKg      Float?
+  reachCm       Float?
+  weightClass   String
+  nationality   String
+  gymId         String?
+  gymNote       String?
+  bio           String?
+  nickname      String?
+  signatureMove String?
+  fightingStyle String?
+  stance        String?
+  backbone      String?
+  sns           Json     @default("[]")
+  record        Json?
+  recordNote    String?
+  sourceUrl     String?
+  featured      Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Match {
+  id             String   @id
+  sport          String
+  organization   String
+  eventName      String
+  eventDate      String
+  venue          String
+  athleteAId     String
+  athleteBId     String
+  status         String
+  votesA         Int      @default(0)
+  votesB         Int      @default(0)
+  resultWinnerId String?
+  sourceUrl      String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model DreamMatchCard {
+  id         String @id
+  sport      String
+  organization String
+  athleteAId String
+  athleteBId String
+  votes      Int    @default(0)
+}
+
+model TrialApplication {
+  id            String   @id
+  gymId         String
+  name          String
+  phone         String?
+  email         String?
+  preferredDate String?
+  message       String?
+  status        String   @default("new")
+  createdAt     DateTime @default(now())
+}
+
+model GymListingRequest {
+  id            String   @id
+  gymName       String
+  sports        String[]
+  prefecture    String
+  city          String
+  address       String?
+  phone         String?
+  websiteUrl    String?
+  description   String?
+  contactName   String
+  contactEmail  String
+  status        String   @default("new")
+  createdAt     DateTime @default(now())
+}

@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": "dream-ath-mikuru-asakura-ath-ren-hiramoto-bivxf",
+    "sport": "mma",
+    "organization": "rizin",
+    "athleteAId": "ath-mikuru-asakura",
+    "athleteBId": "ath-ren-hiramoto",
+    "votes": 1
+  },
+  {
+    "id": "dream-ath-mikuru-asakura-ath-vugar-keramov-nydf6",
+    "sport": "mma",
+    "organization": "rizin",
+    "athleteAId": "ath-mikuru-asakura",
+    "athleteBId": "ath-vugar-keramov",
+    "votes": 1
+  },
+  {
+    "id": "dream-ath-zmi31-ath-shaydullaev-t82lh",
+    "sport": "mma",
+    "organization": "rizin",
+    "athleteAId": "ath-zmi31",
+    "athleteBId": "ath-shaydullaev",
+    "votes": 1
+  },
+  {
+    "id": "dream-ath-daichi-tomizawa-ath-kouji-wdkn7",
+    "sport": "mma",
+    "organization": "rizin",
+    "athleteAId": "ath-daichi-tomizawa",
+    "athleteBId": "ath-kouji",
+    "votes": 1
+  },
+  {
+    "id": "dream-ath-makoto-shinryu-ath-yuki-motoya-t14go",
+    "sport": "mma",
+    "organization": "rizin",
+    "athleteAId": "ath-makoto-shinryu",
+    "athleteBId": "ath-yuki-motoya",
+    "votes": 1
+  }
+]

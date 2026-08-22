@@ -19,15 +19,20 @@ function age(birthdate: string) {
 
 export default async function AthleteDetailPage({ params }: PageProps<"/athletes/[id]">) {
   const { id } = await params;
-  const athlete = getAthlete(id);
+  const athlete = await getAthlete(id);
   if (!athlete) notFound();
 
-  const gym = athlete.gymId ? getGym(athlete.gymId) : undefined;
-  const athleteMatches = getMatches().filter(
+  const [gym, allMatches, allAthletes] = await Promise.all([
+    athlete.gymId ? getGym(athlete.gymId) : Promise.resolve(undefined),
+    getMatches(),
+    getAthletes(),
+  ]);
+  const athleteById = new Map(allAthletes.map((a) => [a.id, a]));
+  const athleteMatches = allMatches.filter(
     (m) =>
       (m.athleteAId === athlete.id || m.athleteBId === athlete.id) &&
-      getAthlete(m.athleteAId) &&
-      getAthlete(m.athleteBId)
+      athleteById.has(m.athleteAId) &&
+      athleteById.has(m.athleteBId)
   );
   const nextMatch = athleteMatches.find((m) => m.status === "open");
   const pastMatches = athleteMatches.filter((m) => m.status === "closed");
@@ -107,15 +112,15 @@ export default async function AthleteDetailPage({ params }: PageProps<"/athletes
           <div className="mt-3 max-w-md">
             <MatchPreviewCard
               match={nextMatch}
-              athleteA={getAthlete(nextMatch.athleteAId)!}
-              athleteB={getAthlete(nextMatch.athleteBId)!}
+              athleteA={athleteById.get(nextMatch.athleteAId)!}
+              athleteB={athleteById.get(nextMatch.athleteBId)!}
             />
           </div>
         </div>
       )}
 
       <div className="mt-10">
-        <DreamMatchPicker athlete={athlete} allAthletes={getAthletes()} />
+        <DreamMatchPicker athlete={athlete} allAthletes={allAthletes} />
       </div>
 
       {pastMatches.length > 0 && (
@@ -123,7 +128,7 @@ export default async function AthleteDetailPage({ params }: PageProps<"/athletes
           <h2 className="font-head text-lg font-bold text-ink">過去の試合</h2>
           <div className="mt-3 space-y-2">
             {pastMatches.map((m) => {
-              const opponent = getAthlete(m.athleteAId === athlete.id ? m.athleteBId : m.athleteAId)!;
+              const opponent = athleteById.get(m.athleteAId === athlete.id ? m.athleteBId : m.athleteAId)!;
               const won = m.resultWinnerId === athlete.id;
               return (
                 <Link

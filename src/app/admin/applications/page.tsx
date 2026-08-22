@@ -10,9 +10,8 @@ const statusLabel: Record<TrialApplicationStatus, string> = {
   done: "対応完了",
 };
 
-export default function AdminApplicationsPage() {
-  const applications = getTrialApplications();
-  const gyms = getGyms();
+export default async function AdminApplicationsPage() {
+  const [applications, gyms] = await Promise.all([getTrialApplications(), getGyms()]);
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-12">

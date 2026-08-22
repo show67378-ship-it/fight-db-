@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 
 export default async function EditMatchPage({ params }: PageProps<"/admin/matches/[id]">) {
   const { id } = await params;
-  const match = getMatch(id);
+  const match = await getMatch(id);
   if (!match) notFound();
 
   const boundUpdate = updateMatch.bind(null, id);

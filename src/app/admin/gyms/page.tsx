@@ -6,7 +6,7 @@ export const dynamic = "force-dynamic";
 export default async function AdminGymsPage({ searchParams }: PageProps<"/admin/gyms">) {
   const { q: rawQ } = await searchParams;
   const q = (Array.isArray(rawQ) ? rawQ[0] : rawQ)?.trim() ?? "";
-  const allGyms = getGyms();
+  const allGyms = await getGyms();
   const gyms = q
     ? allGyms.filter((g) => [g.name, g.prefecture, g.city].some((v) => v.includes(q)))
     : allGyms;

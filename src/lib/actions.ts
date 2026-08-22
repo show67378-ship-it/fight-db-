@@ -2,7 +2,8 @@
 
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { readJson, writeJson } from "./store";
+import { prisma } from "./prisma";
+import { Prisma } from "@/generated/prisma/client";
 import type {
   Athlete,
   DreamMatchCard,
@@ -77,30 +78,52 @@ function gymFromForm(formData: FormData, existing?: Gym): Gym {
   };
 }
 
+function gymData(g: Gym) {
+  return {
+    name: g.name,
+    sports: g.sports,
+    prefecture: g.prefecture,
+    city: g.city,
+    address: g.address ?? null,
+    phone: g.phone ?? null,
+    contactEmail: g.contactEmail ?? null,
+    trialInfo: g.trialInfo,
+    photo: g.photo,
+    planTier: g.planTier,
+    description: g.description,
+    instructors: (g.instructors as Prisma.InputJsonValue | undefined) ?? Prisma.JsonNull,
+    websiteUrl: g.websiteUrl ?? null,
+    featured: g.featured ?? false,
+  };
+}
+
 export async function createGym(formData: FormData) {
-  const gyms = readJson<Gym[]>("gyms.json");
-  gyms.push(gymFromForm(formData));
-  writeJson("gyms.json", gyms);
+  const gym = gymFromForm(formData);
+  await prisma.gym.create({ data: { id: gym.id, ...gymData(gym) } });
   revalidatePath("/", "layout");
   redirect("/admin/gyms");
 }
 
 export async function updateGym(id: string, formData: FormData) {
-  const gyms = readJson<Gym[]>("gyms.json");
-  const idx = gyms.findIndex((g) => g.id === id);
-  if (idx === -1) redirect("/admin/gyms");
-  gyms[idx] = gymFromForm(formData, gyms[idx]);
-  writeJson("gyms.json", gyms);
+  const existing = await prisma.gym.findUnique({ where: { id } });
+  if (!existing) redirect("/admin/gyms");
+  const gym = gymFromForm(formData, {
+    ...existing,
+    address: existing.address ?? undefined,
+    phone: existing.phone ?? undefined,
+    contactEmail: existing.contactEmail ?? undefined,
+    instructors: (existing.instructors as GymInstructor[] | null) ?? undefined,
+    websiteUrl: existing.websiteUrl ?? undefined,
+    sports: existing.sports as SportSlug[],
+    planTier: existing.planTier as Gym["planTier"],
+  });
+  await prisma.gym.update({ where: { id }, data: gymData(gym) });
   revalidatePath("/", "layout");
   redirect("/admin/gyms");
 }
 
 export async function deleteGym(id: string) {
-  const gyms = readJson<Gym[]>("gyms.json");
-  writeJson(
-    "gyms.json",
-    gyms.filter((g) => g.id !== id)
-  );
+  await prisma.gym.delete({ where: { id } });
   revalidatePath("/", "layout");
   redirect("/admin/gyms");
 }
@@ -148,44 +171,78 @@ function athleteFromForm(formData: FormData, existing?: Athlete): Athlete {
   };
 }
 
+function athleteData(a: Athlete) {
+  return {
+    name: a.name,
+    nameKana: a.nameKana,
+    sport: a.sport,
+    organizations: a.organizations,
+    photo: a.photo,
+    birthdate: a.birthdate ?? null,
+    heightCm: a.heightCm ?? null,
+    weightKg: a.weightKg ?? null,
+    reachCm: a.reachCm ?? null,
+    weightClass: a.weightClass,
+    nationality: a.nationality,
+    gymId: a.gymId ?? null,
+    gymNote: a.gymNote ?? null,
+    bio: a.bio ?? null,
+    nickname: a.nickname ?? null,
+    signatureMove: a.signatureMove ?? null,
+    fightingStyle: a.fightingStyle ?? null,
+    stance: a.stance ?? null,
+    backbone: a.backbone ?? null,
+    sns: a.sns,
+    record: a.record ?? Prisma.JsonNull,
+    recordNote: a.recordNote ?? null,
+    sourceUrl: a.sourceUrl ?? null,
+    featured: a.featured ?? false,
+  };
+}
+
 export async function createAthlete(formData: FormData) {
-  const athletes = readJson<Athlete[]>("athletes.json");
-  athletes.push(athleteFromForm(formData));
-  writeJson("athletes.json", athletes);
+  const athlete = athleteFromForm(formData);
+  await prisma.athlete.create({ data: { id: athlete.id, ...athleteData(athlete) } });
   revalidatePath("/", "layout");
   redirect("/admin/athletes");
 }
 
 export async function updateAthlete(id: string, formData: FormData) {
-  const athletes = readJson<Athlete[]>("athletes.json");
-  const idx = athletes.findIndex((a) => a.id === id);
-  if (idx === -1) redirect("/admin/athletes");
-  athletes[idx] = athleteFromForm(formData, athletes[idx]);
-  writeJson("athletes.json", athletes);
+  const existing = await prisma.athlete.findUnique({ where: { id } });
+  if (!existing) redirect("/admin/athletes");
+  const athlete = athleteFromForm(formData, {
+    ...existing,
+    sport: existing.sport as SportSlug,
+    organizations: existing.organizations as OrganizationSlug[],
+    birthdate: existing.birthdate ?? undefined,
+    heightCm: existing.heightCm ?? undefined,
+    weightKg: existing.weightKg ?? undefined,
+    reachCm: existing.reachCm ?? undefined,
+    gymId: existing.gymId ?? undefined,
+    gymNote: existing.gymNote ?? undefined,
+    bio: existing.bio ?? undefined,
+    nickname: existing.nickname ?? undefined,
+    signatureMove: existing.signatureMove ?? undefined,
+    fightingStyle: existing.fightingStyle ?? undefined,
+    stance: existing.stance ?? undefined,
+    backbone: existing.backbone ?? undefined,
+    sns: (existing.sns as Athlete["sns"]) ?? [],
+    record: (existing.record as Athlete["record"]) ?? undefined,
+    recordNote: existing.recordNote ?? undefined,
+    sourceUrl: existing.sourceUrl ?? undefined,
+  });
+  await prisma.athlete.update({ where: { id }, data: athleteData(athlete) });
   revalidatePath("/", "layout");
   redirect("/admin/athletes");
 }
 
 export async function deleteAthlete(id: string) {
-  const athletes = readJson<Athlete[]>("athletes.json");
-  writeJson(
-    "athletes.json",
-    athletes.filter((a) => a.id !== id)
-  );
-
   // 選手を削除すると、その選手が絡む勝敗予想・ドリームマッチも参照切れになるため一緒に削除する
-  const matches = readJson<Match[]>("matches.json");
-  writeJson(
-    "matches.json",
-    matches.filter((m) => m.athleteAId !== id && m.athleteBId !== id)
-  );
-
-  const dreamMatches = readJson<DreamMatchCard[]>("dream-matches.json");
-  writeJson(
-    "dream-matches.json",
-    dreamMatches.filter((c) => c.athleteAId !== id && c.athleteBId !== id)
-  );
-
+  await prisma.$transaction([
+    prisma.athlete.delete({ where: { id } }),
+    prisma.match.deleteMany({ where: { OR: [{ athleteAId: id }, { athleteBId: id }] } }),
+    prisma.dreamMatchCard.deleteMany({ where: { OR: [{ athleteAId: id }, { athleteBId: id }] } }),
+  ]);
   revalidatePath("/", "layout");
   redirect("/admin/athletes");
 }
@@ -211,30 +268,48 @@ function matchFromForm(formData: FormData, existing?: Match): Match {
   };
 }
 
+function matchData(m: Match) {
+  return {
+    sport: m.sport,
+    organization: m.organization,
+    eventName: m.eventName,
+    eventDate: m.eventDate,
+    venue: m.venue,
+    athleteAId: m.athleteAId,
+    athleteBId: m.athleteBId,
+    status: m.status,
+    votesA: m.votesA,
+    votesB: m.votesB,
+    resultWinnerId: m.resultWinnerId ?? null,
+    sourceUrl: m.sourceUrl ?? null,
+  };
+}
+
 export async function createMatch(formData: FormData) {
-  const matches = readJson<Match[]>("matches.json");
-  matches.push(matchFromForm(formData));
-  writeJson("matches.json", matches);
+  const match = matchFromForm(formData);
+  await prisma.match.create({ data: { id: match.id, ...matchData(match) } });
   revalidatePath("/", "layout");
   redirect("/admin/matches");
 }
 
 export async function updateMatch(id: string, formData: FormData) {
-  const matches = readJson<Match[]>("matches.json");
-  const idx = matches.findIndex((m) => m.id === id);
-  if (idx === -1) redirect("/admin/matches");
-  matches[idx] = matchFromForm(formData, matches[idx]);
-  writeJson("matches.json", matches);
+  const existing = await prisma.match.findUnique({ where: { id } });
+  if (!existing) redirect("/admin/matches");
+  const match = matchFromForm(formData, {
+    ...existing,
+    sport: existing.sport as SportSlug,
+    organization: existing.organization as OrganizationSlug,
+    status: existing.status as Match["status"],
+    resultWinnerId: existing.resultWinnerId ?? undefined,
+    sourceUrl: existing.sourceUrl ?? undefined,
+  });
+  await prisma.match.update({ where: { id }, data: matchData(match) });
   revalidatePath("/", "layout");
   redirect("/admin/matches");
 }
 
 export async function deleteMatch(id: string) {
-  const matches = readJson<Match[]>("matches.json");
-  writeJson(
-    "matches.json",
-    matches.filter((m) => m.id !== id)
-  );
+  await prisma.match.delete({ where: { id } });
   revalidatePath("/", "layout");
   redirect("/admin/matches");
 }
@@ -253,89 +328,93 @@ function dreamMatchFromForm(formData: FormData, existing?: DreamMatchCard): Drea
 }
 
 export async function createDreamMatch(formData: FormData) {
-  const cards = readJson<DreamMatchCard[]>("dream-matches.json");
-  cards.push(dreamMatchFromForm(formData));
-  writeJson("dream-matches.json", cards);
+  const card = dreamMatchFromForm(formData);
+  await prisma.dreamMatchCard.create({
+    data: {
+      id: card.id,
+      sport: card.sport,
+      organization: card.organization,
+      athleteAId: card.athleteAId,
+      athleteBId: card.athleteBId,
+      votes: card.votes,
+    },
+  });
   revalidatePath("/", "layout");
   redirect("/admin/dream-matches");
 }
 
 export async function updateDreamMatch(id: string, formData: FormData) {
-  const cards = readJson<DreamMatchCard[]>("dream-matches.json");
-  const idx = cards.findIndex((c) => c.id === id);
-  if (idx === -1) redirect("/admin/dream-matches");
-  cards[idx] = dreamMatchFromForm(formData, cards[idx]);
-  writeJson("dream-matches.json", cards);
+  const existing = await prisma.dreamMatchCard.findUnique({ where: { id } });
+  if (!existing) redirect("/admin/dream-matches");
+  const card = dreamMatchFromForm(formData, {
+    ...existing,
+    sport: existing.sport as SportSlug,
+    organization: existing.organization as OrganizationSlug,
+  });
+  await prisma.dreamMatchCard.update({
+    where: { id },
+    data: {
+      sport: card.sport,
+      organization: card.organization,
+      athleteAId: card.athleteAId,
+      athleteBId: card.athleteBId,
+      votes: card.votes,
+    },
+  });
   revalidatePath("/", "layout");
   redirect("/admin/dream-matches");
 }
 
 export async function deleteDreamMatch(id: string) {
-  const cards = readJson<DreamMatchCard[]>("dream-matches.json");
-  writeJson(
-    "dream-matches.json",
-    cards.filter((c) => c.id !== id)
-  );
+  await prisma.dreamMatchCard.delete({ where: { id } });
   revalidatePath("/", "layout");
   redirect("/admin/dream-matches");
 }
 
 export async function submitTrialApplication(gymId: string, formData: FormData) {
-  const applications = readJson<TrialApplication[]>("trial-applications.json");
-  applications.unshift({
-    id: newId("apply", str(formData, "name")),
-    gymId,
-    name: str(formData, "name"),
-    phone: optStr(formData, "phone"),
-    email: optStr(formData, "email"),
-    preferredDate: optStr(formData, "preferredDate"),
-    message: optStr(formData, "message"),
-    status: "new",
-    createdAt: new Date().toISOString(),
+  await prisma.trialApplication.create({
+    data: {
+      id: newId("apply", str(formData, "name")),
+      gymId,
+      name: str(formData, "name"),
+      phone: optStr(formData, "phone") ?? null,
+      email: optStr(formData, "email") ?? null,
+      preferredDate: optStr(formData, "preferredDate") ?? null,
+      message: optStr(formData, "message") ?? null,
+      status: "new",
+    },
   });
-  writeJson("trial-applications.json", applications);
   revalidatePath("/admin/applications");
   redirect(`/gyms/${gymId}?applied=1`);
 }
 
 export async function updateTrialApplicationStatus(id: string, status: TrialApplication["status"]) {
-  const applications = readJson<TrialApplication[]>("trial-applications.json");
-  const idx = applications.findIndex((a) => a.id === id);
-  if (idx !== -1) {
-    applications[idx].status = status;
-    writeJson("trial-applications.json", applications);
-  }
+  await prisma.trialApplication.update({ where: { id }, data: { status } });
   revalidatePath("/admin/applications");
 }
 
 export async function submitListingRequest(formData: FormData) {
-  const requests = readJson<GymListingRequest[]>("listing-requests.json");
-  requests.unshift({
-    id: newId("listing", str(formData, "gymName")),
-    gymName: str(formData, "gymName"),
-    sports: formData.getAll("sports") as SportSlug[],
-    prefecture: str(formData, "prefecture"),
-    city: str(formData, "city"),
-    address: optStr(formData, "address"),
-    phone: optStr(formData, "phone"),
-    websiteUrl: optStr(formData, "websiteUrl"),
-    description: optStr(formData, "description"),
-    contactName: str(formData, "contactName"),
-    contactEmail: str(formData, "contactEmail"),
-    status: "new",
-    createdAt: new Date().toISOString(),
+  await prisma.gymListingRequest.create({
+    data: {
+      id: newId("listing", str(formData, "gymName")),
+      gymName: str(formData, "gymName"),
+      sports: formData.getAll("sports") as SportSlug[],
+      prefecture: str(formData, "prefecture"),
+      city: str(formData, "city"),
+      address: optStr(formData, "address") ?? null,
+      phone: optStr(formData, "phone") ?? null,
+      websiteUrl: optStr(formData, "websiteUrl") ?? null,
+      description: optStr(formData, "description") ?? null,
+      contactName: str(formData, "contactName"),
+      contactEmail: str(formData, "contactEmail"),
+      status: "new",
+    },
   });
-  writeJson("listing-requests.json", requests);
   revalidatePath("/admin/listing-requests");
   redirect("/gyms/list-your-gym?submitted=1");
 }
 
 export async function updateListingRequestStatus(id: string, status: GymListingRequest["status"]) {
-  const requests = readJson<GymListingRequest[]>("listing-requests.json");
-  const idx = requests.findIndex((r) => r.id === id);
-  if (idx !== -1) {
-    requests[idx].status = status;
-    writeJson("listing-requests.json", requests);
-  }
+  await prisma.gymListingRequest.update({ where: { id }, data: { status } });
   revalidatePath("/admin/listing-requests");
 }
