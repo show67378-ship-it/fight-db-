@@ -10,10 +10,9 @@ export const sports: Sport[] = [
   { slug: "boxing", name: "ボクシング", shortName: "ボクシング", accent: "#C4383F" },
 ];
 
-// 現在サイトで扱う競技(1つずつ完成させる方針のため、まずはMMAに特化)。
-// sports自体は既存データの整合性(getSport等)のため4競技分残していますが、
-// ナビゲーションや一覧表示にはこちらの activeSports / visibleSports を使ってください。
-export const activeSports: SportSlug[] = ["mma"];
+// 現在サイトで表示する競技。ナビゲーションや一覧表示にはこちらの
+// activeSports / visibleSports を使ってください。
+export const activeSports: SportSlug[] = ["mma", "bjj", "kickboxing", "boxing"];
 
 export const visibleSports: Sport[] = sports.filter((s) => activeSports.includes(s.slug));
 

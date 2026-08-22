@@ -57,7 +57,7 @@ export default async function AthleteDetailPage({ params }: PageProps<"/athletes
             <SportTag sport={athlete.sport} />
           </div>
           {athlete.nickname && (
-            <p className="font-head mt-2 text-xs font-semibold uppercase tracking-wide text-accent">
+            <p className="font-head mt-2 text-xl font-bold uppercase tracking-wide text-accent sm:text-2xl">
               「{athlete.nickname}」
             </p>
           )}
