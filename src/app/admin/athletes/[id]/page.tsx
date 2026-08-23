@@ -2,12 +2,23 @@ import { notFound } from "next/navigation";
 import AthleteForm from "@/components/admin/AthleteForm";
 import { getAthlete } from "@/lib/data";
 import { deleteAthlete, updateAthlete } from "@/lib/actions";
+import { idCandidates } from "@/lib/resolveParamId";
 
 export const dynamic = "force-dynamic";
 
 export default async function EditAthletePage({ params }: PageProps<"/admin/athletes/[id]">) {
-  const { id } = await params;
-  const athlete = await getAthlete(id);
+  const { id: rawId } = await params;
+  // 動的セグメントがURLエンコードされたまま渡るか、デコード済みで渡るかは環境によって
+  // 異なるため、日本語id等は両方のパターンで検索する(idCandidates参照)。
+  let id = rawId;
+  let athlete: Awaited<ReturnType<typeof getAthlete>>;
+  for (const candidate of idCandidates(rawId)) {
+    athlete = await getAthlete(candidate);
+    if (athlete) {
+      id = candidate;
+      break;
+    }
+  }
   if (!athlete) notFound();
 
   const boundUpdate = updateAthlete.bind(null, id);

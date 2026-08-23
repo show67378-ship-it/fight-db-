@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getAthlete, getMatch } from "@/lib/data";
+import { idCandidates } from "@/lib/resolveParamId";
 import PredictionWidget from "@/components/PredictionWidget";
 import SportTag from "@/components/SportTag";
 import OrgTag from "@/components/OrgTag";
@@ -8,7 +9,13 @@ export const dynamic = "force-dynamic";
 
 export default async function MatchDetailPage({ params }: PageProps<"/matches/[id]">) {
   const { id } = await params;
-  const match = await getMatch(id);
+  // 動的セグメントがURLエンコードされたまま渡るか、デコード済みで渡るかは環境によって
+  // 異なるため、日本語id等は両方のパターンで検索する(idCandidates参照)。
+  let match: Awaited<ReturnType<typeof getMatch>>;
+  for (const candidate of idCandidates(id)) {
+    match = await getMatch(candidate);
+    if (match) break;
+  }
   if (!match) notFound();
 
   const athleteA = await getAthlete(match.athleteAId);

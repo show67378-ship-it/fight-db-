@@ -2,12 +2,21 @@ import { notFound } from "next/navigation";
 import MatchForm from "@/components/admin/MatchForm";
 import { getMatch } from "@/lib/data";
 import { deleteMatch, updateMatch } from "@/lib/actions";
+import { idCandidates } from "@/lib/resolveParamId";
 
 export const dynamic = "force-dynamic";
 
 export default async function EditMatchPage({ params }: PageProps<"/admin/matches/[id]">) {
-  const { id } = await params;
-  const match = await getMatch(id);
+  const { id: rawId } = await params;
+  let id = rawId;
+  let match: Awaited<ReturnType<typeof getMatch>>;
+  for (const candidate of idCandidates(rawId)) {
+    match = await getMatch(candidate);
+    if (match) {
+      id = candidate;
+      break;
+    }
+  }
   if (!match) notFound();
 
   const boundUpdate = updateMatch.bind(null, id);

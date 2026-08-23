@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAthlete, getAthletes, getGym, getMatches } from "@/lib/data";
+import { idCandidates } from "@/lib/resolveParamId";
 import Avatar from "@/components/Avatar";
 import SportTag from "@/components/SportTag";
 import OrgTag from "@/components/OrgTag";
@@ -19,7 +20,13 @@ function age(birthdate: string) {
 
 export default async function AthleteDetailPage({ params }: PageProps<"/athletes/[id]">) {
   const { id } = await params;
-  const athlete = await getAthlete(id);
+  // 動的セグメントがURLエンコードされたまま渡るか、デコード済みで渡るかは環境によって
+  // 異なるため、日本語id等は両方のパターンで検索する(idCandidates参照)。
+  let athlete: Awaited<ReturnType<typeof getAthlete>>;
+  for (const candidate of idCandidates(id)) {
+    athlete = await getAthlete(candidate);
+    if (athlete) break;
+  }
   if (!athlete) notFound();
 
   const [gym, allMatches, allAthletes] = await Promise.all([

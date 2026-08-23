@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAthletes, getGym } from "@/lib/data";
+import { idCandidates } from "@/lib/resolveParamId";
 import SportTag from "@/components/SportTag";
 import Avatar from "@/components/Avatar";
 import GymMap from "@/components/GymMap";
@@ -14,7 +15,13 @@ export default async function GymDetailPage({
 }: PageProps<"/gyms/[id]">) {
   const { id } = await params;
   const { applied } = await searchParams;
-  const gym = await getGym(id);
+  // 動的セグメントがURLエンコードされたまま渡るか、デコード済みで渡るかは環境によって
+  // 異なるため、日本語id等は両方のパターンで検索する(idCandidates参照)。
+  let gym: Awaited<ReturnType<typeof getGym>>;
+  for (const candidate of idCandidates(id)) {
+    gym = await getGym(candidate);
+    if (gym) break;
+  }
   if (!gym) notFound();
 
   const allAthletes = await getAthletes();
@@ -43,8 +50,12 @@ export default async function GymDetailPage({
 
       <div className="mt-8 grid gap-6 sm:grid-cols-[2fr_1fr]">
         <div>
-          <h2 className="font-head text-lg font-bold text-ink">ジム紹介</h2>
-          <p className="mt-2 text-sm leading-relaxed text-ink-dim">{gym.description}</p>
+          {gym.description && (
+            <>
+              <h2 className="font-head text-lg font-bold text-ink">ジム紹介</h2>
+              <p className="mt-2 text-sm leading-relaxed text-ink-dim">{gym.description}</p>
+            </>
+          )}
 
           {gym.instructors && gym.instructors.length > 0 && (
             <div className="mt-8">

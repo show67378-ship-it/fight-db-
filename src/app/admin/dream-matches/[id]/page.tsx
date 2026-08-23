@@ -2,12 +2,21 @@ import { notFound } from "next/navigation";
 import DreamMatchForm from "@/components/admin/DreamMatchForm";
 import { getDreamMatch } from "@/lib/data";
 import { deleteDreamMatch, updateDreamMatch } from "@/lib/actions";
+import { idCandidates } from "@/lib/resolveParamId";
 
 export const dynamic = "force-dynamic";
 
 export default async function EditDreamMatchPage({ params }: PageProps<"/admin/dream-matches/[id]">) {
-  const { id } = await params;
-  const card = await getDreamMatch(id);
+  const { id: rawId } = await params;
+  let id = rawId;
+  let card: Awaited<ReturnType<typeof getDreamMatch>>;
+  for (const candidate of idCandidates(rawId)) {
+    card = await getDreamMatch(candidate);
+    if (card) {
+      id = candidate;
+      break;
+    }
+  }
   if (!card) notFound();
 
   const boundUpdate = updateDreamMatch.bind(null, id);
