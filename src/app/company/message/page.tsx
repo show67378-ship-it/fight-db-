@@ -23,7 +23,7 @@ export default function CompanyMessagePage() {
         <Stat label="戦績" value="0-2-0" />
         <Stat label="年齢" value="31歳" />
         <Stat label="身長" value="182cm" />
-        <Stat label="体重" value="125kg" />
+        <Stat label="体重" value="120000g" />
         <Stat label="構え" value="ガニ股" />
         <Stat label="スタイル" value="突進" />
         <Stat label="得意技" value="暴飲暴食" />

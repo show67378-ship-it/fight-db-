@@ -1,6 +1,7 @@
 import type {
   Athlete,
   DreamMatchCard,
+  EditRequest,
   Gym,
   GymInstructor,
   GymListingRequest,
@@ -39,6 +40,7 @@ function toGym(row: {
   instructors: unknown;
   websiteUrl: string | null;
   featured: boolean;
+  verified: boolean;
 }): Gym {
   return {
     id: row.id,
@@ -61,6 +63,7 @@ function toGym(row: {
     instructors: (row.instructors as GymInstructor[] | null) ?? undefined,
     websiteUrl: row.websiteUrl ?? undefined,
     featured: row.featured,
+    verified: row.verified,
   };
 }
 
@@ -93,6 +96,7 @@ function toAthlete(row: {
   recordNote: string | null;
   sourceUrl: string | null;
   featured: boolean;
+  verified: boolean;
 }): Athlete {
   return {
     id: row.id,
@@ -123,6 +127,7 @@ function toAthlete(row: {
     recordNote: row.recordNote ?? undefined,
     sourceUrl: row.sourceUrl ?? undefined,
     featured: row.featured,
+    verified: row.verified,
   };
 }
 
@@ -228,6 +233,30 @@ function toListingRequest(row: {
     contactName: row.contactName,
     contactEmail: row.contactEmail,
     status: row.status as GymListingRequest["status"],
+    createdAt: row.createdAt.toISOString(),
+  };
+}
+
+function toEditRequest(row: {
+  id: string;
+  targetType: string;
+  targetId: string;
+  targetName: string;
+  content: string;
+  contactName: string | null;
+  contactEmail: string | null;
+  status: string;
+  createdAt: Date;
+}): EditRequest {
+  return {
+    id: row.id,
+    targetType: row.targetType as EditRequest["targetType"],
+    targetId: row.targetId,
+    targetName: row.targetName,
+    content: row.content,
+    contactName: row.contactName ?? undefined,
+    contactEmail: row.contactEmail ?? undefined,
+    status: row.status as EditRequest["status"],
     createdAt: row.createdAt.toISOString(),
   };
 }
@@ -344,6 +373,11 @@ export async function getTrialApplications(): Promise<TrialApplication[]> {
 export async function getListingRequests(): Promise<GymListingRequest[]> {
   const rows = await prisma.gymListingRequest.findMany({ orderBy: { createdAt: "desc" } });
   return rows.map(toListingRequest);
+}
+
+export async function getEditRequests(): Promise<EditRequest[]> {
+  const rows = await prisma.editRequest.findMany({ orderBy: { createdAt: "desc" } });
+  return rows.map(toEditRequest);
 }
 
 export async function getAthlete(id: string): Promise<Athlete | undefined> {

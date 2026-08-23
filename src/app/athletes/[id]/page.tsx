@@ -7,6 +7,7 @@ import SportTag from "@/components/SportTag";
 import OrgTag from "@/components/OrgTag";
 import MatchPreviewCard from "@/components/MatchPreviewCard";
 import DreamMatchPicker from "@/components/DreamMatchPicker";
+import EditRequestForm from "@/components/EditRequestForm";
 
 export const dynamic = "force-dynamic";
 
@@ -18,8 +19,9 @@ function age(birthdate: string) {
   return a;
 }
 
-export default async function AthleteDetailPage({ params }: PageProps<"/athletes/[id]">) {
+export default async function AthleteDetailPage({ params, searchParams }: PageProps<"/athletes/[id]">) {
   const { id } = await params;
+  const { requested } = await searchParams;
   // 動的セグメントがURLエンコードされたまま渡るか、デコード済みで渡るかは環境によって
   // 異なるため、日本語id等は両方のパターンで検索する(idCandidates参照)。
   let athlete: Awaited<ReturnType<typeof getAthlete>>;
@@ -164,6 +166,15 @@ export default async function AthleteDetailPage({ params }: PageProps<"/athletes
           </a>
         </p>
       )}
+
+      <div className="mt-10 border-t border-border pt-6">
+        <EditRequestForm
+          targetType="athlete"
+          targetId={athlete.id}
+          targetName={athlete.name}
+          requested={requested === "1"}
+        />
+      </div>
     </div>
   );
 }

@@ -7,6 +7,7 @@ import { Prisma } from "@/generated/prisma/client";
 import type {
   Athlete,
   DreamMatchCard,
+  EditRequest,
   Gym,
   GymInstructor,
   GymListingRequest,
@@ -75,6 +76,7 @@ function gymFromForm(formData: FormData, existing?: Gym): Gym {
     instructors: parseInstructors(str(formData, "instructors")),
     websiteUrl: optStr(formData, "websiteUrl"),
     featured: bool(formData, "featured"),
+    verified: bool(formData, "verified"),
   };
 }
 
@@ -94,6 +96,7 @@ function gymData(g: Gym) {
     instructors: (g.instructors as Prisma.InputJsonValue | undefined) ?? Prisma.JsonNull,
     websiteUrl: g.websiteUrl ?? null,
     featured: g.featured ?? false,
+    verified: g.verified ?? false,
   };
 }
 
@@ -109,6 +112,11 @@ export async function updateGym(id: string, formData: FormData) {
   if (!existing) redirect("/admin/gyms");
   const gym = gymFromForm(formData, {
     ...existing,
+    nameKana: existing.nameKana ?? undefined,
+    primarySport: (existing.primarySport as SportSlug | null) ?? undefined,
+    priorityRank: existing.priorityRank ?? undefined,
+    displayOrder: existing.displayOrder ?? undefined,
+    prestigeScore: existing.prestigeScore ?? undefined,
     address: existing.address ?? undefined,
     phone: existing.phone ?? undefined,
     contactEmail: existing.contactEmail ?? undefined,
@@ -168,6 +176,7 @@ function athleteFromForm(formData: FormData, existing?: Athlete): Athlete {
     recordNote: optStr(formData, "recordNote"),
     sourceUrl: optStr(formData, "sourceUrl"),
     featured: bool(formData, "featured"),
+    verified: bool(formData, "verified"),
   };
 }
 
@@ -197,6 +206,7 @@ function athleteData(a: Athlete) {
     recordNote: a.recordNote ?? null,
     sourceUrl: a.sourceUrl ?? null,
     featured: a.featured ?? false,
+    verified: a.verified ?? false,
   };
 }
 
@@ -220,6 +230,9 @@ export async function updateAthlete(id: string, formData: FormData) {
     reachCm: existing.reachCm ?? undefined,
     gymId: existing.gymId ?? undefined,
     gymNote: existing.gymNote ?? undefined,
+    displayOrder: existing.displayOrder ?? undefined,
+    primaryOrganization: (existing.primaryOrganization as OrganizationSlug | null) ?? undefined,
+    prominenceScore: existing.prominenceScore ?? undefined,
     bio: existing.bio ?? undefined,
     nickname: existing.nickname ?? undefined,
     signatureMove: existing.signatureMove ?? undefined,
@@ -417,4 +430,32 @@ export async function submitListingRequest(formData: FormData) {
 export async function updateListingRequestStatus(id: string, status: GymListingRequest["status"]) {
   await prisma.gymListingRequest.update({ where: { id }, data: { status } });
   revalidatePath("/admin/listing-requests");
+}
+
+export async function submitEditRequest(
+  targetType: EditRequest["targetType"],
+  targetId: string,
+  targetName: string,
+  formData: FormData
+) {
+  await prisma.editRequest.create({
+    data: {
+      id: newId("edit", targetName),
+      targetType,
+      targetId,
+      targetName,
+      content: str(formData, "content"),
+      contactName: optStr(formData, "contactName") ?? null,
+      contactEmail: optStr(formData, "contactEmail") ?? null,
+      status: "new",
+    },
+  });
+  revalidatePath("/admin/edit-requests");
+  const backPath = targetType === "gym" ? `/gyms/${targetId}` : `/athletes/${targetId}`;
+  redirect(`${backPath}?requested=1`);
+}
+
+export async function updateEditRequestStatus(id: string, status: EditRequest["status"]) {
+  await prisma.editRequest.update({ where: { id }, data: { status } });
+  revalidatePath("/admin/edit-requests");
 }

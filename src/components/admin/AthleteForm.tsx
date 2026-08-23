@@ -170,6 +170,11 @@ export default async function AthleteForm({
         トップページの「注目の選手」に表示する
       </label>
 
+      <label className="flex items-center gap-2 text-sm text-ink">
+        <input type="checkbox" name="verified" defaultChecked={athlete?.verified} />
+        確認済み(戦績以外はクロールによる自動更新の対象外にする)
+      </label>
+
       <button
         type="submit"
         className="font-head rounded-sm bg-accent px-6 py-3 text-sm font-semibold uppercase tracking-wide text-accent-ink transition hover:opacity-90"

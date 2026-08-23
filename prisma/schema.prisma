@@ -13,7 +13,16 @@ datasource db {
 model Gym {
   id           String   @id
   name         String
+  nameKana     String?
   sports       String[]
+  // 複数競技を教えるジムの主要ジャンル(表示順の並び替えに使用)
+  primarySport String?
+  // 全体順位: 競技を問わず最優先で並べたい場合の手動指定
+  priorityRank Int?
+  // ジャンル内順位の手動調整(小さいほど先に表示)
+  displayOrder Int?
+  // 名門度(自動算出): 所属選手数・実績等から算出。高いほど上位表示
+  prestigeScore Float?
   prefecture   String
   city         String
   address      String?
@@ -26,6 +35,8 @@ model Gym {
   instructors  Json?
   websiteUrl   String?
   featured     Boolean  @default(false)
+  // 管理者が内容を確認済みのジムはクロールによる自動上書きの対象外にする
+  verified     Boolean  @default(false)
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 }
@@ -45,6 +56,12 @@ model Athlete {
   nationality   String
   gymId         String?
   gymNote       String?
+  // 全体順位の手動調整(小さいほど先に表示)
+  displayOrder  Int?
+  // 所属団体(表示順の並び替えに使用)。取得元から自動判定、または手動設定
+  primaryOrganization String?
+  // 活躍度(自動算出): 戦績・注目選手指定等から算出。高いほど上位表示
+  prominenceScore Float?
   bio           String?
   nickname      String?
   signatureMove String?
@@ -56,6 +73,8 @@ model Athlete {
   recordNote    String?
   sourceUrl     String?
   featured      Boolean  @default(false)
+  // 管理者が内容を確認済みの選手はクロールによる自動上書きの対象外にする(戦績・戦績補足は除く)
+  verified      Boolean  @default(false)
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 }
@@ -95,6 +114,18 @@ model TrialApplication {
   email         String?
   preferredDate String?
   message       String?
+  status        String   @default("new")
+  createdAt     DateTime @default(now())
+}
+
+model EditRequest {
+  id            String   @id
+  targetType    String
+  targetId      String
+  targetName    String
+  content       String
+  contactName   String?
+  contactEmail  String?
   status        String   @default("new")
   createdAt     DateTime @default(now())
 }

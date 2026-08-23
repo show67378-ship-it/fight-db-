@@ -57,6 +57,8 @@ export interface Gym {
   instructors?: GymInstructor[];
   websiteUrl?: string;
   featured?: boolean;
+  // trueの場合、クロールによる自動更新の対象外(管理画面での手動編集は可能)
+  verified?: boolean;
 }
 
 export interface Athlete {
@@ -91,6 +93,8 @@ export interface Athlete {
   recordNote?: string;
   sourceUrl?: string;
   featured?: boolean;
+  // trueの場合、クロールによる自動更新の対象外(戦績・戦績補足は対象外にならず更新される。管理画面での手動編集は常に可能)
+  verified?: boolean;
 }
 
 export type PredictionStatus = "open" | "closed";
@@ -131,6 +135,21 @@ export interface TrialApplication {
   preferredDate?: string;
   message?: string;
   status: TrialApplicationStatus;
+  createdAt: string;
+}
+
+export type EditRequestTargetType = "gym" | "athlete";
+export type EditRequestStatus = "new" | "reviewing" | "applied" | "rejected";
+
+export interface EditRequest {
+  id: string;
+  targetType: EditRequestTargetType;
+  targetId: string;
+  targetName: string;
+  content: string;
+  contactName?: string;
+  contactEmail?: string;
+  status: EditRequestStatus;
   createdAt: string;
 }
 
