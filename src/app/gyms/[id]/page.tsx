@@ -6,6 +6,7 @@ import SportTag from "@/components/SportTag";
 import Avatar from "@/components/Avatar";
 import GymMap from "@/components/GymMap";
 import TrialApplicationForm from "@/components/TrialApplicationForm";
+import EditRequestForm from "@/components/EditRequestForm";
 
 export const dynamic = "force-dynamic";
 
@@ -14,7 +15,7 @@ export default async function GymDetailPage({
   searchParams,
 }: PageProps<"/gyms/[id]">) {
   const { id } = await params;
-  const { applied } = await searchParams;
+  const { applied, requested } = await searchParams;
   // 動的セグメントがURLエンコードされたまま渡るか、デコード済みで渡るかは環境によって
   // 異なるため、日本語id等は両方のパターンで検索する(idCandidates参照)。
   let gym: Awaited<ReturnType<typeof getGym>>;
@@ -131,6 +132,15 @@ export default async function GymDetailPage({
             </p>
           )}
         </aside>
+      </div>
+
+      <div className="mt-10 border-t border-border pt-6">
+        <EditRequestForm
+          targetType="gym"
+          targetId={gym.id}
+          targetName={gym.name}
+          requested={requested === "1"}
+        />
       </div>
     </div>
   );

@@ -99,7 +99,14 @@ function AthleteRow({ athlete: a }: { athlete: Athlete }) {
       className="flex items-center justify-between rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent"
     >
       <div>
-        <p className="font-head text-sm font-semibold text-ink">{a.name}</p>
+        <p className="font-head flex items-center gap-2 text-sm font-semibold text-ink">
+          {a.name}
+          {a.verified && (
+            <span className="rounded-sm border border-good/40 bg-good-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-good">
+              確認済み
+            </span>
+          )}
+        </p>
         <p className="text-xs text-ink-dim">{a.weightClass}</p>
       </div>
       <span className="font-head text-xs uppercase text-ink-dim">編集 →</span>

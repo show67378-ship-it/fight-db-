@@ -60,7 +60,14 @@ export default async function AdminGymsPage({ searchParams }: PageProps<"/admin/
             className="flex items-center justify-between rounded-lg border border-border bg-surface px-4 py-3 transition hover:border-accent"
           >
             <div>
-              <p className="font-head text-sm font-semibold text-ink">{g.name}</p>
+              <p className="font-head flex items-center gap-2 text-sm font-semibold text-ink">
+                {g.name}
+                {g.verified && (
+                  <span className="rounded-sm border border-good/40 bg-good-soft px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-good">
+                    確認済み
+                  </span>
+                )}
+              </p>
               <p className="text-xs text-ink-dim">
                 {g.prefecture}
                 {g.city} ・ {g.sports.join(", ")}

@@ -1,15 +1,24 @@
 import Link from "next/link";
-import { getAthletes, getDreamMatches, getGyms, getListingRequests, getMatches, getTrialApplications } from "@/lib/data";
+import {
+  getAthletes,
+  getDreamMatches,
+  getEditRequests,
+  getGyms,
+  getListingRequests,
+  getMatches,
+  getTrialApplications,
+} from "@/lib/data";
 import { logout } from "@/lib/auth-actions";
 
 export const dynamic = "force-dynamic";
 
 export default async function AdminHomePage() {
-  const [gyms, athletes, applications, listingRequests, dreamMatches, matches] = await Promise.all([
+  const [gyms, athletes, applications, listingRequests, editRequests, dreamMatches, matches] = await Promise.all([
     getGyms(),
     getAthletes(),
     getTrialApplications(),
     getListingRequests(),
+    getEditRequests(),
     getDreamMatches(),
     getMatches(),
   ]);
@@ -84,6 +93,20 @@ export default async function AdminHomePage() {
             {listingRequests.some((r) => r.status === "new") && (
               <span className="ml-2 text-warn">
                 (未対応 {listingRequests.filter((r) => r.status === "new").length}件)
+              </span>
+            )}
+          </p>
+        </Link>
+        <Link
+          href="/admin/edit-requests"
+          className="rounded-lg border border-border bg-surface p-6 transition hover:border-accent"
+        >
+          <p className="font-head text-lg font-bold text-ink">編集依頼一覧</p>
+          <p className="mt-1 tabular text-sm text-ink-dim">
+            {editRequests.length}件
+            {editRequests.some((r) => r.status === "new") && (
+              <span className="ml-2 text-warn">
+                (未対応 {editRequests.filter((r) => r.status === "new").length}件)
               </span>
             )}
           </p>
