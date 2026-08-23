@@ -7,7 +7,20 @@ export interface Sport {
   accent: string;
 }
 
-export type OrganizationSlug = "rizin" | "breakingdown";
+export type OrganizationSlug =
+  | "ufc"
+  | "rizin"
+  | "breakingdown"
+  | "deep"
+  | "pancrase"
+  | "shooto"
+  | "rise"
+  | "k1"
+  | "jbc"
+  | "wba"
+  | "wbo"
+  | "wbc"
+  | "ibf";
 
 export interface Organization {
   slug: OrganizationSlug;
@@ -22,7 +35,16 @@ export interface GymInstructor {
 export interface Gym {
   id: string;
   name: string;
+  nameKana?: string;
   sports: SportSlug[];
+  // 複数競技を教えるジムの主要ジャンル(表示順の並び替えに使用)。未設定はundefined。
+  primarySport?: SportSlug;
+  // 全体順位: 競技を問わず最優先で並べたい場合の手動指定。未設定はundefined(自動順)。
+  priorityRank?: number;
+  // ジャンル内順位の手動調整(小さいほど先に表示)。未設定はundefined(自動順)。
+  displayOrder?: number;
+  // 名門度(自動算出): 所属選手数・実績等から算出。高いほど上位表示。
+  prestigeScore?: number;
   prefecture: string;
   city: string;
   address?: string;
@@ -52,6 +74,12 @@ export interface Athlete {
   nationality: string;
   gymId?: string;
   gymNote?: string;
+  // 全体順位の手動調整(小さいほど先に表示)。未設定はundefined(自動順)。
+  displayOrder?: number;
+  // 所属団体(表示順の並び替えに使用)。取得元から自動判定、または手動設定。未設定はundefined。
+  primaryOrganization?: OrganizationSlug;
+  // 活躍度(自動算出): 戦績・注目選手指定等から算出。高いほど上位表示。
+  prominenceScore?: number;
   bio?: string;
   nickname?: string;
   signatureMove?: string;

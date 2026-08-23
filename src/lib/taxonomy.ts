@@ -17,8 +17,22 @@ export const activeSports: SportSlug[] = ["mma", "bjj", "kickboxing", "boxing"];
 export const visibleSports: Sport[] = sports.filter((s) => activeSports.includes(s.slug));
 
 export const organizations: Organization[] = [
+  // MMA
+  { slug: "ufc", name: "UFC" },
   { slug: "rizin", name: "RIZIN" },
   { slug: "breakingdown", name: "BREAKINGDOWN" },
+  { slug: "deep", name: "DEEP" },
+  { slug: "shooto", name: "修斗" },
+  { slug: "pancrase", name: "パンクラス" },
+  // キックボクシング
+  { slug: "rise", name: "RISE" },
+  { slug: "k1", name: "K-1" },
+  // ボクシング
+  { slug: "jbc", name: "JBC" },
+  { slug: "wba", name: "WBA" },
+  { slug: "wbo", name: "WBO" },
+  { slug: "wbc", name: "WBC" },
+  { slug: "ibf", name: "IBF" },
 ];
 
 export function getSport(slug: SportSlug): Sport {
