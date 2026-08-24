@@ -2,19 +2,24 @@
 
 import { useMemo, useState } from "react";
 import { organizations } from "@/lib/taxonomy";
-import type { Athlete, DreamMatchCard, OrganizationSlug } from "@/lib/types";
+import type { Athlete, Comment, DreamMatchCard, OrganizationSlug } from "@/lib/types";
 import Avatar from "@/components/Avatar";
 import SportTag from "@/components/SportTag";
 import OrgTag from "@/components/OrgTag";
+import Comments from "@/components/Comments";
 
 let nextId = 1;
 
 export default function DreamMatchesBrowser({
   athletes,
   dreamMatches: initialDreamMatches,
+  commentsByCard,
+  commentStatus,
 }: {
   athletes: Athlete[];
   dreamMatches: DreamMatchCard[];
+  commentsByCard: Record<string, Comment[]>;
+  commentStatus?: string;
 }) {
   const [cards, setCards] = useState<DreamMatchCard[]>(initialDreamMatches);
   const [votedIds, setVotedIds] = useState<Set<string>>(new Set());
@@ -64,6 +69,17 @@ export default function DreamMatchesBrowser({
       <p className="mt-2 text-ink-dim">
         現在はRIZIN・BREAKINGDOWN所属選手のみが対象です。団体ごとにランキングを分けて表示しています。
       </p>
+
+      {commentStatus === "flagged" && (
+        <p className="mt-3 rounded-sm border border-accent/30 bg-accent-soft px-4 py-3 text-sm text-accent">
+          不適切な内容と判定されたため、コメントは公開されませんでした。
+        </p>
+      )}
+      {commentStatus === "posted" && (
+        <p className="mt-3 rounded-sm border border-good/30 bg-good-soft px-4 py-3 text-sm text-good">
+          コメントを投稿しました。
+        </p>
+      )}
 
       <div className="mt-6 rounded-lg border border-border bg-surface p-5">
         <p className="font-head text-xs font-semibold uppercase tracking-wide text-ink-dim">
@@ -132,33 +148,48 @@ export default function DreamMatchesBrowser({
                   const a = getAthlete(card.athleteAId);
                   const b = getAthlete(card.athleteBId);
                   const voted = votedIds.has(card.id);
+                  const cardComments = commentsByCard[card.id] ?? [];
                   return (
-                    <div key={card.id} className="flex items-center gap-4 rounded-lg border border-border bg-surface p-4">
-                      <span className="font-head w-8 text-2xl font-bold text-accent">{i + 1}</span>
-                      <Avatar name={a.name} sport={card.sport} size={40} />
-                      <div className="flex-1">
-                        <span className="font-head text-sm font-medium text-ink">
-                          {a.name} <span className="text-ink-dim">vs</span> {b.name}
-                        </span>
-                        <div className="mt-1">
-                          <SportTag sport={card.sport} />
+                    <div key={card.id} className="rounded-lg border border-border bg-surface p-4">
+                      <div className="flex items-center gap-4">
+                        <span className="font-head w-8 text-2xl font-bold text-accent">{i + 1}</span>
+                        <Avatar name={a.name} sport={card.sport} size={40} />
+                        <div className="flex-1">
+                          <span className="font-head text-sm font-medium text-ink">
+                            {a.name} <span className="text-ink-dim">vs</span> {b.name}
+                          </span>
+                          <div className="mt-1">
+                            <SportTag sport={card.sport} />
+                          </div>
                         </div>
+                        <Avatar name={b.name} sport={card.sport} size={40} />
+                        <span className="tabular w-20 text-right text-sm font-semibold text-ink">
+                          {card.votes.toLocaleString("ja-JP")}票
+                        </span>
+                        <button
+                          onClick={() => vote(card.id)}
+                          disabled={voted}
+                          className={`font-head rounded-sm border px-3 py-2 text-xs font-semibold uppercase tracking-wide transition ${
+                            voted
+                              ? "border-border text-ink-dim opacity-50"
+                              : "border-accent text-accent hover:bg-accent hover:text-accent-ink"
+                          }`}
+                        >
+                          {voted ? "投票済み" : "投票"}
+                        </button>
                       </div>
-                      <Avatar name={b.name} sport={card.sport} size={40} />
-                      <span className="tabular w-20 text-right text-sm font-semibold text-ink">
-                        {card.votes.toLocaleString("ja-JP")}票
-                      </span>
-                      <button
-                        onClick={() => vote(card.id)}
-                        disabled={voted}
-                        className={`font-head rounded-sm border px-3 py-2 text-xs font-semibold uppercase tracking-wide transition ${
-                          voted
-                            ? "border-border text-ink-dim opacity-50"
-                            : "border-accent text-accent hover:bg-accent hover:text-accent-ink"
-                        }`}
-                      >
-                        {voted ? "投票済み" : "投票"}
-                      </button>
+                      <details className="group mt-3">
+                        <summary className="font-head cursor-pointer text-[11px] font-semibold uppercase tracking-wide text-ink-dim transition hover:text-ink">
+                          コメント ({cardComments.length})
+                        </summary>
+                        <Comments
+                          targetType="dreamMatch"
+                          targetId={card.id}
+                          comments={cardComments}
+                          hideHeading
+                          className="mt-3"
+                        />
+                      </details>
                     </div>
                   );
                 })}

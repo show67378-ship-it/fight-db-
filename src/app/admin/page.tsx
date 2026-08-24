@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {
+  getAllComments,
   getAthletes,
   getDreamMatches,
   getEditRequests,
@@ -13,15 +14,17 @@ import { logout } from "@/lib/auth-actions";
 export const dynamic = "force-dynamic";
 
 export default async function AdminHomePage() {
-  const [gyms, athletes, applications, listingRequests, editRequests, dreamMatches, matches] = await Promise.all([
-    getGyms(),
-    getAthletes(),
-    getTrialApplications(),
-    getListingRequests(),
-    getEditRequests(),
-    getDreamMatches(),
-    getMatches(),
-  ]);
+  const [gyms, athletes, applications, listingRequests, editRequests, dreamMatches, matches, comments] =
+    await Promise.all([
+      getGyms(),
+      getAthletes(),
+      getTrialApplications(),
+      getListingRequests(),
+      getEditRequests(),
+      getDreamMatches(),
+      getMatches(),
+      getAllComments(),
+    ]);
 
   return (
     <div className="mx-auto max-w-3xl px-5 py-12">
@@ -114,6 +117,21 @@ export default async function AdminHomePage() {
             {editRequests.some((r) => r.status === "new") && (
               <span className="ml-2 text-warn">
                 (未対応 {editRequests.filter((r) => r.status === "new").length}件)
+              </span>
+            )}
+          </p>
+        </Link>
+        <Link
+          href="/admin/comments"
+          className="rounded-lg border border-border bg-surface p-6 transition hover:border-accent"
+        >
+          <p className="font-head text-lg font-bold text-ink">コメント管理</p>
+          <p className="mt-1 tabular text-sm text-ink-dim">
+            {comments.filter((c) => c.status === "visible").length}件
+            {comments.some((c) => c.status === "removed" && c.removedReason !== "admin") && (
+              <span className="ml-2 text-warn">
+                (自動非公開{" "}
+                {comments.filter((c) => c.status === "removed" && c.removedReason !== "admin").length}件)
               </span>
             )}
           </p>

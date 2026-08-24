@@ -284,6 +284,22 @@ model EditRequest {
   createdAt     DateTime @default(now())
 }
 
+// 勝敗予想・次に観たい試合ページのコメント。投稿時に簡易フィルターで
+// 不適切な内容を自動判定し、該当すれば非表示(removed/filter)にする。
+// 管理者は/admin/commentsから手動でも削除できる(removed/admin)。
+model Comment {
+  id            String   @id
+  targetType    String // "match" | "dreamMatch"
+  targetId      String
+  authorName    String?
+  body          String
+  status        String   @default("visible") // "visible" | "removed"
+  removedReason String? // "filter" | "admin"
+  createdAt     DateTime @default(now())
+
+  @@index([targetType, targetId])
+}
+
 model GymListingRequest {
   id            String   @id
   gymName       String

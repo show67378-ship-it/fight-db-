@@ -6,6 +6,7 @@ import { prisma } from "./prisma";
 import { Prisma } from "@/generated/prisma/client";
 import type {
   Athlete,
+  CommentTargetType,
   DreamMatchCard,
   EditRequest,
   Gym,
@@ -16,6 +17,7 @@ import type {
   SportSlug,
   TrialApplication,
 } from "./types";
+import { checkComment } from "./commentFilter";
 
 function newId(prefix: string, name: string): string {
   const base = name
@@ -469,4 +471,43 @@ export async function submitEditRequest(
 export async function updateEditRequestStatus(id: string, status: EditRequest["status"]) {
   await prisma.editRequest.update({ where: { id }, data: { status } });
   revalidatePath("/admin/edit-requests");
+}
+
+function commentBackPath(targetType: CommentTargetType, targetId: string): string {
+  return targetType === "match" ? `/matches/${targetId}` : "/dream-matches";
+}
+
+// コメント投稿。簡易フィルターで不適切と判定した場合は投稿はDBに残すが
+// status=removedにして公開ページには出さない(誰が何を書いたか運営側で追跡できるように)。
+export async function postComment(targetType: CommentTargetType, targetId: string, formData: FormData) {
+  const body = str(formData, "body");
+  const backPath = commentBackPath(targetType, targetId);
+  if (!body) redirect(backPath);
+
+  const { ok, reason } = checkComment(body);
+
+  await prisma.comment.create({
+    data: {
+      id: newId("comment", optStr(formData, "authorName") ?? "guest"),
+      targetType,
+      targetId,
+      authorName: optStr(formData, "authorName") ?? null,
+      body,
+      status: ok ? "visible" : "removed",
+      removedReason: ok ? null : reason,
+    },
+  });
+  revalidatePath(backPath);
+  revalidatePath("/admin/comments");
+  const separator = backPath.includes("?") ? "&" : "?";
+  redirect(`${backPath}${separator}comment=${ok ? "posted" : "flagged"}`);
+}
+
+export async function deleteComment(id: string, targetType: CommentTargetType, targetId: string) {
+  await prisma.comment.update({
+    where: { id },
+    data: { status: "removed", removedReason: "admin" },
+  });
+  revalidatePath("/admin/comments");
+  revalidatePath(commentBackPath(targetType, targetId));
 }

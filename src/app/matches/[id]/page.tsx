@@ -1,14 +1,16 @@
 import { notFound } from "next/navigation";
-import { getAthlete, getMatch } from "@/lib/data";
+import { getAthlete, getComments, getMatch } from "@/lib/data";
 import { idCandidates } from "@/lib/resolveParamId";
 import PredictionWidget from "@/components/PredictionWidget";
 import SportTag from "@/components/SportTag";
 import OrgTag from "@/components/OrgTag";
+import Comments from "@/components/Comments";
 
 export const dynamic = "force-dynamic";
 
-export default async function MatchDetailPage({ params }: PageProps<"/matches/[id]">) {
+export default async function MatchDetailPage({ params, searchParams }: PageProps<"/matches/[id]">) {
   const { id } = await params;
+  const { comment } = await searchParams;
   // 動的セグメントがURLエンコードされたまま渡るか、デコード済みで渡るかは環境によって
   // 異なるため、日本語id等は両方のパターンで検索する(idCandidates参照)。
   let match: Awaited<ReturnType<typeof getMatch>>;
@@ -21,6 +23,8 @@ export default async function MatchDetailPage({ params }: PageProps<"/matches/[i
   const athleteA = await getAthlete(match.athleteAId);
   const athleteB = await getAthlete(match.athleteBId);
   if (!athleteA || !athleteB) notFound();
+
+  const comments = await getComments("match", match.id);
 
   return (
     <div className="mx-auto max-w-2xl px-5 py-12">
@@ -36,6 +40,13 @@ export default async function MatchDetailPage({ params }: PageProps<"/matches/[i
       <div className="mt-6">
         <PredictionWidget match={match} athleteA={athleteA} athleteB={athleteB} />
       </div>
+
+      <Comments
+        targetType="match"
+        targetId={match.id}
+        comments={comments}
+        status={Array.isArray(comment) ? comment[0] : comment}
+      />
     </div>
   );
 }

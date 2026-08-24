@@ -153,6 +153,20 @@ export interface EditRequest {
   createdAt: string;
 }
 
+export type CommentTargetType = "match" | "dreamMatch";
+export type CommentStatus = "visible" | "removed";
+
+export interface Comment {
+  id: string;
+  targetType: CommentTargetType;
+  targetId: string;
+  authorName?: string;
+  body: string;
+  status: CommentStatus;
+  removedReason?: string;
+  createdAt: string;
+}
+
 export type GymListingRequestStatus = "new" | "reviewing" | "added" | "rejected";
 
 export interface GymListingRequest {

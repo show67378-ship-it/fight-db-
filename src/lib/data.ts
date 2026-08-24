@@ -1,5 +1,7 @@
 import type {
   Athlete,
+  Comment,
+  CommentTargetType,
   DreamMatchCard,
   EditRequest,
   Gym,
@@ -261,6 +263,28 @@ function toEditRequest(row: {
   };
 }
 
+function toComment(row: {
+  id: string;
+  targetType: string;
+  targetId: string;
+  authorName: string | null;
+  body: string;
+  status: string;
+  removedReason: string | null;
+  createdAt: Date;
+}): Comment {
+  return {
+    id: row.id,
+    targetType: row.targetType as Comment["targetType"],
+    targetId: row.targetId,
+    authorName: row.authorName ?? undefined,
+    body: row.body,
+    status: row.status as Comment["status"],
+    removedReason: row.removedReason ?? undefined,
+    createdAt: row.createdAt.toISOString(),
+  };
+}
+
 // 表示順(ジムと選手で順序が異なる指定のため別々に定義)。
 const GYM_SPORT_ORDER: SportSlug[] = ["mma", "bjj", "kickboxing", "boxing"];
 const ATHLETE_SPORT_ORDER: SportSlug[] = ["mma", "kickboxing", "boxing", "bjj"];
@@ -378,6 +402,30 @@ export async function getListingRequests(): Promise<GymListingRequest[]> {
 export async function getEditRequests(): Promise<EditRequest[]> {
   const rows = await prisma.editRequest.findMany({ orderBy: { createdAt: "desc" } });
   return rows.map(toEditRequest);
+}
+
+// 公開ページ表示用: 表示可能(visible)なコメントのみ、対象1件分を取得。
+export async function getComments(targetType: CommentTargetType, targetId: string): Promise<Comment[]> {
+  const rows = await prisma.comment.findMany({
+    where: { targetType, targetId, status: "visible" },
+    orderBy: { createdAt: "desc" },
+  });
+  return rows.map(toComment);
+}
+
+// 管理画面用: 削除済みも含め全件取得。
+export async function getAllComments(): Promise<Comment[]> {
+  const rows = await prisma.comment.findMany({ orderBy: { createdAt: "desc" } });
+  return rows.map(toComment);
+}
+
+// 次に観たい試合ページ用: 複数の対戦カードにまたがるコメントを1回で取得。
+export async function getVisibleCommentsByType(targetType: CommentTargetType): Promise<Comment[]> {
+  const rows = await prisma.comment.findMany({
+    where: { targetType, status: "visible" },
+    orderBy: { createdAt: "desc" },
+  });
+  return rows.map(toComment);
 }
 
 export async function getAthlete(id: string): Promise<Athlete | undefined> {
