@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getGyms } from "@/lib/data";
+import { matchesQuery } from "@/lib/search";
 
 export const dynamic = "force-dynamic";
 
@@ -7,9 +8,7 @@ export default async function AdminGymsPage({ searchParams }: PageProps<"/admin/
   const { q: rawQ } = await searchParams;
   const q = (Array.isArray(rawQ) ? rawQ[0] : rawQ)?.trim() ?? "";
   const allGyms = await getGyms();
-  const gyms = q
-    ? allGyms.filter((g) => [g.name, g.prefecture, g.city].some((v) => v.includes(q)))
-    : allGyms;
+  const gyms = q ? allGyms.filter((g) => matchesQuery(q, g.name, g.nameKana, g.prefecture, g.city)) : allGyms;
 
   return (
     <div className="mx-auto max-w-4xl px-5 py-12">

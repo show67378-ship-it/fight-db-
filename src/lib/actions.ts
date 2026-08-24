@@ -60,10 +60,15 @@ function parseInstructors(raw: string): GymInstructor[] | undefined {
 
 function gymFromForm(formData: FormData, existing?: Gym): Gym {
   const sportsSel = formData.getAll("sports") as SportSlug[];
+  const primarySportRaw = optStr(formData, "primarySport");
   return {
     id: existing?.id ?? newId("gym", str(formData, "name")),
     name: str(formData, "name"),
+    nameKana: optStr(formData, "nameKana"),
     sports: sportsSel,
+    primarySport: primarySportRaw ? (primarySportRaw as SportSlug) : undefined,
+    priorityRank: optNum(formData, "priorityRank"),
+    displayOrder: optNum(formData, "displayOrder"),
     prefecture: str(formData, "prefecture"),
     city: str(formData, "city"),
     address: optStr(formData, "address"),
@@ -83,7 +88,11 @@ function gymFromForm(formData: FormData, existing?: Gym): Gym {
 function gymData(g: Gym) {
   return {
     name: g.name,
+    nameKana: g.nameKana ?? null,
     sports: g.sports,
+    primarySport: g.primarySport ?? null,
+    priorityRank: g.priorityRank ?? null,
+    displayOrder: g.displayOrder ?? null,
     prefecture: g.prefecture,
     city: g.city,
     address: g.address ?? null,
@@ -113,16 +122,16 @@ export async function updateGym(id: string, formData: FormData) {
   const gym = gymFromForm(formData, {
     ...existing,
     nameKana: existing.nameKana ?? undefined,
-    primarySport: (existing.primarySport as SportSlug | null) ?? undefined,
-    priorityRank: existing.priorityRank ?? undefined,
-    displayOrder: existing.displayOrder ?? undefined,
-    prestigeScore: existing.prestigeScore ?? undefined,
     address: existing.address ?? undefined,
     phone: existing.phone ?? undefined,
     contactEmail: existing.contactEmail ?? undefined,
     instructors: (existing.instructors as GymInstructor[] | null) ?? undefined,
     websiteUrl: existing.websiteUrl ?? undefined,
     sports: existing.sports as SportSlug[],
+    primarySport: (existing.primarySport as SportSlug | null) ?? undefined,
+    priorityRank: existing.priorityRank ?? undefined,
+    displayOrder: existing.displayOrder ?? undefined,
+    prestigeScore: existing.prestigeScore ?? undefined,
     planTier: existing.planTier as Gym["planTier"],
   });
   await prisma.gym.update({ where: { id }, data: gymData(gym) });
@@ -165,6 +174,7 @@ function athleteFromForm(formData: FormData, existing?: Athlete): Athlete {
     nationality: str(formData, "nationality"),
     gymId: optStr(formData, "gymId"),
     gymNote: optStr(formData, "gymNote"),
+    displayOrder: optNum(formData, "displayOrder"),
     bio: optStr(formData, "bio"),
     nickname: optStr(formData, "nickname"),
     signatureMove: optStr(formData, "signatureMove"),
@@ -195,6 +205,7 @@ function athleteData(a: Athlete) {
     nationality: a.nationality,
     gymId: a.gymId ?? null,
     gymNote: a.gymNote ?? null,
+    displayOrder: a.displayOrder ?? null,
     bio: a.bio ?? null,
     nickname: a.nickname ?? null,
     signatureMove: a.signatureMove ?? null,

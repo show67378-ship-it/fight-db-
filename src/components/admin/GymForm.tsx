@@ -20,6 +20,11 @@ export default function GymForm({
       </div>
 
       <div>
+        <label className={labelCls}>フリガナ(任意・検索用。自動生成される場合があります)</label>
+        <input name="nameKana" defaultValue={gym?.nameKana} className={`mt-1 ${inputCls}`} />
+      </div>
+
+      <div>
         <label className={labelCls}>対応競技</label>
         <div className="mt-2 flex flex-wrap gap-4">
           {sports.map((s) => (
@@ -34,6 +39,41 @@ export default function GymForm({
             </label>
           ))}
         </div>
+      </div>
+
+      <div className="grid gap-4 sm:grid-cols-2">
+        <div>
+          <label className={labelCls}>主要ジャンル(複数競技を扱う場合、一覧の並び順に使われます)</label>
+          <select name="primarySport" defaultValue={gym?.primarySport ?? ""} className={`mt-1 ${inputCls}`}>
+            <option value="">未設定(自動判定に任せる)</option>
+            {sports.map((s) => (
+              <option key={s.slug} value={s.slug}>
+                {s.name}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label className={labelCls}>ジャンル内順位(任意・同じ主要ジャンル内での並び順。空欄なら自動)</label>
+          <input
+            type="number"
+            name="displayOrder"
+            defaultValue={gym?.displayOrder}
+            className={`mt-1 ${inputCls}`}
+          />
+        </div>
+      </div>
+
+      <div>
+        <label className={labelCls}>
+          全体順位(任意・競技を問わず最優先で表示したい場合のみ指定。空欄なら自動)
+        </label>
+        <input
+          type="number"
+          name="priorityRank"
+          defaultValue={gym?.priorityRank}
+          className={`mt-1 ${inputCls}`}
+        />
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">

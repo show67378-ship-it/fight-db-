@@ -49,6 +49,13 @@ export default async function AdminHomePage() {
           <p className="mt-1 tabular text-sm text-ink-dim">{gyms.length}件</p>
         </Link>
         <Link
+          href="/admin/crawl"
+          className="rounded-lg border border-border bg-surface p-6 transition hover:border-accent"
+        >
+          <p className="font-head text-lg font-bold text-ink">全国DBフルクロール</p>
+          <p className="mt-1 tabular text-sm text-ink-dim">公式団体・ジム・選手を一括取得</p>
+        </Link>
+        <Link
           href="/admin/athletes"
           className="rounded-lg border border-border bg-surface p-6 transition hover:border-accent"
         >

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getAthletes } from "@/lib/data";
-import { organizations } from "@/lib/taxonomy";
+import { organizations, visibleSports } from "@/lib/taxonomy";
+import { matchesQuery } from "@/lib/search";
 import type { Athlete } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -10,9 +11,7 @@ export default async function AdminAthletesPage({ searchParams }: PageProps<"/ad
   const q = (Array.isArray(rawQ) ? rawQ[0] : rawQ)?.trim() ?? "";
   const allAthletes = await getAthletes();
   const athletes = q
-    ? allAthletes.filter((a) =>
-        [a.name, a.nameKana, a.nickname, a.weightClass].filter((v): v is string => Boolean(v)).some((v) => v.includes(q))
-      )
+    ? allAthletes.filter((a) => matchesQuery(q, a.name, a.nameKana, a.nickname, a.weightClass))
     : allAthletes;
   const unaffiliated = athletes.filter((a) => a.organizations.length === 0);
 
@@ -81,11 +80,23 @@ export default async function AdminAthletesPage({ searchParams }: PageProps<"/ad
           <h2 className="font-head text-sm font-semibold uppercase tracking-wide text-ink-dim">
             所属団体なし({unaffiliated.length}名)
           </h2>
-          <div className="mt-3 space-y-2">
-            {unaffiliated.map((a) => (
-              <AthleteRow key={a.id} athlete={a} />
-            ))}
-          </div>
+          {/* クロール取込分がほとんどこちらに入るため、競技ごとに分けて一覧性を確保する */}
+          {visibleSports.map((s) => {
+            const sportAthletes = unaffiliated.filter((a) => a.sport === s.slug);
+            if (sportAthletes.length === 0) return null;
+            return (
+              <details key={s.slug} className="mt-4" open={sportAthletes.length <= 20}>
+                <summary className="font-head cursor-pointer text-xs font-semibold uppercase tracking-wide text-ink">
+                  {s.name}({sportAthletes.length}名)
+                </summary>
+                <div className="mt-3 space-y-2">
+                  {sportAthletes.map((a) => (
+                    <AthleteRow key={a.id} athlete={a} />
+                  ))}
+                </div>
+              </details>
+            );
+          })}
         </section>
       )}
     </div>

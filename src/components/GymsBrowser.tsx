@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { visibleSports } from "@/lib/taxonomy";
 import type { Gym, SportSlug } from "@/lib/types";
+import { matchesQuery } from "@/lib/search";
 import GymCard from "@/components/GymCard";
 
 export default function GymsBrowser({ gyms }: { gyms: Gym[] }) {
@@ -13,12 +14,7 @@ export default function GymsBrowser({ gyms }: { gyms: Gym[] }) {
   const filtered = useMemo(() => {
     return gyms.filter((g) => {
       const sportOk = sportFilter === "all" || g.sports.includes(sportFilter);
-      const q = query.trim();
-      const queryOk =
-        q === "" ||
-        g.name.includes(q) ||
-        g.prefecture.includes(q) ||
-        g.city.includes(q);
+      const queryOk = matchesQuery(query, g.name, g.nameKana, g.prefecture, g.city);
       return sportOk && queryOk;
     });
   }, [gyms, sportFilter, query]);

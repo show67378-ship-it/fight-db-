@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getAthletes, getGyms } from "@/lib/data";
 import { activeSports } from "@/lib/taxonomy";
 import type { Athlete, Gym } from "@/lib/types";
+import { matchesQuery } from "@/lib/search";
 import GymCard from "@/components/GymCard";
 import Avatar from "@/components/Avatar";
 
@@ -12,15 +13,13 @@ export const metadata = {
 };
 
 function matchesAthlete(a: Athlete, q: string): boolean {
-  return [a.name, a.nameKana, a.nickname, a.weightClass, a.gymNote, a.bio, a.backbone, a.fightingStyle, a.stance]
-    .filter((v): v is string => Boolean(v))
-    .some((v) => v.includes(q));
+  // 選手名(氏名・よみがな・異名)のみで判定する。経歴文などに他選手の名前が
+  // 言及されているだけで無関係な選手がヒットしてしまうのを防ぐため。
+  return matchesQuery(q, a.name, a.nameKana, a.nickname);
 }
 
 function matchesGym(g: Gym, q: string): boolean {
-  return [g.name, g.prefecture, g.city, g.address, g.description]
-    .filter((v): v is string => Boolean(v))
-    .some((v) => v.includes(q));
+  return matchesQuery(q, g.name, g.nameKana, g.prefecture, g.city, g.address, g.description);
 }
 
 export default async function SearchPage({ searchParams }: PageProps<"/search">) {

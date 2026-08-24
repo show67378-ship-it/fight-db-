@@ -9,11 +9,17 @@
     "lint": "eslint",
     "postinstall": "prisma generate",
     "db:migrate": "prisma migrate deploy",
-    "db:seed": "tsx scripts/migrate-json-to-db.mts"
+    "db:seed": "tsx scripts/migrate-json-to-db.mts",
+    "crawl": "tsx scripts/crawl.mts",
+    "crawl:dry-run": "tsx scripts/crawl.mts --dry-run",
+    "test": "vitest run"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.9.1",
     "@prisma/client": "7.9.1",
+    "cheerio": "^1.2.0",
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
     "next": "16.3.1",
     "pg": "^8.23.0",
     "prisma": "7.9.1",
@@ -29,8 +35,10 @@
     "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.3.1",
+    "playwright": "^1.62.1",
     "tailwindcss": "^4",
     "tsx": "^4.23.12",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.11"
   }
 }

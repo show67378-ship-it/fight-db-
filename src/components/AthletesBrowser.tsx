@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { organizations, visibleSports } from "@/lib/taxonomy";
 import type { Athlete, Gym, OrganizationSlug, SportSlug } from "@/lib/types";
+import { matchesQuery } from "@/lib/search";
 import Avatar from "@/components/Avatar";
 import SportTag from "@/components/SportTag";
 import OrgTag from "@/components/OrgTag";
@@ -11,52 +12,30 @@ import OrgTag from "@/components/OrgTag";
 export default function AthletesBrowser({ athletes, gyms }: { athletes: Athlete[]; gyms: Gym[] }) {
   const [sportFilter, setSportFilter] = useState<SportSlug | "all">("all");
   const [orgFilter, setOrgFilter] = useState<OrganizationSlug | "all">("all");
+  const [query, setQuery] = useState("");
 
-  const filtered = useMemo(
-    () =>
-      athletes.filter(
-        (a) =>
-          (sportFilter === "all" || a.sport === sportFilter) &&
-          (orgFilter === "all" || a.organizations.includes(orgFilter))
-      ),
-    [athletes, sportFilter, orgFilter]
-  );
+  const filtered = useMemo(() => {
+    return athletes.filter((a) => {
+      const sportOk = sportFilter === "all" || a.sport === sportFilter;
+      const orgOk = orgFilter === "all" || a.organizations.includes(orgFilter);
+      const queryOk = matchesQuery(query, a.name, a.nameKana, a.nickname);
+      return sportOk && orgOk && queryOk;
+    });
+  }, [athletes, sportFilter, orgFilter, query]);
 
   return (
     <div className="mx-auto max-w-6xl px-5 py-12">
       <p className="font-head text-xs font-semibold uppercase tracking-[0.2em] text-accent">Athletes</p>
       <h1 className="font-head mt-3 text-3xl font-bold text-ink">選手一覧</h1>
 
-      <div className="mt-6 space-y-3">
-        <div>
-          <p className="font-head mb-2 text-[11px] font-semibold uppercase tracking-wide text-ink-dim">団体</p>
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => setOrgFilter("all")}
-              className={`font-head rounded-sm border px-3 py-2 text-xs font-semibold uppercase tracking-wide transition ${
-                orgFilter === "all"
-                  ? "border-accent bg-accent text-accent-ink"
-                  : "border-border bg-surface text-ink-dim hover:text-ink"
-              }`}
-            >
-              すべて
-            </button>
-            {organizations.map((o) => (
-              <button
-                key={o.slug}
-                onClick={() => setOrgFilter(o.slug)}
-                className={`font-head rounded-sm border px-3 py-2 text-xs font-semibold uppercase tracking-wide transition ${
-                  orgFilter === o.slug
-                    ? "border-accent bg-accent text-accent-ink"
-                    : "border-border bg-surface text-ink-dim hover:text-ink"
-                }`}
-              >
-                {o.name}
-              </button>
-            ))}
-          </div>
-        </div>
+      <input
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="選手名・よみがな・異名で検索"
+        className="mt-6 w-full rounded-sm border border-border bg-surface px-4 py-2.5 text-sm text-ink placeholder:text-ink-dim focus:border-accent focus:outline-none"
+      />
 
+      <div className="mt-4 space-y-3">
         <div>
           <p className="font-head mb-2 text-[11px] font-semibold uppercase tracking-wide text-ink-dim">競技</p>
           <div className="flex flex-wrap gap-2">
@@ -81,6 +60,35 @@ export default function AthletesBrowser({ athletes, gyms }: { athletes: Athlete[
                 }`}
               >
                 {s.shortName}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <p className="font-head mb-2 text-[11px] font-semibold uppercase tracking-wide text-ink-dim">団体</p>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setOrgFilter("all")}
+              className={`font-head rounded-sm border px-3 py-2 text-xs font-semibold uppercase tracking-wide transition ${
+                orgFilter === "all"
+                  ? "border-accent bg-accent text-accent-ink"
+                  : "border-border bg-surface text-ink-dim hover:text-ink"
+              }`}
+            >
+              すべて
+            </button>
+            {organizations.map((o) => (
+              <button
+                key={o.slug}
+                onClick={() => setOrgFilter(o.slug)}
+                className={`font-head rounded-sm border px-3 py-2 text-xs font-semibold uppercase tracking-wide transition ${
+                  orgFilter === o.slug
+                    ? "border-accent bg-accent text-accent-ink"
+                    : "border-border bg-surface text-ink-dim hover:text-ink"
+                }`}
+              >
+                {o.name}
               </button>
             ))}
           </div>

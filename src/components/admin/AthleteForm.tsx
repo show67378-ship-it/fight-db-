@@ -131,6 +131,16 @@ export default async function AthleteForm({
       </div>
 
       <div>
+        <label className={labelCls}>表示順(任意・小さいほど先に表示。空欄なら自動)</label>
+        <input
+          type="number"
+          name="displayOrder"
+          defaultValue={athlete?.displayOrder}
+          className={`mt-1 ${inputCls}`}
+        />
+      </div>
+
+      <div>
         <label className={labelCls}>経歴・紹介文(任意)</label>
         <textarea name="bio" defaultValue={athlete?.bio} rows={2} className={`mt-1 ${inputCls}`} />
       </div>
