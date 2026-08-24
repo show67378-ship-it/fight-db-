@@ -35,8 +35,13 @@ export async function syncDatabaseSchema() {
     )`,
   ];
 
-  for (const sql of statements) {
-    await prisma.$executeRawUnsafe(sql);
+  try {
+    for (const sql of statements) {
+      await prisma.$executeRawUnsafe(sql);
+    }
+  } catch (e) {
+    const message = e instanceof Error ? e.message : String(e);
+    redirect(`/admin/db-sync?error=1&msg=${encodeURIComponent(message)}`);
   }
 
   // 正式なマイグレーション履歴にも記録しておく(将来 prisma migrate deploy を

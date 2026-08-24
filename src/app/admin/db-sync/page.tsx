@@ -4,7 +4,8 @@ import { syncDatabaseSchema } from "@/lib/db-sync";
 export const dynamic = "force-dynamic";
 
 export default async function DbSyncPage({ searchParams }: PageProps<"/admin/db-sync">) {
-  const { done } = await searchParams;
+  const { done, error, msg: rawMsg } = await searchParams;
+  const msg = Array.isArray(rawMsg) ? rawMsg[0] : rawMsg;
 
   return (
     <div className="mx-auto max-w-lg px-5 py-12">
@@ -19,6 +20,13 @@ export default async function DbSyncPage({ searchParams }: PageProps<"/admin/db-
         <p className="mt-4 rounded-lg border border-good/30 bg-good-soft px-4 py-3 text-sm text-good">
           完了しました。<Link href="/admin" className="underline">管理トップ</Link>に戻って表示を確認してください。
         </p>
+      )}
+
+      {error === "1" && (
+        <div className="mt-4 rounded-lg border border-accent/30 bg-accent-soft px-4 py-3 text-sm text-accent">
+          <p className="font-head font-semibold">失敗しました。このメッセージをそのまま送ってください:</p>
+          <p className="mt-2 break-all font-mono text-xs">{msg ?? "(エラー内容なし)"}</p>
+        </div>
       )}
 
       <form action={syncDatabaseSchema} className="mt-6">
