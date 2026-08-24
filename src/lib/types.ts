@@ -179,6 +179,8 @@ export interface GymListingRequest {
   phone?: string;
   websiteUrl?: string;
   description?: string;
+  instructors?: string;
+  belongingAthletes?: string;
   contactName: string;
   contactEmail: string;
   status: GymListingRequestStatus;

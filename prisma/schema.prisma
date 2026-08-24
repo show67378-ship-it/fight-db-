@@ -301,19 +301,21 @@ model Comment {
 }
 
 model GymListingRequest {
-  id            String   @id
-  gymName       String
-  sports        String[]
-  prefecture    String
-  city          String
-  address       String?
-  phone         String?
-  websiteUrl    String?
-  description   String?
-  contactName   String
-  contactEmail  String
-  status        String   @default("new")
-  createdAt     DateTime @default(now())
+  id                 String   @id
+  gymName            String
+  sports             String[]
+  prefecture         String
+  city               String
+  address            String?
+  phone              String?
+  websiteUrl         String?
+  description        String?
+  instructors        String? // 主な指導者。1行1名の自由記述(承認時に手動でGym.instructorsへ反映)
+  belongingAthletes  String? // 所属選手。1行1名の自由記述(承認時に選手ページとの紐付けを手動で行う)
+  contactName        String
+  contactEmail       String
+  status             String   @default("new")
+  createdAt          DateTime @default(now())
 }
 
 model AthleteListingRequest {

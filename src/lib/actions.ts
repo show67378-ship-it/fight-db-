@@ -431,6 +431,8 @@ export async function submitListingRequest(formData: FormData) {
       phone: optStr(formData, "phone") ?? null,
       websiteUrl: optStr(formData, "websiteUrl") ?? null,
       description: optStr(formData, "description") ?? null,
+      instructors: optStr(formData, "instructors") ?? null,
+      belongingAthletes: optStr(formData, "belongingAthletes") ?? null,
       contactName: str(formData, "contactName"),
       contactEmail: str(formData, "contactEmail"),
       status: "new",

@@ -71,6 +71,12 @@ export default async function AdminListingRequestsPage() {
               {req.phone && <p>電話: {req.phone}</p>}
               {req.websiteUrl && <p>公式HP: {req.websiteUrl}</p>}
               {req.description && <p>紹介: {req.description}</p>}
+              {req.instructors && (
+                <p className="whitespace-pre-wrap">主な指導者: {req.instructors}</p>
+              )}
+              {req.belongingAthletes && (
+                <p className="whitespace-pre-wrap">所属選手: {req.belongingAthletes}</p>
+              )}
               <p className="pt-1 text-ink">
                 担当者: {req.contactName} ・ {req.contactEmail}
               </p>

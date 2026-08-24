@@ -217,6 +217,8 @@ function toListingRequest(row: {
   phone: string | null;
   websiteUrl: string | null;
   description: string | null;
+  instructors: string | null;
+  belongingAthletes: string | null;
   contactName: string;
   contactEmail: string;
   status: string;
@@ -232,6 +234,8 @@ function toListingRequest(row: {
     phone: row.phone ?? undefined,
     websiteUrl: row.websiteUrl ?? undefined,
     description: row.description ?? undefined,
+    instructors: row.instructors ?? undefined,
+    belongingAthletes: row.belongingAthletes ?? undefined,
     contactName: row.contactName,
     contactEmail: row.contactEmail,
     status: row.status as GymListingRequest["status"],

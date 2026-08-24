@@ -78,6 +78,26 @@ export default async function ListYourGymPage({
             <textarea name="description" rows={3} className={`mt-1 ${inputCls}`} />
           </div>
 
+          <div>
+            <label className={labelCls}>主な指導者(任意)</label>
+            <textarea
+              name="instructors"
+              rows={3}
+              placeholder={"1行に1名ずつご記入ください(役職があれば併記)\n例: 山田太郎 代表・黒帯"}
+              className={`mt-1 ${inputCls}`}
+            />
+          </div>
+
+          <div>
+            <label className={labelCls}>所属選手(任意)</label>
+            <textarea
+              name="belongingAthletes"
+              rows={3}
+              placeholder={"1行に1名ずつご記入ください\n例: 鈴木一郎"}
+              className={`mt-1 ${inputCls}`}
+            />
+          </div>
+
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label className={labelCls}>ご担当者名</label>
